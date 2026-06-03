@@ -1,0 +1,66 @@
+{{- $p := .Paginator -}}
+{{- if gt $p.TotalPages 1 -}}
+<nav aria-label="Pagination" class="mt-10">
+  <ul class="flex flex-wrap items-center justify-center gap-1 text-sm">
+    {{- $base := "inline-flex items-center justify-center min-w-[2.25rem] h-9 px-3 rounded-md border border-gray-300 bg-white text-gray-700 hover:bg-gray-100" -}}
+    {{- $disabled := "inline-flex items-center justify-center min-w-[2.25rem] h-9 px-3 rounded-md border border-gray-200 bg-gray-50 text-gray-400 cursor-not-allowed" -}}
+    {{- $active := "inline-flex items-center justify-center min-w-[2.25rem] h-9 px-3 rounded-md border border-blue-700 bg-blue-700 text-white font-semibold" -}}
+
+    <li>
+      {{- if $p.HasPrev -}}
+        <a class="{{ $base }}" href="{{ $p.First.URL }}" aria-label="First">&laquo;&laquo;</a>
+      {{- else -}}
+        <span class="{{ $disabled }}" aria-disabled="true">&laquo;&laquo;</span>
+      {{- end -}}
+    </li>
+    <li>
+      {{- if $p.HasPrev -}}
+        <a class="{{ $base }}" href="{{ $p.Prev.URL }}" aria-label="Previous">&laquo;</a>
+      {{- else -}}
+        <span class="{{ $disabled }}" aria-disabled="true">&laquo;</span>
+      {{- end -}}
+    </li>
+
+    {{- $cur := $p.PageNumber -}}
+    {{- $total := $p.TotalPages -}}
+    {{- $window := 2 -}}
+    {{- $start := math.Max 1 (sub $cur $window) -}}
+    {{- $end := math.Min $total (add $cur $window) -}}
+
+    {{- if gt $start 1 -}}
+      <li><a class="{{ $base }}" href="{{ $p.First.URL }}">1</a></li>
+      {{- if gt $start 2 -}}<li><span class="px-2 text-gray-400">…</span></li>{{- end -}}
+    {{- end -}}
+
+    {{- range $i := seq $start $end -}}
+      <li>
+        {{- if eq $i $cur -}}
+          <span class="{{ $active }}" aria-current="page">{{ $i }}</span>
+        {{- else -}}
+          <a class="{{ $base }}" href="{{ (index $p.Pagers (sub $i 1)).URL }}">{{ $i }}</a>
+        {{- end -}}
+      </li>
+    {{- end -}}
+
+    {{- if lt $end $total -}}
+      {{- if lt $end (sub $total 1) -}}<li><span class="px-2 text-gray-400">…</span></li>{{- end -}}
+      <li><a class="{{ $base }}" href="{{ $p.Last.URL }}">{{ $total }}</a></li>
+    {{- end -}}
+
+    <li>
+      {{- if $p.HasNext -}}
+        <a class="{{ $base }}" href="{{ $p.Next.URL }}" aria-label="Next">&raquo;</a>
+      {{- else -}}
+        <span class="{{ $disabled }}" aria-disabled="true">&raquo;</span>
+      {{- end -}}
+    </li>
+    <li>
+      {{- if $p.HasNext -}}
+        <a class="{{ $base }}" href="{{ $p.Last.URL }}" aria-label="Last">&raquo;&raquo;</a>
+      {{- else -}}
+        <span class="{{ $disabled }}" aria-disabled="true">&raquo;&raquo;</span>
+      {{- end -}}
+    </li>
+  </ul>
+</nav>
+{{- end -}}

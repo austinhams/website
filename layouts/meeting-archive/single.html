@@ -1,0 +1,68 @@
+{{ define "main" }}
+<article class="max-w-6xl mx-auto px-4 py-10">
+  <header class="mb-8">
+    <p class="text-sm uppercase tracking-wide text-blue-700 font-semibold">Meeting Archive</p>
+    <h1 class="mt-2 text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{{ .Title }}</h1>
+    <p class="mt-3 text-sm text-gray-500">
+      {{ if not .Date.IsZero }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{ end }}
+      {{ with .Params.presenter }} &middot; <span>Presented by {{ . }}</span>{{ end }}
+      {{ with .Params.author }} &middot; <span>{{ . }}</span>{{ end }}
+    </p>
+  </header>
+
+  {{ with .Params.youtube_id }}
+    <div class="mb-8 aspect-video w-full overflow-hidden rounded-lg shadow-md bg-black">
+      <iframe
+        class="w-full h-full"
+        src="https://www.youtube-nocookie.com/embed/{{ . }}"
+        title="{{ $.Title }} — meeting video"
+        frameborder="0"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </div>
+  {{ end }}
+
+  {{ with .Content }}
+    <div class="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-blue-700 mb-10">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  {{ with .Params.downloads }}
+    <section class="mt-8 rounded-lg border border-gray-200 bg-gray-50 p-6">
+      <h2 class="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4m-8 8h8" />
+        </svg>
+        Downloads &amp; Handouts
+      </h2>
+      <ul class="divide-y divide-gray-200">
+        {{ range . }}
+          <li class="py-3 flex items-start gap-3">
+            <span class="mt-0.5 inline-flex items-center justify-center h-9 w-9 rounded bg-red-100 text-red-700 text-xs font-bold flex-shrink-0">PDF</span>
+            <div class="min-w-0 flex-1">
+              <a href="{{ .url }}" class="text-blue-700 font-medium hover:underline break-words" {{ if not (hasPrefix .url "/") }}target="_blank" rel="noopener"{{ end }}>
+                {{ .title }}
+              </a>
+              {{ with .description }}
+                <p class="text-sm text-gray-600 mt-0.5">{{ . }}</p>
+              {{ end }}
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+
+  {{ with .Params.categories }}
+    <p class="mt-8 text-sm text-gray-500">
+      Filed under:
+      {{ range $i, $c := . }}{{ if $i }}, {{ end }}<a href="/categories/{{ $c | urlize }}/" class="text-blue-700 hover:underline">{{ $c }}</a>{{ end }}
+    </p>
+  {{ end }}
+</article>
+{{ end }}

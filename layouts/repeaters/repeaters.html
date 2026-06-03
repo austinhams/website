@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="max-w-5xl mx-auto px-4 py-10">
+  <header class="mb-8">
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900">{{ .Title }}</h1>
+    {{ with .Content }}<div class="prose mt-4 max-w-none">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ $repeaters := hugo.Data.repeaters.repeaters }}
+  {{ if $repeaters }}
+    <div class="overflow-x-auto bg-white border border-gray-200 rounded-lg shadow-sm">
+      <table class="min-w-full text-sm">
+        <thead class="bg-gray-50 text-gray-700">
+          <tr>
+            <th class="px-4 py-3 text-left font-semibold">Frequency (MHz)</th>
+            <th class="px-4 py-3 text-left font-semibold">Offset</th>
+            <th class="px-4 py-3 text-left font-semibold">Tone</th>
+            <th class="px-4 py-3 text-left font-semibold">Mode</th>
+            <th class="px-4 py-3 text-left font-semibold">Comments</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          {{ range $repeaters }}
+            <tr class="hover:bg-gray-50">
+              <td class="px-4 py-3 font-mono font-semibold text-gray-900 whitespace-nowrap">{{ .frequency }}</td>
+              <td class="px-4 py-3 font-mono text-gray-700 whitespace-nowrap">{{ .offset }}</td>
+              <td class="px-4 py-3 font-mono text-gray-700 whitespace-nowrap">{{ .tone }}</td>
+              <td class="px-4 py-3 text-gray-700 whitespace-nowrap">
+                {{ with .mode }}<span class="inline-block px-2 py-0.5 text-xs font-medium bg-blue-50 text-blue-700 rounded">{{ . }}</span>{{ end }}
+              </td>
+              <td class="px-4 py-3 text-gray-700">{{ .comments }}</td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-3 text-xs text-gray-500"><em>(-) indicates a negative offset, (+) positive. Standard 2 m offset is 600 kHz; see the
+      <a class="text-blue-700 hover:underline" href="https://wiki.radioreference.com/index.php/Offset">standard offsets reference</a>.</em></p>
+  {{ else }}
+    <p class="text-gray-600">Repeater list coming soon. Edit <code>data/repeaters.yaml</code> to add entries.</p>
+  {{ end }}
+</section>
+{{ end }}

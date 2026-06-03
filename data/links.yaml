@@ -1,0 +1,116 @@
+# Useful links for amateur radio operators.
+# Each category has a name, optional description, and a list of items.
+# Each item has: title (required), url (required), description (optional).
+
+- category: "Propagation & Conditions"
+  description: "Real-time band conditions, propagation maps, and solar weather."
+  items:
+    - title: "SolarHam.net"
+      url: "https://solarham.net/"
+      description: "Solar weather information."
+    - title: "VHF Propagation Map"
+      url: "http://aprs.mennolink.org/"
+      description: "World-wide map of actual radio propagation near 144 MHz, gathered via APRS-IS."
+    - title: "Band Conditions"
+      url: "https://bandconditions.com/"
+      description: "Simple VU-meter style indication of band conditions."
+    - title: "WSPR (Weak Signal Propagation Reporter)"
+      url: "http://wsprnet.org/"
+      description: "Amateur operators using K1JT's MEPT_JT mode to probe RF propagation at very low power. Click 'Map' to see current conditions."
+    - title: "Propagation Maps (DX Maps)"
+      url: "https://www.dxmaps.com/"
+      description: "Real-time propagation map geared to VHF/UHF (28 MHz – 450+ MHz). Choose band and mode."
+    - title: "Remote Receiver (smeter.net)"
+      url: "https://www.smeter.net/"
+      description: "Check your signal and listen to others on remote receivers."
+
+- category: "Software"
+  description: "Decoders, modeling tools, and ham radio suites."
+  items:
+    - title: "CW Skimmer"
+      url: "http://www.dxatlas.com/cwskimmer/"
+      description: "Multi-channel CW decoder and analyzer (mentioned on Elmer Net)."
+    - title: "CW Decoder"
+      url: "http://www.hotamateurprograms.com/Program%20Descriptions/CW%20Decoder%20Program%20Features.htm"
+      description: "Decode or transmit Morse code (mentioned on Elmer Net)."
+    - title: "EZNEC Antenna Modeling"
+      url: "https://www.eznec.com/"
+    - title: "DXLab Suite"
+      url: "https://www.dxlabsuite.com/"
+      description: "A good selection of software for transceiver control, logging, propagation, and more."
+    - title: "Logbook of the World (LoTW)"
+      url: "http://www.arrl.org/logbook-of-the-world"
+      description: "ARRL's electronic QSL confirmation system, widely used by hams."
+
+- category: "Equipment & Parts"
+  description: "Vendors and references for radios, parts, and accessories."
+  items:
+    - title: "Most Casual Observer — Baofeng HTs and Spurious RF Emissions"
+      url: "https://observer.wunderwood.org/2020/02/07/baofeng-hts-and-spurious-emissons/"
+      description: "A cautionary tale for new hams and prospective buyers."
+    - title: "The Toroid King (Kits and Parts)"
+      url: "https://kitsandparts.com/"
+      description: "Toroids, capacitors, magnet wire, and more — for engineers, schools, and hobbyists."
+    - title: "K0BG — Mobile Operating Reference"
+      url: "http://www.k0bg.com/"
+      description: "Mentioned in Lew's (W5IFQ) February 2019 AARC meeting presentation. Great reference."
+    - title: "VHF/UHF in a Prius"
+      url: "https://www.shawngarringer.org/hamming-it-up-in-the-toyota-prius/"
+      description: "Basic information about installing a VHF/UHF rig in a Prius."
+
+- category: "Safety"
+  items:
+    - title: "Lightning Safety"
+      url: "http://lightningsafety.com/"
+
+- category: "Ham Radio Exams Online"
+  description: |
+    Listed in no particular order. Some discussed on-the-air during Elmer Net; others
+    by word-of-mouth. Most are free. This isn't an endorsement of any one in particular &mdash;
+    try them out and see which you like. All are online, browser-based.
+  items:
+    - title: "ARRL Exam Review"
+      url: "http://arrlexamreview.appspot.com/"
+      description: "Free. Registration required. All levels. ARRL membership not required."
+    - title: "AA9PW Radio Exam Practice"
+      url: "http://aa9pw.com/"
+      description: "Free. Registration required. All levels. Custom tests available for a fee."
+    - title: "Ham Radio Prep"
+      url: "https://hamradioprep.com/"
+      description: "Paid. Registration required. Technician and/or General class only."
+    - title: "HamExam.org"
+      url: "https://hamexam.org/"
+      description: "Free. Registration optional. All levels. Flash cards, practice exams, question pools."
+    - title: "eHam.net Ham Exams"
+      url: "https://www.eham.net/exams/"
+      description: "Free. No registration. All levels. Practice exams."
+    - title: "QRZ.com Practice Amateur Radio Exams"
+      url: "https://www.qrz.com/hamtest/"
+      description: "Free. Registration required. All levels."
+    - title: "HamStudy.org by Signal Stuff"
+      url: "https://hamstudy.org/"
+      description: "Free. Registration optional. All levels, including Canadian and several FCC elements (1, 3, 6, 7, 7R, 8, 9). 'Continue as guest' works for practice tests."
+    - title: "RadioQTH Exams"
+      url: "http://www.radioqth.net/exams"
+      description: "Free. Registration required for exams; study mode is open. All levels."
+
+- category: "Submitted by Our Readers and Friends of AARC"
+  description: |
+    Submitted by readers and friends of AARC. Not all are technical in nature, but
+    all are germane to the field or spirit of Amateur Radio.
+  items:
+    - title: "All About Circuits"
+      url: "https://www.allaboutcircuits.com/"
+      description: "An active open electrical-engineering community with useful resources for hams &mdash; especially the Education and Tools sections."
+    - title: "All About Electronic Circuits For Kids"
+      url: "https://www.speedwaymotors.com/Info/All-About-Electronic-Circuits-for-Kids"
+      description: "A car-enthusiast site with good links for kids of all ages to learn about basic electronics."
+    - title: "A Guide to Soldering Precious Metals, Gold and Circuits"
+      url: "https://www.madisontrust.com/client-resources/articles/guide-to-soldering-metal-gold-and-circuits/"
+      description: "Good info for beginners and those soldering plated items. [Warning: primary site is commercial, not amateur radio related.]"
+    - title: "Amateur Radio and Emergency Communications"
+      url: "https://alertfind.com/amateur-radio-and-emergency-communications/"
+      description: "Basic info with links for further reading. [Warning: primary site is commercial, not amateur radio related.]"
+    - title: "Ultimate Guide to Disaster Preparedness on a Budget"
+      url: "https://couponfollow.com/research/disaster-preparedness-on-a-budget"
+      description: "Helpful ideas for a disaster preparedness plan. [Warning: primary site is commercial and not endorsed by AARC; this specific page has good info.]"

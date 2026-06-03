@@ -1,0 +1,114 @@
+{{ define "main" }}
+{{ $email := "info@austinhams.org" }}
+<section class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white overflow-hidden">
+  <div class="absolute inset-0 opacity-20 bg-cover bg-center" style="background-image:url('/wp-content/uploads/2020/12/contact-e1608158414710.jpg');"></div>
+  <div class="relative max-w-5xl mx-auto px-4 py-20 md:py-28 text-center">
+    <p class="uppercase tracking-[0.2em] text-blue-200 text-xs md:text-sm">Say hello</p>
+    <h1 class="mt-3 text-4xl md:text-6xl font-bold leading-tight">Contact AARC</h1>
+    <p class="mt-6 text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+      Got a question about the club, a meeting, or amateur radio in general?
+      We'd love to hear from you.
+    </p>
+  </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+  <div class="grid gap-6 md:grid-cols-2">
+
+    <!-- Mailing list -->
+    <a href="https://austinhams.groups.io/g/main/topics" class="group bg-white rounded-xl border border-gray-200 p-6 md:p-8 shadow-sm hover:shadow-md hover:border-blue-300 transition">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-blue-100 text-blue-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" /></svg>
+        </span>
+        <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-700">Groups.io Mailing List</h3>
+      </div>
+      <p class="mt-4 text-gray-700">
+        Our primary place for member discussion, swap announcements, on-air activity, and
+        general Q&amp;A. Open to everyone &mdash; members and visitors.
+      </p>
+      <p class="mt-4 text-blue-700 font-semibold">austinhams.groups.io &rarr;</p>
+    </a>
+
+    <!-- Mail -->
+    <div class="bg-white rounded-xl border border-gray-200 p-6 md:p-8 shadow-sm">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-blue-100 text-blue-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+        </span>
+        <h3 class="text-lg font-bold text-gray-900">Mailing Address</h3>
+      </div>
+      <address class="not-italic mt-4 text-gray-700 leading-relaxed">
+        Austin Amateur Radio Club<br>
+        {{ site.Params.mailingAddress | default "PO Box 4739, Austin, TX 78765" }}
+      </address>
+    </div>
+
+    <!-- In-person meetings -->
+    <div class="bg-white rounded-xl border border-gray-200 p-6 md:p-8 shadow-sm">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-blue-100 text-blue-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+        </span>
+        <h3 class="text-lg font-bold text-gray-900">Meet in Person</h3>
+      </div>
+      <p class="mt-4 text-gray-700">
+        Join us at the <strong>Waterloo Icehouse</strong> every
+        <strong>Saturday morning at 8:00 AM</strong> for breakfast and eyeball
+        QSOs. All hams, prospective hams, and visitors are welcome.
+      </p>
+    </div>
+
+    <!-- Officers -->
+    <div class="bg-white rounded-xl border border-gray-200 p-6 md:p-8 shadow-sm">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-blue-100 text-blue-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" /></svg>
+        </span>
+        <h3 class="text-lg font-bold text-gray-900">Reach an Officer</h3>
+      </div>
+      <p class="mt-4 text-gray-700">
+        Need to get in touch with club leadership directly? Officer contact
+        details are listed on our roster page.
+      </p>
+      <a href="/officers/" class="mt-4 inline-block text-blue-700 font-semibold hover:text-blue-900">Meet the officers &rarr;</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-gray-50 border-y border-gray-200">
+  <div class="max-w-5xl mx-auto px-4 py-12 md:py-16 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Find us online</h2>
+    <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
+      Follow club news, photos from events, and on-air highlights on social media.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      {{ with site.Params.social.facebook }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-white border border-gray-200 text-gray-800 hover:border-blue-400 hover:text-blue-700 shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.03H7.9v-2.91h2.54V9.84c0-2.51 1.49-3.9 3.78-3.9 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.91h-2.34V22C18.34 21.24 22 17.08 22 12.06z"/></svg>
+          Facebook
+        </a>
+      {{ end }}
+      {{ with site.Params.social.linkedin }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-white border border-gray-200 text-gray-800 hover:border-blue-400 hover:text-blue-700 shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73A1.73 1.73 0 116.5 3.27a1.73 1.73 0 010 3.46zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.76C14.4 7.59 20 7.42 20 12.85V19z"/></svg>
+          LinkedIn
+        </a>
+      {{ end }}
+      {{ with site.Params.social.groupsio }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-white border border-gray-200 text-gray-800 hover:border-blue-400 hover:text-blue-700 shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" /></svg>
+          Groups.io
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ with .Content }}
+  <section class="max-w-3xl mx-auto px-4 py-12 prose prose-lg">
+    {{ . }}
+  </section>
+{{ end }}
+{{ end }}

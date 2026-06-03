@@ -1,0 +1,146 @@
+baseURL: "https://austinhams.org/"
+locale: "en-us"
+title: "Austin Amateur Radio Club"
+enableRobotsTXT: true
+enableEmoji: false
+
+# Preserve WordPress URL structure
+permalinks:
+  posts: "/:slug/"
+
+taxonomies:
+  category: categories
+  tag: tags
+
+pagination:
+  pagerSize: 20
+
+params:
+  description: "The oldest ham radio club in the United States — Austin, Texas."
+  mailingAddress: "PO Box 4739, Austin, Texas 78765"
+  social:
+    facebook: "https://www.facebook.com/TheAustinAmateurRadioClub/"
+    linkedin: "https://www.linkedin.com/company/austinhams"
+    groupsio: "https://austinhams.groups.io/g/main"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
+outputs:
+  home: ["HTML", "RSS"]
+  section: ["HTML", "RSS"]
+
+menu:
+  main:
+    # Top-level
+    - identifier: "about"
+      name: "About"
+      url: "/our-mission/"
+      weight: 10
+    - identifier: "membership"
+      name: "Membership"
+      url: "/join/"
+      weight: 20
+    - identifier: "operating"
+      name: "Operating"
+      url: "/repeaters/"
+      weight: 30
+    - identifier: "learn"
+      name: "Learn"
+      url: "/become-a-ham/"
+      weight: 40
+    - name: "News"
+      url: "/news/"
+      weight: 50
+    - name: "Contact"
+      url: "/contact/"
+      weight: 60
+
+    # About submenu
+    - name: "Our Mission"
+      url: "/our-mission/"
+      parent: "about"
+      weight: 1
+    - name: "Officers"
+      url: "/officers/"
+      parent: "about"
+      weight: 2
+    - name: "Technical Committee"
+      url: "/technical-committee/"
+      parent: "about"
+      weight: 3
+    - name: "History"
+      url: "/history/"
+      parent: "about"
+      weight: 4
+    - name: "Silent Keys"
+      url: "/silent-keys/"
+      parent: "about"
+      weight: 5
+
+    # Membership submenu
+    - name: "Join / Renew"
+      url: "/join/"
+      parent: "membership"
+      weight: 1
+    - name: "Monthly Meetings"
+      url: "/monthly-meetings/"
+      parent: "membership"
+      weight: 2
+    - name: "Member Benefits"
+      url: "/benefits/"
+      parent: "membership"
+      weight: 3
+    - name: "Ham of the Month"
+      url: "/ham-of-the-month/"
+      parent: "membership"
+      weight: 4
+    - name: "Scholarships"
+      url: "/scholarships/"
+      parent: "membership"
+      weight: 5
+
+    # Operating submenu
+    - name: "Repeaters"
+      url: "/repeaters/"
+      parent: "operating"
+      weight: 1
+    - name: "Swap Net"
+      url: "/swapnet/"
+      parent: "operating"
+      weight: 3
+    - name: "Events Calendar"
+      url: "/events/"
+      parent: "operating"
+      weight: 4
+    - name: "Field Day"
+      url: "/arrl-field-day/"
+      parent: "operating"
+      weight: 5
+    - name: "Holiday Party"
+      url: "/annual-holiday-party/"
+      parent: "operating"
+      weight: 6
+
+    # Learn submenu
+    - name: "Become a Ham"
+      url: "/become-a-ham/"
+      parent: "learn"
+      weight: 1
+    - name: "Ham Classes"
+      url: "/hamclasses/"
+      parent: "learn"
+      weight: 2
+    - name: "Technical Resources"
+      url: "/technical/"
+      parent: "learn"
+      weight: 3
+    - name: "Useful Links"
+      url: "/links/"
+      parent: "learn"
+      weight: 4

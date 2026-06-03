@@ -1,0 +1,55 @@
+{{ define "main" }}
+<section class="bg-gradient-to-br from-blue-700 to-blue-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-20 text-center">
+    <p class="uppercase tracking-widest text-sm text-blue-200 mb-3">When all else fails, ham radio works</p>
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Over 350 Members Strong</h1>
+    <p class="mt-6 max-w-2xl mx-auto text-lg text-blue-50">
+      Welcome to the Austin Amateur Radio Club &mdash; the oldest ham radio club in the United States (over 110 years old)
+      and an active affiliate of the ARRL.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <a href="/join/" class="inline-flex items-center px-5 py-2.5 rounded-md bg-white text-blue-800 font-semibold hover:bg-blue-50">Join AARC</a>
+      <a href="/monthly-meetings/" class="inline-flex items-center px-5 py-2.5 rounded-md border border-white/40 text-white hover:bg-white/10">Monthly Meetings</a>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+  <div class="grid gap-6 md:grid-cols-3">
+    <a href="/repeaters/" class="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md">
+      <h3 class="font-semibold text-lg text-gray-900">Repeaters</h3>
+      <p class="text-sm text-gray-600 mt-2">Find local Austin-area repeaters &mdash; especially active during morning and afternoon drive time.</p>
+    </a>
+    <a href="/events/" class="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md">
+      <h3 class="font-semibold text-lg text-gray-900">Events Calendar</h3>
+      <p class="text-sm text-gray-600 mt-2">Upcoming meetings, nets, Field Day, and other club events from the live Groups.io calendar.</p>
+    </a>
+    <a href="/hamclasses/" class="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md">
+      <h3 class="font-semibold text-lg text-gray-900">License Classes</h3>
+      <p class="text-sm text-gray-600 mt-2">New to ham radio? Get started with our classes and licensing resources.</p>
+    </a>
+  </div>
+</section>
+
+<section class="bg-white border-t border-gray-200">
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <div class="flex items-end justify-between mb-6">
+      <h2 class="text-2xl font-bold text-gray-900">Latest News</h2>
+      <a href="/news/" class="text-sm text-blue-700 hover:underline">All posts &rarr;</a>
+    </div>
+    <ul class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {{ range first 6 (where site.RegularPages "Section" "posts") }}
+        <li class="border border-gray-200 rounded-lg overflow-hidden bg-white hover:shadow-md">
+          {{ with .Params.featured_image }}
+            <a href="{{ $.RelPermalink }}"><img src="{{ . }}" alt="" class="w-full h-44 object-cover" /></a>
+          {{ end }}
+          <div class="p-4">
+            <h3 class="font-semibold leading-snug"><a href="{{ .RelPermalink }}" class="text-gray-900 hover:text-blue-700">{{ .Title }}</a></h3>
+            <p class="text-xs text-gray-500 mt-1">{{ .Date.Format "January 2, 2006" }}</p>
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,24 @@
+{{/* Category filter pills used on /news/ and category term pages */}}
+{{ $current := .currentSlug | default "" }}
+{{ $basePath := "/news/" }}
+<div class="flex flex-wrap gap-2 mb-8">
+  {{ $allClass := "inline-flex items-center px-4 py-2 rounded-full text-sm font-medium border transition" }}
+  {{ if eq $current "" }}
+    <a href="{{ $basePath }}" class="{{ $allClass }} bg-blue-700 text-white border-blue-700">All categories</a>
+  {{ else }}
+    <a href="{{ $basePath }}" class="{{ $allClass }} bg-white text-gray-700 border-gray-300 hover:bg-gray-100">All categories</a>
+  {{ end }}
+  {{ range $name, $taxonomy := site.Taxonomies.categories }}
+    {{ $slug := $name | urlize }}
+    {{ $count := len $taxonomy }}
+    {{ if eq $slug $current }}
+      <a href="/categories/{{ $slug }}/" class="{{ $allClass }} bg-blue-700 text-white border-blue-700">
+        {{ $name | humanize }} <span class="ml-2 text-xs text-blue-100">({{ $count }})</span>
+      </a>
+    {{ else }}
+      <a href="/categories/{{ $slug }}/" class="{{ $allClass }} bg-white text-gray-700 border-gray-300 hover:bg-gray-100">
+        {{ $name | humanize }} <span class="ml-2 text-xs text-gray-500">({{ $count }})</span>
+      </a>
+    {{ end }}
+  {{ end }}
+</div>

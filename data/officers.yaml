@@ -1,0 +1,29 @@
+# Edit this file to update the Officers page.
+# Each entry shows up as a card on /officers/. Order here = order on the page.
+#
+# Required: name, title
+# Optional: callsign, photo (absolute URL or site-relative path like
+# /wp-content/uploads/2025/01/jane.jpg), email, bio
+
+officers:
+  - name: "Chris Kacerguis"
+    callsign: "KJ5DJC"
+    title: "President"
+    photo: "/wp-content/uploads/2025/01/Chris-Kacerguis-300x300-1.png"
+    email: ""
+    bio: ""
+
+  - name: "Lew Thompson"
+    callsign: "W5IFQ"
+    title: "Vice President"
+    photo: "/wp-content/uploads/2020/12/Lew-Thompson.jpg"
+
+  - name: "Zoe Downing"
+    callsign: "KN6DQD"
+    title: "Secretary"
+    photo: "/wp-content/uploads/2025/12/1701983252009-1.jpeg"
+
+  - name: "Rex Schuler"
+    callsign: "K8REX"
+    title: "Treasurer"
+    photo: "/img/k8rex.jpeg"

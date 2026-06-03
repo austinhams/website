@@ -1,0 +1,28 @@
+# Upcoming amateur radio license preparation classes.
+# Leave the list empty (or remove all entries) to display the "no classes scheduled" state.
+#
+# Each class entry supports:
+#   title       (required)  — e.g. "Technician License Class"
+#   level       (optional)  — Technician / General / Extra
+#   dates       (optional)  — human-readable schedule, e.g. "Saturdays, Mar 1 – Apr 5"
+#   time        (optional)  — e.g. "9 a.m. – noon"
+#   location    (optional)  — e.g. "AARC clubhouse" or "Zoom"
+#   cost        (optional)  — e.g. "Free" or "$25 (covers materials)"
+#   instructor  (optional)  — name and callsign
+#   description (optional, markdown)
+#   register_url (optional) — link to sign-up form / email
+
+classes: []
+# Example:
+# classes:
+#   - title: "Technician License Class"
+#     level: "Technician"
+#     dates: "Saturdays, Mar 7 – Apr 11, 2026"
+#     time: "9:00 a.m. – noon Central"
+#     location: "Zoom"
+#     cost: "Free (study materials provided)"
+#     instructor: "John Smith, K5XYZ"
+#     description: |
+#       A six-week intensive covering all the topics on the Technician exam.
+#       Recommended study guide: the ARRL Ham Radio License Manual.
+#     register_url: "mailto:education@austinhams.org?subject=Technician%20Class"

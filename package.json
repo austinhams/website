@@ -1,0 +1,28 @@
+{
+  "name": "austinhams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server",
+    "deploy": "hugo --gc --minify && wrangler pages deploy ./public --project-name=austinhams",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "wrangler": "^4.97.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-html-parser": "^7.1.0",
+    "p-limit": "^7.3.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

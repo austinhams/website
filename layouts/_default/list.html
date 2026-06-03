@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="max-w-6xl mx-auto px-4 py-10">
+  <header class="mb-8">
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900">{{ .Title }}</h1>
+    {{ with .Content }}<div class="prose mt-4 max-w-none">{{ . }}</div>{{ end }}
+  </header>
+  {{ $pages := .Pages }}
+  {{ if eq .Section "posts" }}{{ $pages = .Paginator.Pages }}{{ end }}
+  <ul class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {{ range $pages }}
+      <li class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+        {{ with .Params.featured_image }}
+          <a href="{{ $.RelPermalink }}"><img src="{{ . }}" alt="" class="w-full h-44 object-cover" /></a>
+        {{ end }}
+        <div class="p-4">
+          <h2 class="font-semibold text-lg leading-snug"><a href="{{ .RelPermalink }}" class="text-gray-900 hover:text-blue-700">{{ .Title }}</a></h2>
+          {{ if not .Date.IsZero }}<p class="text-xs text-gray-500 mt-1">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
+          {{ with .Summary }}<p class="text-sm text-gray-700 mt-2 line-clamp-3">{{ . | plainify | truncate 160 }}</p>{{ end }}
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+  {{ if eq .Section "posts" }}
+    {{ partial "pagination.html" . }}
+  {{ end }}
+</section>
+{{ end }}

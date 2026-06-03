@@ -1,0 +1,103 @@
+# Timeline shown on /history/. Edit freely — entries render in order.
+# Fields: year (or date string), title, body (Markdown allowed)
+timeline:
+  - year: "1912"
+    title: "Radio Act of 1912"
+    body: "Federal radio station licensing is established following maritime safety concerns (including the Titanic era)."
+
+  - year: "1913"
+    title: "First Texas amateur calls"
+    body: "Very few amateur calls are listed in Texas; early regulation is still new and the hobby is just emerging."
+
+  - year: "1915"
+    title: "UT radio experimentation"
+    body: "Broadcasts of weather and crop reports from University of Texas campus labs using **WCM**, later **KUT**, led by Professor Simpson Leroy Brown and students."
+
+  - year: "Jan 9, 1916"
+    title: "Austin Radio Club organized"
+    body: "Founded at **station 5DD** (David Harrell, Jr.). Officers elected: **W.H. Tilley** (President), **David Harrell, Jr.** (Vice President), **A.E. Hancock** (Secretary/Treasurer)."
+    highlight: true
+
+  - year: "Jan 12, 1916"
+    title: "Newspaper announcement"
+    body: "A local newspaper note reports the club's formation and early members."
+
+  - year: "Apr 1917"
+    title: "WWI shutdown"
+    body: "Amateur operations cease due to wartime restrictions following President Wilson's executive order."
+
+  - year: "Late 1919"
+    title: "Back on the air"
+    body: "Amateur activity resumes as restrictions lift; Austin operators return to the air."
+
+  - year: "Dec 5, 1919"
+    title: "ARRL affiliation"
+    body: "The club affiliates with the **ARRL**, becoming **one of the first ten ARRL-affiliated clubs**."
+    highlight: true
+
+  - year: "Jan 1920"
+    title: "QST announces affiliation"
+    body: "_QST_ announces the Austin Radio Club's ARRL affiliation."
+
+  - year: "Jun 1920"
+    title: "W.H. Tilley's station write-up"
+    body: "Tilley publishes a description of his station, reflecting the rapid technical growth of early amateur stations."
+
+  - year: "1947"
+    title: "First Field Day report"
+    body: "The first known AARC Field Day report appears in _QST_ (using **W5DLF/5**)."
+
+  - year: "1949"
+    title: "HF mobile operation"
+    body: "FCC rules change to allow HF mobile operation; Field Day rules adapt. Footage exists of AARC Field Day activity from this era."
+
+  - year: "1951"
+    title: "Field Day on film"
+    body: "AARC Field Day is documented in 8 mm home movies by **Paul Hargis (W5KA)**; the club operates multiple transmitters and logs hundreds of contacts."
+
+  - year: "Late 1950s"
+    title: "Rose Street site"
+    body: "The Austin City Council leases land intended for a club facility, but the plan is disrupted when the site is needed for the Ulrich Water Treatment Plant. Antenna-support utility poles are later erected at the Rose Street location as compensation."
+
+  - year: "1967"
+    title: "Amateur Extra licenses"
+    body: "Members including **George \"Zeke\" Harvey** and [Joe Fisher (SK)](/staff-member/joe-fisher-k5ejl/) earn Amateur Extra licenses — a significant achievement at the time."
+
+  - year: "Early 1970s"
+    title: "ARCOVER and the Capitol-and-Yagi logo"
+    body: "The club newsletter begins (eventually named **ARCOVER**), and the club's Capitol-and-Yagi logo is created and adopted."
+
+  - year: "Jun 11, 1972"
+    title: "ARRL VHF QSO Party"
+    body: "AARC operates from a hilltop/mesa northwest of Austin; results later appear in _QST_."
+
+  - year: "Oct 14, 1975"
+    title: "Incorporated in Texas"
+    body: "AARC is officially incorporated in the State of Texas. Initial board: Peter Jordahl, Douglas Brooke, and [Joe Fisher (SK), K5EJL](/staff-member/joe-fisher-k5ejl/)."
+    highlight: true
+
+  - year: "Jan 28, 1976"
+    title: "Non-profit status"
+    body: "The State of Texas recognizes AARC as a non-profit organization."
+
+  - year: "1982"
+    title: "Copeland Scholarship Fund"
+    body: "Established through **Jesse Wayne Copeland (W5TQ)**'s bequest, eventually distributing hundreds of thousands of dollars to college-bound Central Texas amateurs."
+    highlight: true
+
+  - year: "2006"
+    title: "TV interview with Lew Thompson"
+    body: "A local TV interview with [Lew Thompson (W5IFQ)](/staff-member/lew-thompson-w5ifq/) highlights the arc of radio history and the continuing role of amateur operators."
+
+  - year: "2019"
+    title: "100 years of ARRL affiliation"
+    body: "AARC celebrates a century of ARRL affiliation (1919–2019) with a historical presentation assembled by Joe Fisher."
+    highlight: true
+
+  - year: "2020"
+    title: "Updated synoptic history"
+    body: "An updated history presentation is produced with corrections and additions for the club's virtual meeting."
+
+  - year: "Today"
+    title: "Looking forward"
+    body: "AARC continues its mission of education, public service, emergency communications support, and community-building in Central Texas."

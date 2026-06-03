@@ -1,0 +1,38 @@
+# Members of the AARC Technical Committee.
+# Each entry supports:
+#   name      (required)
+#   callsign  (required)
+#   role      (optional) — e.g. "Chair"
+#   photo     (optional) — defaults to placeholder
+#   bio       (optional, markdown)
+
+- name: "Roy Walker"
+  callsign: "WA5YZD"
+  role: "Chair"
+  photo: "/wp-content/uploads/2019/09/no-photo.png"
+  bio: "Roy serves as Chair of the Technical Committee."
+
+- name: "Greg Jurens"
+  callsign: "K5JG"
+  photo: "/wp-content/uploads/2019/09/no-photo.png"
+  bio: "Greg serves on the Technical Committee."
+
+- name: "Jeff Schmidt"
+  callsign: "N5MNW"
+  photo: "/wp-content/uploads/2025/12/jeff-2024.jpg"
+  bio: "Bio coming soon."
+
+- name: "Jon Penner"
+  callsign: "N5MHI"
+  photo: "/wp-content/uploads/2019/09/no-photo.png"
+  bio: "Jon serves on the Technical Committee."
+
+- name: "Mark Stennett"
+  callsign: "NA6M"
+  photo: "/wp-content/uploads/2019/09/no-photo.png"
+  bio: "Mark serves on the Technical Committee."
+
+- name: "Ross Snyder"
+  callsign: "N0GSZ"
+  photo: "/wp-content/uploads/2019/09/no-photo.png"
+  bio: "Ross serves on the Technical Committee."

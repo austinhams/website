@@ -1,0 +1,11 @@
+name = "aarc-ics-proxy"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Optional: bind to a custom route on your domain so the proxy lives at
+#   https://austinhams.org/calendar/aarc.ics
+# (Requires the zone to be on Cloudflare.) Uncomment and adjust if desired:
+#
+# routes = [
+#   { pattern = "austinhams.org/calendar/aarc.ics", zone_name = "austinhams.org" }
+# ]

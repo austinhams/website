@@ -1,0 +1,56 @@
+# Technical resources: presentations, documents, and references.
+# Each entry supports:
+#   title       (required)
+#   url         (required) — link to the resource (Drive, PDF, external page)
+#   presenter   (optional) — e.g. "Lew Thompson, W5IFQ"
+#   date        (optional) — human-readable date
+#   format      (optional) — e.g. "PDF (9.6 MB)" or "Google Slides"
+#   description (optional)
+
+presentations:
+  - title: "A Beginner's Intro to WSPRnet"
+    url: "https://drive.google.com/file/d/1el0OEURYR7tBjod90N1FaAHfAYYzO2-E/view?usp=sharing"
+    presenter: "Michael, K5MSK"
+    date: "2020-10-06"
+
+  - title: "Solar Weather Measurement Tools"
+    url: "https://drive.google.com/file/d/14gscKKdJNarK3QAzNxHaEJjJdmKnIH-a/view?usp=sharing"
+    presenter: "Lew Thompson, W5IFQ"
+    date: "2020-08-04"
+
+  - title: "Antenna Masts"
+    url: "https://drive.google.com/file/d/1LpXE0cd52c-Jm8rSJv59bMTGeaBLfcYr/view?usp=sharing"
+    presenter: "Lew Thompson, W5IFQ"
+    date: "2020-07-07"
+
+  - title: "Field Day HF Antennas"
+    url: "https://drive.google.com/file/d/1jTZxnBhN-sHmP4w-wUjj0Oe4TOFudVUI/view?usp=sharing"
+    presenter: "Lew Thompson, W5IFQ"
+    date: "2020"
+
+  - title: "NCDXF Beacons"
+    url: "https://drive.google.com/file/d/1EmA3byXxFmq_gLH5YBWFMUpuD5UOdyXK/view?usp=sharing"
+    presenter: "Lew Thompson, W5IFQ"
+    date: "2020-04-04"
+
+  - title: "Home Amateur Stations"
+    url: "https://drive.google.com/file/d/1PloNIA8KUiJUIwRa0RUs1GJ7mQycmXAV/view?usp=sharing"
+    presenter: "Lew Thompson, W5IFQ"
+    date: "2020-01-07"
+
+  - title: "New Ham Orientation"
+    url: "https://drive.google.com/file/d/1-zbqBm9UJLjKIWQ3YE4_ZDBIvQS347Ig/view?usp=sharing"
+    presenter: "Jeff Schmidt, N5MNW"
+    date: "2018-11-06"
+
+  - title: "Austin Area Repeaters (PDF)"
+    url: "https://drive.google.com/file/d/16jrA98l2bXEjfTTrxq67w58xpxSSx0bF/view?usp=sharing"
+    presenter: "Roy Walker, WA5YZD"
+    date: "2020-02-04"
+    format: "PDF (~9.6 MB)"
+
+  - title: "Austin Area Repeaters (PowerPoint)"
+    url: "https://drive.google.com/file/d/18dTgOmAqnR_UBnNpakKBPNzVsN9UEff6/view?usp=sharing"
+    presenter: "Roy Walker, WA5YZD"
+    date: "2020-02-04"
+    format: "PowerPoint (~25.4 MB)"

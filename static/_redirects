@@ -1,0 +1,7 @@
+# Cloudflare Pages redirects.
+# Syntax: <source> <destination> <status>
+# Hugo generates trailing-slash URLs (/<slug>/), so most legacy WP URLs
+# already match. Add custom redirects below as needed.
+
+# Example:
+# /old-path/  /new-path/  301

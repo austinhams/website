@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ "/index.xml" | absURL }}" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .prose img { max-width: 100%; height: auto; }
+    .prose figure { margin: 1.5rem 0; }
+    .prose figcaption { font-size: 0.875rem; color: #6b7280; text-align: center; }
+
+    /* In-content links: distinct color + underline so they're easy to spot. */
+    .prose a {
+      color: #1d4ed8;                     /* blue-700 */
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+    .prose a:hover { color: #1e3a8a; }    /* blue-900 */
+    .prose a:visited { color: #6d28d9; }  /* purple-700 */
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col">
+  {{ partial "header.html" . }}
+  <main class="flex-1">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

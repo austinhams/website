@@ -1,0 +1,54 @@
+{{ define "main" }}
+<section class="relative bg-gradient-to-br from-slate-800 via-slate-700 to-slate-600 text-white overflow-hidden">
+  <div class="relative max-w-5xl mx-auto px-4 py-16 md:py-24 text-center">
+    <p class="uppercase tracking-[0.2em] text-slate-300 text-xs md:text-sm">In Memoriam</p>
+    <h1 class="mt-3 text-4xl md:text-6xl font-bold leading-tight">Silent Keys</h1>
+    <p class="mt-6 text-lg md:text-xl text-slate-200 max-w-3xl mx-auto italic">
+      &ldquo;Their keys may be silent, yet their presence endures &mdash; in our club, in our hearts, and in the eternal dance of energy they set in motion every time they keyed up and called out across the air.&rdquo;
+    </p>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+  <div class="prose prose-lg max-w-none text-gray-700">
+    <p>
+      Our <em>Silent Keys</em> are more than names on a list &mdash; they are the friends, mentors,
+      and steady voices who helped shape our Austin amateur radio community. Each one shared a part
+      of themselves on the airwaves: their wisdom, their curiosity, their humor, and their
+      willingness to serve. Though they have passed from this world, the signals they once sent
+      continue their quiet journey outward, echoing through the solar system and beyond &mdash;
+      gentle reminders of lives well lived and connections well made.
+    </p>
+    <p>
+      As we remember them, we honor not only what they built here among us, but also the invisible
+      trails of radio waves still traveling through the cosmos, carrying fragments of their voice
+      and spirit.
+    </p>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 pb-16 md:pb-24">
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+    {{ range sort hugo.Data.silent_keys "name" }}
+    <article class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden flex flex-col">
+      <div class="aspect-square bg-gray-100 overflow-hidden">
+        <img src="{{ .photo | default "/wp-content/uploads/2019/09/no-photo.png" }}"
+             alt="{{ .name }}, {{ .callsign }}"
+             class="w-full h-full object-cover"
+             loading="lazy">
+      </div>
+      <div class="p-5 flex-1 flex flex-col">
+        <h2 class="text-lg font-bold text-gray-900">{{ .name }}</h2>
+        <p class="mt-1 font-mono text-blue-700 text-sm tracking-wider">{{ .callsign }}</p>
+        {{ with .years }}
+          <p class="mt-1 text-sm text-gray-500">{{ . }}</p>
+        {{ end }}
+        {{ with .bio }}
+          <div class="mt-3 text-sm text-gray-700 leading-relaxed">{{ . | markdownify }}</div>
+        {{ end }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

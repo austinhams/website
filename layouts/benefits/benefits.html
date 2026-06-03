@@ -1,0 +1,77 @@
+{{ define "main" }}
+<section class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white overflow-hidden">
+  <div class="relative max-w-5xl mx-auto px-4 py-16 md:py-24 text-center">
+    <p class="uppercase tracking-[0.2em] text-blue-200 text-xs md:text-sm">Why Join</p>
+    <h1 class="mt-3 text-4xl md:text-6xl font-bold leading-tight">Membership Benefits</h1>
+    <p class="mt-6 text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+      We invite and encourage all Austin hams to join the Austin Amateur Radio Club.
+    </p>
+    <div class="mt-8">
+      <a href="/join/" class="inline-flex items-center px-6 py-3 rounded-lg bg-white text-blue-800 font-semibold hover:bg-blue-50">
+        Join AARC &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+  <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center">The benefits of membership</h2>
+  <p class="mt-4 text-gray-700 text-center max-w-2xl mx-auto">
+    Ten reasons to be part of the AARC community &mdash; whether you're a newly minted Technician or
+    a seasoned Extra.
+  </p>
+
+  <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ range $i, $b := hugo.Data.benefits }}
+    <div class="bg-white rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition">
+      <div class="flex items-start gap-4">
+        <span class="flex-shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-lg bg-blue-100 text-blue-700 font-bold">{{ add $i 1 }}</span>
+        <div>
+          <h3 class="font-bold text-gray-900">{{ $b.title }}</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">{{ $b.body | safeHTML }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<section class="bg-gray-50 border-y border-gray-200">
+  <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+    <div class="bg-white rounded-xl border border-gray-200 p-6 md:p-8 shadow-sm">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-900">The voice of Amateur Radio in Central Texas</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        AARC and ARRL are the voice of Amateur Radio in Central Texas, the Hill Country, and
+        nationally. Together we can protect our frequency allocations, serve our community, and
+        support technological ingenuity.
+      </p>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        General meetings are held on <strong>Zoom</strong> at <strong>7:00 p.m.</strong> on the
+        <strong>first Tuesday</strong> of each month (except December, for the holiday party). Dates
+        are occasionally adjusted around holidays &mdash; check the
+        <a href="/events/" class="text-blue-700 underline hover:text-blue-900">events calendar</a>
+        for changes. We send the Zoom link and meeting info to our Groups.io mailing list each
+        month.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+  <div class="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-2xl p-8 md:p-10 shadow-md text-center">
+    <h2 class="text-2xl md:text-3xl font-bold">Ready to join?</h2>
+    <p class="mt-3 text-blue-100 text-lg">
+      Club membership starts at <strong>$36/year</strong>. Higher tiers are available if you'd like
+      to contribute more &mdash; dues are <strong>100% tax deductible</strong>.
+    </p>
+    <div class="mt-6 flex flex-wrap justify-center gap-3">
+      <a href="/join/" class="inline-flex items-center px-6 py-3 rounded-lg bg-white text-blue-800 font-semibold hover:bg-blue-50">
+        Join AARC &rarr;
+      </a>
+      <a href="/monthly-meetings/" class="inline-flex items-center px-6 py-3 rounded-lg border border-white/40 text-white font-semibold hover:bg-white/10">
+        Visit a meeting first
+      </a>
+    </div>
+  </div>
+</section>
+{{ end }}

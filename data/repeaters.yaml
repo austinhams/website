@@ -1,0 +1,64 @@
+# Edit this file to update the Repeaters page.
+# Each entry becomes a row on /repeaters/.
+#
+# Fields:
+#   frequency:  output frequency in MHz (e.g. "146.940")
+#   offset:     "-", "+", "(none)", or a specific value like "-1.6 MHz"
+#   tone:       input PL tone or "(none)"
+#   mode:       FM, C4FM, D-Star, etc.
+#   comments:   free text
+
+repeaters:
+  - frequency: "146.780"
+    offset: "-"
+    tone: "(none)"
+    mode: "D-Star"
+    comments: "Open repeater — D-Star only"
+
+  - frequency: "146.880"
+    offset: "-"
+    tone: "107.2"
+    mode: "C4FM"
+    comments: "Open repeater — C4FM"
+
+  - frequency: "146.940"
+    offset: "-"
+    tone: "107.2"
+    mode: "FM"
+    comments: "Open repeater — Echolink / Allstar"
+
+  - frequency: "224.800"
+    offset: "-1.6 MHz"
+    tone: "107.2"
+    mode: "FM"
+    comments: "Open repeater"
+
+  - frequency: "440.650"
+    offset: "+"
+    tone: "(none)"
+    mode: "D-Star"
+    comments: "Open repeater — D-Star only"
+
+  - frequency: "444.100"
+    offset: "+"
+    tone: "103.5"
+    mode: "FM"
+    comments: "Open repeater"
+
+  - frequency: "444.200"
+    offset: "+"
+    tone: "107.2"
+    mode: "FM"
+    comments: "Open repeater — Echolink via WA5YZD-R"
+
+  - frequency: "1248.100"
+    offset: "(simplex)"
+    tone: "(none)"
+    mode: "D-Star"
+    comments: "Open simplex — D-Star Digital (Data only)"
+
+  - frequency: "1293.100"
+    offset: "-"
+    tone: "(none)"
+    mode: "D-Star"
+    comments: "Open repeater — D-Star only"

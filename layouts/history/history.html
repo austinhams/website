@@ -1,0 +1,123 @@
+{{ define "main" }}
+{{- $hero := "/wp-content/uploads/2020/12/AARC-Logo.png" -}}
+
+<section class="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white">
+  <div class="max-w-5xl mx-auto px-4 py-16 md:py-24 text-center">
+    <p class="uppercase tracking-[0.2em] text-blue-200 text-xs md:text-sm">Est. January 9, 1916</p>
+    <h1 class="mt-3 text-4xl md:text-6xl font-bold leading-tight">110+ years of Austin Amateur Radio</h1>
+    <p class="mt-6 text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+      The Austin Amateur Radio Club is one of the oldest ham radio clubs in the United States — and among the first ten clubs ever affiliated with the ARRL.
+    </p>
+    <div class="mt-10 grid grid-cols-3 gap-6 max-w-2xl mx-auto">
+      <div>
+        <div class="text-3xl md:text-4xl font-bold text-white">1916</div>
+        <div class="text-xs md:text-sm uppercase tracking-wider text-blue-200 mt-1">Founded</div>
+      </div>
+      <div>
+        <div class="text-3xl md:text-4xl font-bold text-white">1919</div>
+        <div class="text-xs md:text-sm uppercase tracking-wider text-blue-200 mt-1">ARRL Affiliate</div>
+      </div>
+      <div>
+        <div class="text-3xl md:text-4xl font-bold text-white">350+</div>
+        <div class="text-xs md:text-sm uppercase tracking-wider text-blue-200 mt-1">Members</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-4xl mx-auto px-4 py-12 md:py-16">
+  <h2 class="text-2xl md:text-3xl font-bold text-gray-900">History of the Austin Amateur Radio Club</h2>
+  <div class="mt-6 space-y-5 text-gray-700 leading-relaxed text-[1.05rem]">
+    <p>
+      The <strong>Austin Amateur Radio Club (AARC)</strong> traces its origins to
+      <strong>January 9, 1916</strong>, when five radio enthusiasts gathered at the home station of
+      <strong>David Harrell, Jr. (5DD)</strong> to form what was then called the
+      <em>Austin Radio Club</em>. Early members included
+      <strong>W.H. Tilley (5AL)</strong>, <strong>Edward M. Hudson</strong>,
+      <strong>Dexter Kenney</strong>, <strong>A.E. Hancock</strong>, and Harrell. Several were
+      remarkably young — census records indicate at least two were
+      <strong>15 years old</strong> at the time. That meeting, and the election of officers
+      that night, established a club legacy that predates AARC's ARRL affiliation by more
+      than three years.
+    </p>
+    <p>
+      Austin was also an early hub of radio experimentation. At the University of Texas,
+      <strong>Professor Simpson Leroy Brown</strong> and students built equipment and conducted
+      early broadcasts of weather and crop reports from campus labs, using call signs
+      <strong>WCM</strong> and later <strong>KUT</strong>. During World War I, amateur operations
+      were shut down in <strong>April 1917</strong> under federal wartime security restrictions,
+      but after the war the hobby rapidly returned. By late <strong>1919</strong>, Austin
+      amateurs were active again, and on <strong>December 5, 1919</strong>, the club became one
+      of the <strong>first ten clubs</strong> to affiliate with the
+      <strong>American Radio Relay League (ARRL)</strong> — a milestone announced in the
+      <strong>January 1920 issue of <em>QST</em></strong>.
+    </p>
+    <p>
+      Through the decades, AARC members contributed to the growth of amateur radio in
+      Central Texas through <strong>Field Day operations</strong>, contesting, community
+      service, education, and emergency communications. The club's story includes major
+      community figures like <strong>Paul Martin Hargis (W5KA)</strong> — whose business
+      supported generations of hams and whose home movies preserved rare footage of early
+      Field Days — as well as long-time contributors such as
+      <strong>George "Zeke" Harvey (W5NFC)</strong>, who helped advance VHF FM repeater
+      activity locally and advocated for Texas amateur call letter license plates. The club
+      also built lasting educational impact through scholarship funding, including the
+      <strong>Copeland Scholarship Fund</strong>, established through a bequest from
+      <strong>Jesse Wayne Copeland (W5TQ)</strong>.
+    </p>
+    <p>
+      Just as important as the technical legacy is the club's culture of fellowship and
+      mentorship. AARC's newsletter <strong>ARCOVER</strong> began in the early 1970s and
+      became a major thread of continuity for the organization, while events like
+      conventions and social gatherings strengthened the club's identity. Over more than a
+      century of change — from spark and CW to voice, repeaters, digital modes, and today's
+      internet-connected world — AARC has adapted and remained a cornerstone of amateur
+      radio in Austin.
+    </p>
+  </div>
+</section>
+
+<section class="bg-white border-t border-gray-200">
+  <div class="max-w-4xl mx-auto px-4 py-12 md:py-16">
+    <div class="text-center mb-12">
+      <p class="uppercase tracking-widest text-xs font-semibold text-blue-700">Timeline</p>
+      <h2 class="mt-2 text-3xl md:text-4xl font-bold text-gray-900">A century in highlights</h2>
+    </div>
+
+    {{ $items := hugo.Data.history_timeline.timeline }}
+    <ol class="relative border-l-2 border-blue-200 ml-3 md:ml-6 space-y-8">
+      {{ range $items }}
+        {{ $dotColor := "bg-blue-600 ring-blue-100" }}
+        {{ $cardBorder := "border-gray-200" }}
+        {{ if .highlight }}
+          {{ $dotColor = "bg-amber-500 ring-amber-100" }}
+          {{ $cardBorder = "border-amber-300" }}
+        {{ end }}
+        <li class="relative pl-6 md:pl-10">
+          <span class="absolute -left-[9px] top-2 w-4 h-4 rounded-full {{ $dotColor }} ring-4 shadow"></span>
+          <div class="bg-white border {{ $cardBorder }} rounded-lg p-4 md:p-5 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex flex-wrap items-baseline gap-x-3">
+              <time class="text-sm font-mono font-semibold text-blue-700">{{ .year }}</time>
+              <h3 class="text-lg font-bold text-gray-900">{{ .title }}</h3>
+            </div>
+            <div class="mt-2 text-gray-700 leading-relaxed prose prose-sm max-w-none">
+              {{ .body | markdownify }}
+            </div>
+          </div>
+        </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="bg-gray-50 border-t border-gray-200">
+  <div class="max-w-4xl mx-auto px-4 py-12 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Be part of the next chapter</h2>
+    <p class="mt-3 text-gray-700">Join hundreds of ham radio operators carrying on Austin's 110-year tradition.</p>
+    <div class="mt-6 flex flex-wrap justify-center gap-3">
+      <a href="/join/" class="inline-flex items-center px-5 py-2.5 rounded-md bg-blue-700 text-white font-semibold hover:bg-blue-800">Join AARC</a>
+      <a href="/our-mission/" class="inline-flex items-center px-5 py-2.5 rounded-md border border-gray-300 bg-white text-gray-800 hover:bg-gray-100">Our Mission</a>
+    </div>
+  </div>
+</section>
+{{ end }}
