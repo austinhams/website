@@ -17,6 +17,7 @@ const UPSTREAM = 'https://austinhams.groups.io/g/main/ics/12861783/1650985384/fe
 const ALLOWED_ORIGINS = [
   'https://austinhams.org',
   'https://www.austinhams.org',
+  'https://website-4rx.pages.dev',
   'http://localhost:1313',
   'http://127.0.0.1:1313',
 ];
