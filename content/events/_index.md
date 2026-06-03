@@ -16,7 +16,7 @@ description: "Upcoming events for the Austin Amateur Radio Club"
 # The raw groups.io URL is here for reference only — it will NOT work directly
 # in the browser due to missing CORS headers:
 #   https://austinhams.groups.io/g/main/ics/12861783/1650985384/feed.ics
-ics_url: "https://aarc-ics-proxy.workers.dev/"
+ics_url: "https://aarc-ics-proxy.austin-amatuer-radio-club.workers.dev/"
 # Direct groups.io URL used for the "Download" / "Subscribe" buttons (no CORS
 # required for a normal link click or for a calendar app subscription).
 ics_subscribe_url: "https://austinhams.groups.io/g/main/ics/12861783/1650985384/feed.ics"
