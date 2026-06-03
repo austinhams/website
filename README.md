@@ -45,7 +45,7 @@ select this repo and use:
 - **Build command:** `hugo --gc --minify`
 - **Build output directory:** `public`
 - **Environment variables** (Settings → Environment variables):
-  - `HUGO_VERSION` = `0.151.0` (match `.tool-versions`)
+  - `HUGO_VERSION` = `0.162.0` (match `.tool-versions`)
   - `NODE_VERSION` = `20`
 
 Cloudflare Pages will pick up `wrangler.toml` and use `pages_build_output_dir`
