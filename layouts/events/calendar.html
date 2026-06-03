@@ -32,7 +32,7 @@
     var errEl = document.getElementById('aarc-calendar-error');
     if (!el || typeof FullCalendar === 'undefined') return;
 
-    var icsUrl = {{ .Params.ics_url | jsonify }};
+    var icsUrl = "{{ .Params.ics_url }}";
 
     var calendar = new FullCalendar.Calendar(el, {
       initialView: window.matchMedia('(max-width: 640px)').matches ? 'listMonth' : 'dayGridMonth',
