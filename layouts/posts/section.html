@@ -20,7 +20,9 @@
           {{ with .Params.categories }}
             <p class="mt-2 flex flex-wrap gap-1">
               {{ range . }}
-                <a href="/categories/{{ . | urlize }}/" class="inline-block text-xs px-2 py-0.5 rounded bg-blue-50 text-blue-700 hover:bg-blue-100">{{ . }}</a>
+                {{ if ne . "Meeting Archive" }}
+                  <a href="/categories/{{ . | urlize }}/" class="inline-block text-xs px-2 py-0.5 rounded bg-blue-50 text-blue-700 hover:bg-blue-100">{{ . }}</a>
+                {{ end }}
               {{ end }}
             </p>
           {{ end }}

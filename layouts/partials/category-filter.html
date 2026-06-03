@@ -9,6 +9,7 @@
     <a href="{{ $basePath }}" class="{{ $allClass }} bg-white text-gray-700 border-gray-300 hover:bg-gray-100">All categories</a>
   {{ end }}
   {{ range $name, $taxonomy := site.Taxonomies.categories }}
+    {{ if eq $name "Meeting Archive" }}{{ continue }}{{ end }}
     {{ $slug := $name | urlize }}
     {{ $count := len $taxonomy }}
     {{ if eq $slug $current }}
