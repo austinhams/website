@@ -5,6 +5,16 @@
     {{ with .Content }}<div class="prose mt-4 max-w-none">{{ . }}</div>{{ end }}
   </header>
 
+  <aside role="note" class="mb-8 flex items-start gap-3 rounded-lg border-l-4 border-blue-600 bg-blue-50 p-4 md:p-5 shadow-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6 flex-shrink-0 text-blue-700" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"/>
+    </svg>
+    <p class="text-sm md:text-base text-blue-900 leading-relaxed">
+      Please <a href="/contact/" class="font-semibold underline decoration-blue-400 hover:decoration-blue-700">contact us</a>
+      with any repeater problems or updates to the list.
+    </p>
+  </aside>
+
   {{ $repeaters := hugo.Data.repeaters.repeaters }}
   {{ if $repeaters }}
     <div class="overflow-x-auto bg-white border border-gray-200 rounded-lg shadow-sm">
@@ -35,6 +45,30 @@
     </div>
     <p class="mt-3 text-xs text-gray-500"><em>(-) indicates a negative offset, (+) positive. Standard 2 m offset is 600 kHz; see the
       <a class="text-blue-700 hover:underline" href="https://wiki.radioreference.com/index.php/Offset">standard offsets reference</a>.</em></p>
+
+    <aside role="note" class="mt-8 rounded-lg border border-amber-200 bg-amber-50 p-5 md:p-6 shadow-sm">
+      <div class="flex items-start gap-4">
+        <span class="flex-shrink-0 inline-flex items-center justify-center w-11 h-11 rounded-lg bg-amber-100 text-amber-700" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+          </svg>
+        </span>
+        <div class="flex-1">
+          <h2 class="text-base md:text-lg font-bold text-amber-900">KVUE Tower Antenna Diagrams</h2>
+          <p class="mt-1 text-sm md:text-base text-amber-900/90 leading-relaxed">
+            Diagrams of the antenna placements showing headings and distances to area cities, as well as reduced coverage areas.
+          </p>
+          <a href="https://drive.google.com/file/d/1nBdRHYksRtTR2Ip7v-YufqM55jPnJidT/view"
+             rel="noopener"
+             class="mt-4 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-amber-600 text-white font-semibold text-sm hover:bg-amber-700 shadow-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+            </svg>
+            Download W5KA Repeaters on KVUE Tower by Quadrant
+          </a>
+        </div>
+      </div>
+    </aside>
   {{ else }}
     <p class="text-gray-600">Repeater list coming soon. Edit <code>data/repeaters.yaml</code> to add entries.</p>
   {{ end }}
