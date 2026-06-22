@@ -12,7 +12,8 @@ The biggest on-the-air event of the year is almost here.
 
 ARRL Field Day 2026 takes place June 27–28, and the Austin Amateur Radio Club will once again be operating from:
 
-**5805 N Lamar Blvd**  
+**Holy Cross Lutheran Church**
+4622 South Lamar Blvd  
 Austin, TX 78752
 
 Field Day is part emergency communications exercise, part operating event, part technical demonstration — and one of the best opportunities of the year to experience Amateur Radio in action.
