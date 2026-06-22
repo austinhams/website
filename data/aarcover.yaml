@@ -1,0 +1,1245 @@
+# AARCover Newsletter Archive
+# Generated from the legacy WordPress import. Each entry is one published
+# issue, newest first. To add a new issue, prepend an entry here.
+#
+#   - year: 2026
+#     month: "April"
+#     monthNum: 4
+#     pdfUrl: "https://.../AARCover_2026-04.pdf"
+issues:
+  - year: 2020
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-12.pdf"
+  - year: 2020
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-11.pdf"
+  - year: 2020
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-10.pdf"
+  - year: 2020
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-09.pdf"
+  - year: 2020
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-08.pdf"
+  - year: 2020
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-07.pdf"
+  - year: 2020
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-06.pdf"
+  - year: 2020
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-05.pdf"
+  - year: 2020
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-04.pdf"
+  - year: 2020
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-03.pdf"
+  - year: 2020
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-02.pdf"
+  - year: 2020
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2020-01.pdf"
+  - year: 2019
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-12.pdf"
+  - year: 2019
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-11.pdf"
+  - year: 2019
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-10.pdf"
+  - year: 2019
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-09.pdf"
+  - year: 2019
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-08.pdf"
+  - year: 2019
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-07.pdf"
+  - year: 2019
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-06.pdf"
+  - year: 2019
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-05.pdf"
+  - year: 2019
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-04.pdf"
+  - year: 2019
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-03.pdf"
+  - year: 2019
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-02.pdf"
+  - year: 2019
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2019-01.pdf"
+  - year: 2018
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-12.pdf"
+  - year: 2018
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-11.pdf"
+  - year: 2018
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-10.pdf"
+  - year: 2018
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-09.pdf"
+  - year: 2018
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-08.pdf"
+  - year: 2018
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-07.pdf"
+  - year: 2018
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-06.pdf"
+  - year: 2018
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-05.pdf"
+  - year: 2018
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-04.pdf"
+  - year: 2018
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-03.pdf"
+  - year: 2018
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-02.pdf"
+  - year: 2018
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2018-01.pdf"
+  - year: 2017
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-12.pdf"
+  - year: 2017
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-11.pdf"
+  - year: 2017
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-10.pdf"
+  - year: 2017
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-09.pdf"
+  - year: 2017
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-08.pdf"
+  - year: 2017
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-07.pdf"
+  - year: 2017
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-06.pdf"
+  - year: 2017
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-05.pdf"
+  - year: 2017
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-04.pdf"
+  - year: 2017
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-03.pdf"
+  - year: 2017
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-02.pdf"
+  - year: 2017
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2017-01.pdf"
+  - year: 2016
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-12.pdf"
+  - year: 2016
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-11.pdf"
+  - year: 2016
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-10.pdf"
+  - year: 2016
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-09.pdf"
+  - year: 2016
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-08.pdf"
+  - year: 2016
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-07.pdf"
+  - year: 2016
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-06.pdf"
+  - year: 2016
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-05.pdf"
+  - year: 2016
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-04.pdf"
+  - year: 2016
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-03.pdf"
+  - year: 2016
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-02.pdf"
+  - year: 2016
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2016-01.pdf"
+  - year: 2015
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-12.pdf"
+  - year: 2015
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-11.pdf"
+  - year: 2015
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-10.pdf"
+  - year: 2015
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-09.pdf"
+  - year: 2015
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-08.pdf"
+  - year: 2015
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-07.pdf"
+  - year: 2015
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-06.pdf"
+  - year: 2015
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-05.pdf"
+  - year: 2015
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-04.pdf"
+  - year: 2015
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-03.pdf"
+  - year: 2015
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-02.pdf"
+  - year: 2015
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2015-01.pdf"
+  - year: 2014
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-12.pdf"
+  - year: 2014
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-11.pdf"
+  - year: 2014
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-10.pdf"
+  - year: 2014
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-09.pdf"
+  - year: 2014
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-08.pdf"
+  - year: 2014
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-07.pdf"
+  - year: 2014
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-06.pdf"
+  - year: 2014
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-05.pdf"
+  - year: 2014
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-04.pdf"
+  - year: 2014
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-03.pdf"
+  - year: 2014
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-02.pdf"
+  - year: 2014
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2014-01.pdf"
+  - year: 2013
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-12.pdf"
+  - year: 2013
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-11.pdf"
+  - year: 2013
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-10.pdf"
+  - year: 2013
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-09.pdf"
+  - year: 2013
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-08.pdf"
+  - year: 2013
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-07.pdf"
+  - year: 2013
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-06.pdf"
+  - year: 2013
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-05.pdf"
+  - year: 2013
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-04.pdf"
+  - year: 2013
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-03.pdf"
+  - year: 2013
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-02.pdf"
+  - year: 2013
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2013-01.pdf"
+  - year: 2012
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-12.pdf"
+  - year: 2012
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-11.pdf"
+  - year: 2012
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-10.pdf"
+  - year: 2012
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-09.pdf"
+  - year: 2012
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-08.pdf"
+  - year: 2012
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-07.pdf"
+  - year: 2012
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-06.pdf"
+  - year: 2012
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-05.pdf"
+  - year: 2012
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-04.pdf"
+  - year: 2012
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-03.pdf"
+  - year: 2012
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-02.pdf"
+  - year: 2012
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2012-01.pdf"
+  - year: 2011
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-12.pdf"
+  - year: 2011
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-11.pdf"
+  - year: 2011
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-10.pdf"
+  - year: 2011
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-09.pdf"
+  - year: 2011
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-08.pdf"
+  - year: 2011
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-07.pdf"
+  - year: 2011
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-06.pdf"
+  - year: 2011
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-05.pdf"
+  - year: 2011
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-04.pdf"
+  - year: 2011
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-03.pdf"
+  - year: 2011
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-02.pdf"
+  - year: 2011
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2011-01.pdf"
+  - year: 2010
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-12.pdf"
+  - year: 2010
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-11.pdf"
+  - year: 2010
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-10.pdf"
+  - year: 2010
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-09.pdf"
+  - year: 2010
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-08.pdf"
+  - year: 2010
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-07.pdf"
+  - year: 2010
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-06.pdf"
+  - year: 2010
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-05.pdf"
+  - year: 2010
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-04.pdf"
+  - year: 2010
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-03.pdf"
+  - year: 2010
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-02.pdf"
+  - year: 2010
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2010-01.pdf"
+  - year: 2009
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-12.pdf"
+  - year: 2009
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-11.pdf"
+  - year: 2009
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-10.pdf"
+  - year: 2009
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-09.pdf"
+  - year: 2009
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-08.pdf"
+  - year: 2009
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-07.pdf"
+  - year: 2009
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-06.pdf"
+  - year: 2009
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-05.pdf"
+  - year: 2009
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-04.pdf"
+  - year: 2009
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-03.pdf"
+  - year: 2009
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-02.pdf"
+  - year: 2009
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2009-01.pdf"
+  - year: 2008
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-12.pdf"
+  - year: 2008
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-11.pdf"
+  - year: 2008
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-10.pdf"
+  - year: 2008
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-09.pdf"
+  - year: 2008
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-08.pdf"
+  - year: 2008
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-07.pdf"
+  - year: 2008
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-06.pdf"
+  - year: 2008
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-05.pdf"
+  - year: 2008
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-04.pdf"
+  - year: 2008
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-03.pdf"
+  - year: 2008
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-02.pdf"
+  - year: 2008
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2008-01.pdf"
+  - year: 2007
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-12.pdf"
+  - year: 2007
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-11.pdf"
+  - year: 2007
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-10.pdf"
+  - year: 2007
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-09.pdf"
+  - year: 2007
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-08.pdf"
+  - year: 2007
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-07.pdf"
+  - year: 2007
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-06.pdf"
+  - year: 2007
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-05.pdf"
+  - year: 2007
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-04.pdf"
+  - year: 2007
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-03.pdf"
+  - year: 2007
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-02.pdf"
+  - year: 2007
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2007-01.pdf"
+  - year: 2006
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-12.pdf"
+  - year: 2006
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-11.pdf"
+  - year: 2006
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-10.pdf"
+  - year: 2006
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-09.pdf"
+  - year: 2006
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-08.pdf"
+  - year: 2006
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-07.pdf"
+  - year: 2006
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-06.pdf"
+  - year: 2006
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-05.pdf"
+  - year: 2006
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-04.pdf"
+  - year: 2006
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-03.pdf"
+  - year: 2006
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-02.pdf"
+  - year: 2006
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2006-01.pdf"
+  - year: 2005
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-12.pdf"
+  - year: 2005
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-11.pdf"
+  - year: 2005
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-10.pdf"
+  - year: 2005
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-09.pdf"
+  - year: 2005
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-07.pdf"
+  - year: 2005
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-06.pdf"
+  - year: 2005
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-05.pdf"
+  - year: 2005
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-04.pdf"
+  - year: 2005
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-03.pdf"
+  - year: 2005
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-02.pdf"
+  - year: 2005
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2005-01.pdf"
+  - year: 2004
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-12.pdf"
+  - year: 2004
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-11.pdf"
+  - year: 2004
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-10.pdf"
+  - year: 2004
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-09.pdf"
+  - year: 2004
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-08.pdf"
+  - year: 2004
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-07.pdf"
+  - year: 2004
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-06.pdf"
+  - year: 2004
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-05.pdf"
+  - year: 2004
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-04.pdf"
+  - year: 2004
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-03.pdf"
+  - year: 2004
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-02.pdf"
+  - year: 2004
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2004-01.pdf"
+  - year: 2003
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-11.pdf"
+  - year: 2003
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-10.pdf"
+  - year: 2003
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-09.pdf"
+  - year: 2003
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-08.pdf"
+  - year: 2003
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-07.pdf"
+  - year: 2003
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-06.pdf"
+  - year: 2003
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-05.pdf"
+  - year: 2003
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-04.pdf"
+  - year: 2003
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2003-03.pdf"
+  - year: 1997
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1997-08.pdf"
+  - year: 1997
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1997-07.pdf"
+  - year: 1997
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1997-06.pdf"
+  - year: 1997
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1997-03.pdf"
+  - year: 1997
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1997-02.pdf"
+  - year: 1997
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1997-01.pdf"
+  - year: 1996
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-12.pdf"
+  - year: 1996
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-11.pdf"
+  - year: 1996
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-10.pdf"
+  - year: 1996
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-09.pdf"
+  - year: 1996
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-08.pdf"
+  - year: 1996
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-07.pdf"
+  - year: 1996
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-06.pdf"
+  - year: 1996
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-05.pdf"
+  - year: 1996
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-04.pdf"
+  - year: 1996
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-03.pdf"
+  - year: 1996
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-02.pdf"
+  - year: 1996
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1996-01.pdf"
+  - year: 1995
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-12.pdf"
+  - year: 1995
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-11.pdf"
+  - year: 1995
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-10.pdf"
+  - year: 1995
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-08.pdf"
+  - year: 1995
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-07.pdf"
+  - year: 1995
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-06.pdf"
+  - year: 1995
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-05.pdf"
+  - year: 1995
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-04.pdf"
+  - year: 1995
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-03.pdf"
+  - year: 1995
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-02.pdf"
+  - year: 1995
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1995-01.pdf"
+  - year: 1994
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-11.pdf"
+  - year: 1994
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-10.pdf"
+  - year: 1994
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-09.pdf"
+  - year: 1994
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-08.pdf"
+  - year: 1994
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-07.pdf"
+  - year: 1994
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-06.pdf"
+  - year: 1994
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-05.pdf"
+  - year: 1994
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-04.pdf"
+  - year: 1994
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-03.pdf"
+  - year: 1994
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-02.pdf"
+  - year: 1994
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1994-01.pdf"
+  - year: 1993
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-12.pdf"
+  - year: 1993
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-11.pdf"
+  - year: 1993
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-10.pdf"
+  - year: 1993
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-09.pdf"
+  - year: 1993
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-08.pdf"
+  - year: 1993
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-07.pdf"
+  - year: 1993
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-06.pdf"
+  - year: 1993
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-05.pdf"
+  - year: 1993
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-04.pdf"
+  - year: 1993
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-03.pdf"
+  - year: 1993
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-02.pdf"
+  - year: 1993
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1993-01.pdf"
+  - year: 1992
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-12.pdf"
+  - year: 1992
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-11.pdf"
+  - year: 1992
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-10.pdf"
+  - year: 1992
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-09.pdf"
+  - year: 1992
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-08.pdf"
+  - year: 1992
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-07.pdf"
+  - year: 1992
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-06.pdf"
+  - year: 1992
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-05.pdf"
+  - year: 1992
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-04.pdf"
+  - year: 1992
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-03.pdf"
+  - year: 1992
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-02.pdf"
+  - year: 1992
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1992-01.pdf"
+  - year: 1991
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-12.pdf"
+  - year: 1991
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-11.pdf"
+  - year: 1991
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-10.pdf"
+  - year: 1991
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-09.pdf"
+  - year: 1991
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-08.pdf"
+  - year: 1991
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-07.pdf"
+  - year: 1991
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-06.pdf"
+  - year: 1991
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-05.pdf"
+  - year: 1991
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-04.pdf"
+  - year: 1991
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-03.pdf"
+  - year: 1991
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-02.pdf"
+  - year: 1991
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1991-01.pdf"
+  - year: 1990
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-12.pdf"
+  - year: 1990
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-11.pdf"
+  - year: 1990
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-10.pdf"
+  - year: 1990
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-09.pdf"
+  - year: 1990
+    month: "August"
+    monthNum: 8
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-08.pdf"
+  - year: 1990
+    month: "July"
+    monthNum: 7
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-07.pdf"
+  - year: 1990
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-06.pdf"
+  - year: 1990
+    month: "May"
+    monthNum: 5
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-05.pdf"
+  - year: 1990
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-04.pdf"
+  - year: 1990
+    month: "March"
+    monthNum: 3
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-03.pdf"
+  - year: 1990
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-02.pdf"
+  - year: 1990
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1990-01.pdf"
+  - year: 1989
+    month: "December"
+    monthNum: 12
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1989-12.pdf"
+  - year: 1989
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1989-11.pdf"
+  - year: 1989
+    month: "October"
+    monthNum: 10
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1989-10.pdf"
+  - year: 1989
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1989-02.pdf"
+  - year: 1989
+    month: "January"
+    monthNum: 1
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1989-01.pdf"
+  - year: 1975
+    month: "February"
+    monthNum: 2
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1975-02.pdf"
+  - year: 1974
+    month: "September"
+    monthNum: 9
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1974-09.pdf"
+  - year: 1972
+    month: "November"
+    monthNum: 11
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1972-11.pdf"
+  - year: 1971
+    month: "June"
+    monthNum: 6
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_1971-06.pdf"

@@ -88,50 +88,27 @@ node scripts/migrate.mjs
 The script is idempotent — it overwrites `content/` and adds new media to `static/wp-content/uploads/`.
 Existing media files are skipped (not re-downloaded).
 
-## Creating an AARCover Newsletter post
+## Adding an AARCover Newsletter issue
 
-AARCover newsletter posts are a simple data-driven type: a title, an issue
-month/year, and a PDF download link.
+The AARCover newsletter archive is fully data-driven. Every issue lives in
+[data/aarcover.yaml](data/aarcover.yaml) and the whole archive renders from
+[layouts/aarcover-archive/list.html](layouts/aarcover-archive/list.html) at
+`/aarcover-archive/`.
 
-### 1. Generate the post
-
-```bash
-hugo new posts/aarcover-newsletter-april-2026.md --kind aarcover
-```
-
-(`--kind aarcover` uses [archetypes/aarcover.md](archetypes/aarcover.md).)
-
-### 2. Fill in the front matter
+To add a new issue, prepend an entry to the `issues:` list (keep it newest
+first):
 
 ```yaml
----
-title: "AARCover Newsletter – April 2026"
-slug: "aarcover-newsletter-april-2026"
-date: 2026-04-01T00:00:00Z
-draft: false
-type: "aarcover"                 # REQUIRED — selects the custom layout
-categories:
-  - "AARCover Archive"
-issue_month: "April"
-issue_year: "2026"
-pdf_url: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2026-04.pdf"
----
-
-Optional notes about this issue go below.
+issues:
+  - year: 2026
+    month: "April"
+    monthNum: 4
+    pdfUrl: "https://s3.us-east-1.amazonaws.com/archive.austinhams.org/aarcover/AARCover_2026-04.pdf"
+  # ...older issues below
 ```
 
-The [aarcover/single.html](layouts/aarcover/single.html) layout renders the
-issue header, any Markdown notes, and a styled "Download PDF" call-to-action.
-
-### Bulk conversion
-
-All historical posts were converted from the WordPress import via
-[scripts/convert-aarcover.mjs](scripts/convert-aarcover.mjs). Re-run it if
-you re-migrate from WordPress:
-
-```bash
-node scripts/convert-aarcover.mjs
-```
+That's it — no per-issue content file is needed. The archive page groups issues
+by year and links each one directly to its PDF.
 
 ## Creating a Meeting Archive post
 

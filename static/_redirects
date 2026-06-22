@@ -5,3 +5,8 @@
 
 # Example:
 # /old-path/  /new-path/  301
+
+# AARCover newsletter archive moved from individual posts to a single
+# data-driven page (/aarcover-archive/).
+/categories/aarcover-archive/  /aarcover-archive/  301
+/aarcover-newsletter-*         /aarcover-archive/  301
