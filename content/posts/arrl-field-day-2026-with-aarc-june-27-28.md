@@ -12,7 +12,7 @@ The biggest on-the-air event of the year is almost here.
 
 ARRL Field Day 2026 takes place June 27–28, and the Austin Amateur Radio Club will once again be operating from:
 
-**Holy Cross Lutheran Church**
+**Holy Cross Lutheran Church**  
 4622 South Lamar Blvd  
 Austin, TX 78752
 
@@ -20,11 +20,11 @@ Field Day is part emergency communications exercise, part operating event, part 
 
 Whether you’re:
 
--   A newly licensed Technician
--   An experienced HF operator or contester
--   Curious about portable operations
--   Interested in emergency communications
--   Or simply “radio-curious”
+- A newly licensed Technician
+- An experienced HF operator or contester
+- Curious about portable operations
+- Interested in emergency communications
+- Or simply “radio-curious”
 
 …we’d love to have you join us.
 
@@ -34,14 +34,14 @@ Throughout the weekend we’ll have multiple stations on the air, opportunities 
 
 To help us plan stations, operators, setup crews, and meals, please fill out the Field Day signup form:
 
-**[[Sign up by clicking here!]](https://docs.google.com/forms/d/e/1FAIpQLSeIKGR1Ks6pOKRKgRmHvDmC4GvoOvQA63Y-YejjyfZzh5RDpw/viewform?usp=dialog)**
+**[Sign up by clicking here!](https://docs.google.com/forms/d/e/1FAIpQLSeIKGR1Ks6pOKRKgRmHvDmC4GvoOvQA63Y-YejjyfZzh5RDpw/viewform?usp=dialog)**
 
 We’re especially looking for:
 
--   Operators
--   Setup and teardown volunteers
--   Overnight operators
--   General attendance estimates for food planning
+- Operators
+- Setup and teardown volunteers
+- Overnight operators
+- General attendance estimates for food planning
 
 Friends, family members, and prospective hams are absolutely welcome, so feel free to invite anyone interested in seeing Amateur Radio in action.
 
