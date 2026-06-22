@@ -104,10 +104,6 @@ menu:
       url: "/scholarships/"
       parent: "membership"
       weight: 5
-    - name: "Newsletter Archive"
-      url: "/aarcover-archive/"
-      parent: "membership"
-      weight: 6
 
     # Operating submenu
     - name: "Repeaters"
@@ -148,3 +144,7 @@ menu:
       url: "/links/"
       parent: "learn"
       weight: 4
+    - name: "Newsletter Archive"
+      url: "/aarcover-archive/"
+      parent: "learn"
+      weight: 5
