@@ -11,37 +11,22 @@ Location: Houston TranStar, 6922 Katy Road Houston, TX 77024
 nDates: **03/18/2020 – 03/19/2020**  
 nRegister at: [https://www.preparingtexas.org/](https://www.preparingtexas.org/ "This external link will open in a new window")  
 
-nn
-
 As of Wednesday, February 26 @ 17:00, there were 5 seats available.
-
-nn
 
 **Prerequisites for attendance are:**  
 
-nn
-
 n-   Completion of IS-100.b, IS-200.b,  IS-700.a, and IS-800.b prior to the workshop (see website for more info)
-
-nn
 
 -   An active FCC amateur radio license (Novice, Technician, General, Advanced and Extra)
 
-nn
-
 -   Past experience in auxiliary communications
 
-nn
-
 -   An Affiliation with a Public Safety Agency
-
-nn
 
 -   A desire to work with COMLs in a NIMS/ICS environment
 
 n
 
-  
 nCost:  No tuition is charged.  
 n  
 nOffering Overview:  

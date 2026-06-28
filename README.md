@@ -9,8 +9,12 @@ content/        Migrated WordPress posts & pages (Markdown)
   posts/        422 blog posts (slug-based URLs match WP)
   events/       Migrated The Events Calendar entries
   <page>/       Each WordPress page is a directory with _index.md
+                (page/post images live beside the Markdown as bundle resources)
 layouts/        Hugo templates (Tailwind via CDN, mobile-friendly)
-static/         All media downloaded from /wp-content/uploads/
+static/
+  img/people/   Member, officer & honoree headshots
+  img/site/     Site chrome (no-photo placeholder, hero images)
+  pdf/<slug>/   PDFs (newsletters, presentations, handouts) grouped by owning post
 scripts/
   migrate.mjs   WordPress REST API → Hugo migration script
   .cache/json/  Cached API responses (delete to force re-fetch)
@@ -85,8 +89,11 @@ rm -rf scripts/.cache/json    # optional: clear API cache to pull fresh content
 node scripts/migrate.mjs
 ```
 
-The script is idempotent — it overwrites `content/` and adds new media to `static/wp-content/uploads/`.
-Existing media files are skipped (not re-downloaded).
+The script is idempotent — it overwrites `content/` and (in its original form)
+downloaded media to `static/wp-content/uploads/`. Note: media has since been
+reorganized into page bundles, `static/img/`, and `static/pdf/<slug>/`, and the
+`wp-content/` tree was removed — so re-running the legacy importer would need its
+media paths updated to match the new layout.
 
 ## Adding an AARCover Newsletter issue
 
@@ -140,10 +147,10 @@ youtube_id: "dQw4w9WgXcQ"        # the v= part of the YouTube URL
 presenter: "Jane Doe, K5XYZ"     # optional
 downloads:
   - title: "Slide Deck"
-    url: "/wp-content/uploads/2026/05/antenna-modeling.pdf"
+    url: "/pdf/2026-05-monthly-meeting/antenna-modeling.pdf"
     description: "Full presentation slides (12 MB)"
   - title: "NEC Example Files"
-    url: "/wp-content/uploads/2026/05/nec-examples.zip"
+    url: "/pdf/2026-05-monthly-meeting/nec-examples.zip"
 ---
 
 Optional intro / meeting notes in Markdown go below the front matter.
@@ -151,10 +158,10 @@ Optional intro / meeting notes in Markdown go below the front matter.
 
 ### 3. Add the PDFs
 
-Drop the files under `static/wp-content/uploads/<year>/<month>/`. Anything
+Drop the files under `static/pdf/<slug>/` (one folder per post). Anything
 under `static/` is served from the site root, so a file at
-`static/wp-content/uploads/2026/05/antenna-modeling.pdf` is reachable at
-`/wp-content/uploads/2026/05/antenna-modeling.pdf` — exactly what you put in
+`static/pdf/2026-05-monthly-meeting/antenna-modeling.pdf` is reachable at
+`/pdf/2026-05-monthly-meeting/antenna-modeling.pdf` — exactly what you put in
 the `downloads[].url` field.
 
 External URLs (e.g. Dropbox, Google Drive) work too and will open in a new tab.

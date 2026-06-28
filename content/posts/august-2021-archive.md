@@ -12,9 +12,7 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "August 2021 AARC Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/August-2021-AARC-Meeting-on-Zoom-.pdf"
+    url: "/pdf/august-2021-archive/August-2021-AARC-Meeting-on-Zoom-.pdf"
   - title: "Use of the NanoVNA for Antenna Measurements AARC"
-    url: "/wp-content/uploads/2025/12/Use-of-the-NanoVNA-for-Antenna-Measurements-AARC.pdf"
+    url: "/pdf/august-2021-archive/Use-of-the-NanoVNA-for-Antenna-Measurements-AARC.pdf"
 ---
-
-

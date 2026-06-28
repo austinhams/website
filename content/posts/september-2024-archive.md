@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC 2024 Septembers Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-2024-Septembers-Meeting-on-Zoom.pdf"
+    url: "/pdf/september-2024-archive/AARC-2024-Septembers-Meeting-on-Zoom.pdf"
   - title: "Amateur Radio Jumpkits"
-    url: "/wp-content/uploads/2025/12/Amateur-Radio-Jumpkits.pdf"
+    url: "/pdf/september-2024-archive/Amateur-Radio-Jumpkits.pdf"
   - title: "Solar 3 SEP 2024"
-    url: "/wp-content/uploads/2025/12/Solar-3-SEP-2024.pdf"
+    url: "/pdf/september-2024-archive/Solar-3-SEP-2024.pdf"
 ---
-
-

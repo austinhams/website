@@ -6,26 +6,21 @@ lastmod: "2026-01-23T18:11:57Z"
 draft: false
 type: "page"
 ---
-\[vc\_row remove\_bottom\_col\_margin=”true”\]\[vc\_column\]
-
-\[/vc\_column\]\[/vc\_row\]\[vc\_row remove\_bottom\_col\_margin=”true”\]\[vc\_column\]
 
 # Ham of the Month Archive
 
-\[vc\_message css=””\]As this club has been in service for 100+ years, and we are looking to modernize this list.  If you have archives of old versions or can help us fill in the missing data, [please contact us.](/contact/)\[/vc\_message\]\[vc\_column\_text css=””\]The Austin Amateur Radio Club (AARC) _Ham of the Month_ archive celebrates the operators who have gone above and beyond in service to our club and the wider amateur radio community. Each month highlights individuals whose dedication, curiosity, and generosity embody the very best of the hobby. Whether through technical innovation, mentoring new operators, supporting emergency communication efforts, or simply bringing enthusiasm to every contact, these members remind us what it means to be an engaged and active ham.
+As this club has been in service for 100+ years, and we are looking to modernize this list.  If you have archives of old versions or can help us fill in the missing data, [please contact us.](/contact/)
+
+The Austin Amateur Radio Club (AARC) _Ham of the Month_ archive celebrates the operators who have gone above and beyond in service to our club and the wider amateur radio community. Each month highlights individuals whose dedication, curiosity, and generosity embody the very best of the hobby. Whether through technical innovation, mentoring new operators, supporting emergency communication efforts, or simply bringing enthusiasm to every contact, these members remind us what it means to be an engaged and active ham.
 
 This archive serves as both recognition and inspiration. By looking back at the remarkable contributions of each honoree, we not only honor their hard work but also encourage others to follow in their footsteps. The spirit of amateur radio thrives because of people like them—those who give their time, share their knowledge, and help strengthen the bonds that keep our community vibrant.
-
-\[/vc\_column\_text\]\[/vc\_column\]\[/vc\_row\]\[vc\_row remove\_bottom\_col\_margin=”true”\]\[vc\_column\]
-
-\[vc\_column\_text\]
 
 ## Ham of the Month - 2024
 
 | Month | Ham | Service to Club/Community |
 | --- | --- | --- |
-| December | \-- |  |
-| November | \-- |  |
+| December | -- |  |
+| November | -- |  |
 | October |  |  |
 | September | Rex Schuller, K8REX  
 Bill Hasbrook, W5BWM  
@@ -64,15 +59,15 @@ Tim Lamb, N5TML | Organizing AARC's first Christmas party in three years |
 
 | Month | Ham | Service to Club/Community |
 | --- | --- | --- |
-| December | \-- |  |
-| November | \-- |  |
-| October | \-- |  |
-| September | \-- |  |
-| August | \-- |  |
-| July | \-- |  |
-| June | \-- |  |
-| May | \-- |  |
-| April | \-- |  |
+| December | -- |  |
+| November | -- |  |
+| October | -- |  |
+| September | -- |  |
+| August | -- |  |
+| July | -- |  |
+| June | -- |  |
+| May | -- |  |
+| April | -- |  |
 | March | Jeff Schmidt, N5MNW  
 Lori Schmidt, KM5MQ |  |
 | February | Joe Fisher, K5EJL |  |
@@ -99,14 +94,14 @@ Lori Schmidt, KM5MQ |  |
 
 | Month | Ham | Service to Club/Community |
 | --- | --- | --- |
-| December | \-- |  |
-| November | \-- |  |
-| October | \-- |  |
-| September | \-- |  |
-| August | \-- |  |
-| July | \-- |  |
-| June | \-- |  |
-| May | \-- |  |
+| December | -- |  |
+| November | -- |  |
+| October | -- |  |
+| September | -- |  |
+| August | -- |  |
+| July | -- |  |
+| June | -- |  |
+| May | -- |  |
 | April | WB5AOH, Bob |  |
 | March | WA5YZD, Roy |  |
 | February | KG5DLD, Kerby |  |
@@ -116,8 +111,8 @@ Lori Schmidt, KM5MQ |  |
 
 | Month |  | Service to Club/Community |
 | --- | --- | --- |
-| December | \-- |  |
-| November | \-- |  |
+| December | -- |  |
+| November | -- |  |
 | October | Scott Steelman  
 Jeff Schmidt, N5MNW |  |
 | September | Mitch London |  |
@@ -132,7 +127,3 @@ Paul Kinney |  |
 | January | Rick Chapman  
 Don Dudley  
 Bob Morgan, WB5AOH |  |
-
-\[/vc\_column\_text\]
-
-\[/vc\_column\]\[/vc\_row\]

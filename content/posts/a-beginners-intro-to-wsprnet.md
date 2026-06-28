@@ -10,4 +10,4 @@ categories:
 ---
 A Beginners Intro to WSPRnet presented by Michael Skurka, K5MSK
 
-[WSPRnet_20201006](/wp-content/uploads/2026/05/WSPRnet_20201006.pdf)[Download](/wp-content/uploads/2026/05/WSPRnet_20201006.pdf)
+[WSPRnet_20201006](/pdf/a-beginners-intro-to-wsprnet/WSPRnet_20201006.pdf)[Download](/pdf/a-beginners-intro-to-wsprnet/WSPRnet_20201006.pdf)

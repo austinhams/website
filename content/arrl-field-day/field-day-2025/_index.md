@@ -6,11 +6,10 @@ lastmod: "2025-12-29T18:30:33Z"
 draft: false
 type: "page"
 ---
-\[vc\_row css=”.vc\_custom\_1623589180395{background-image: url(https://austinhams.org/wp-content/uploads/2021/06/Field-Day-2017-IMG\_7941-770×215-60pct.png?id=575) !important;}”\]\[vc\_column\]
 
 # Field Day 2025
 
-\[/vc\_column\]\[/vc\_row\]\[vc\_row\]\[vc\_column\]\[vc\_column\_text\]Since 1933, ARRL Field Day has become the most popular ham radio on-air activity. More than 30,000 are reported as active participants each year. Field Day developed over the years from a “practice” to prepare to provide emergency communications, to a “showcase” of Amateur Radio in general. The [Field Day rules](http://www.arrl.org/field-day#rules) provide for activities that demonstrate many aspects of ham radio.
+Since 1933, ARRL Field Day has become the most popular ham radio on-air activity. More than 30,000 are reported as active participants each year. Field Day developed over the years from a “practice” to prepare to provide emergency communications, to a “showcase” of Amateur Radio in general. The [Field Day rules](http://www.arrl.org/field-day#rules) provide for activities that demonstrate many aspects of ham radio.
 
 Austin ARC will typically setup several operating positions for different modes and frequency bands. There will be a Get-On-The-Air (GOTA) station for new comers, those hams who’ve recently been inactive, even the unlicensed, to make contacts on the air with the help of an experienced ham as control operator.
 
@@ -32,8 +31,6 @@ Check back for more details later.
 
 * * *
 
-\[/vc\_column\_text\]\[vc\_column\_text\]\[/vc\_column\_text\]\[vc\_separator\]\[vc\_separator\]\[/vc\_column\]\[/vc\_row\]\[vc\_row remove\_bottom\_col\_margin=”true”\]\[vc\_column\]\[vc\_row\_inner\]\[vc\_column\_inner\]\[/vc\_column\_inner\]\[/vc\_row\_inner\]\[vc\_column\_text\]
-
 **Prior Field Day Links**
 
 [Field Day 2022, including Results](/portfolio-item/field-day-2022/)
@@ -41,7 +38,3 @@ Check back for more details later.
 [Field Day 2021](/field-day-2021/)
 
 [Field Day 2021 Results](/field-day-2021-results/)
-
-\[/vc\_column\_text\]
-
-\[/vc\_column\]\[/vc\_row\]

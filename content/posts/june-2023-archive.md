@@ -12,15 +12,13 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC June 2023 Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-June-2023-Meeting-on-Zoom.pdf"
+    url: "/pdf/june-2023-archive/AARC-June-2023-Meeting-on-Zoom.pdf"
   - title: "FIELD DAY HF INTRO 2023"
-    url: "/wp-content/uploads/2025/12/FIELD-DAY-HF-INTRO-2023.pdf"
+    url: "/pdf/june-2023-archive/FIELD-DAY-HF-INTRO-2023.pdf"
   - title: "AARC Field Day 2023 VHF UHF N5MNW pdf"
-    url: "/wp-content/uploads/2025/12/AARC-Field-Day-2023-VHF-UHF-N5MNW_pdf.pdf"
+    url: "/pdf/june-2023-archive/AARC-Field-Day-2023-VHF-UHF-N5MNW_pdf.pdf"
   - title: "TCARES Trailer Presentation 20230606"
-    url: "/wp-content/uploads/2025/12/TCARES-Trailer-Presentation-20230606.pdf"
+    url: "/pdf/june-2023-archive/TCARES-Trailer-Presentation-20230606.pdf"
   - title: "Solar 6 JUN 2023"
-    url: "/wp-content/uploads/2025/12/Solar-6-JUN-2023.pdf"
+    url: "/pdf/june-2023-archive/Solar-6-JUN-2023.pdf"
 ---
-
-

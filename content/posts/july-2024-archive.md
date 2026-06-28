@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC 2024 Julys Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-2024-Julys-Meeting-on-Zoom.pdf"
+    url: "/pdf/july-2024-archive/AARC-2024-Julys-Meeting-on-Zoom.pdf"
   - title: "Solar 2 JUL 2024"
-    url: "/wp-content/uploads/2025/12/Solar-2-JUL-2024.pdf"
+    url: "/pdf/july-2024-archive/Solar-2-JUL-2024.pdf"
   - title: "W5KA FD2024 RESULTS July AARCmtg N5MNW pdf"
-    url: "/wp-content/uploads/2025/12/W5KA_FD2024_RESULTS_July_AARCmtg_N5MNW_pdf.pdf"
+    url: "/pdf/july-2024-archive/W5KA_FD2024_RESULTS_July_AARCmtg_N5MNW_pdf.pdf"
 ---
-
-

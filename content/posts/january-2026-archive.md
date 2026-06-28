@@ -12,11 +12,11 @@ youtube_id: "KgSgOpDx984"
 presenter: ""
 downloads:
   - title: "2026 Jan AARC Meeting"
-    url: "/wp-content/uploads/2026/01/2026-Jan-AARC-Meeting.pdf"
+    url: "/pdf/january-2026-archive/2026-Jan-AARC-Meeting.pdf"
   - title: "DigitalModesOverview N5MNW 2026"
-    url: "/wp-content/uploads/2026/01/DigitalModesOverview_N5MNW_2026.pdf"
+    url: "/pdf/january-2026-archive/DigitalModesOverview_N5MNW_2026.pdf"
   - title: "SOLAR WEATHER 6 JAN 2026"
-    url: "/wp-content/uploads/2026/01/SOLAR-WEATHER-6-JAN-2026.pdf"
+    url: "/pdf/january-2026-archive/SOLAR-WEATHER-6-JAN-2026.pdf"
 ---
 
 The archive for this month’s club meeting is now available. You’ll find the meeting recording (when available), presentation slides, and any additional materials shared during the session. If you weren’t able to attend live, this is a great way to catch up on the discussion and announcements. Thanks to everyone who participated and contributed.

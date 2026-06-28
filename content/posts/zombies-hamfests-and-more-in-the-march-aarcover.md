@@ -9,10 +9,6 @@ categories:
 ---
 _**Zombies, Hamfests, and more… Oh my!**_
 
-nn
-
 Yes. The March 2020 edition of the **AARCOVER** newsletter covers a wide range of interests. Whether it’s scholarships (yes, free money!), emergency communications, new/used ham gear at a hamfest, or special events on-the-air… We’ve got all that, and more! [Download your copy](https://austinhams.wildapricot.org/widget/newsletter) and see which captures your attention.
-
-nn
 
 P.S. Happy Leap Day!

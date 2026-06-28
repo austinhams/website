@@ -12,9 +12,7 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "November 2021 AARC Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/November-2021-AARC-Meeting-on-Zoom-1.pdf"
+    url: "/pdf/november-2021-archive-3/November-2021-AARC-Meeting-on-Zoom-1.pdf"
   - title: "Back up Generators vTX3"
-    url: "/wp-content/uploads/2025/12/Back-up-Generators-vTX3.pdf"
+    url: "/pdf/november-2021-archive-3/Back-up-Generators-vTX3.pdf"
 ---
-
-

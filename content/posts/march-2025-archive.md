@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC March 2025"
-    url: "/wp-content/uploads/2025/12/AARC-March-2025.pdf"
+    url: "/pdf/march-2025-archive/AARC-March-2025.pdf"
   - title: "Long Range propagation and Directional Antennas"
-    url: "/wp-content/uploads/2025/12/Long-Range-propagation-and-Directional-Antennas-1.pdf"
+    url: "/pdf/march-2025-archive/Long-Range-propagation-and-Directional-Antennas-1.pdf"
   - title: "SOLAR WEATHER 4 MAR 2025"
-    url: "/wp-content/uploads/2025/12/SOLAR-WEATHER-4-MAR-2025.pdf"
+    url: "/pdf/march-2025-archive/SOLAR-WEATHER-4-MAR-2025.pdf"
 ---
-
-

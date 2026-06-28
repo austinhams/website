@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC 2024 Augusts Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-2024-Augusts-Meeting-on-Zoom.pdf"
+    url: "/pdf/august-2024-archive/AARC-2024-Augusts-Meeting-on-Zoom.pdf"
   - title: "Solar 6 AUG 2024"
-    url: "/wp-content/uploads/2025/12/Solar-6-AUG-2024.pdf"
+    url: "/pdf/august-2024-archive/Solar-6-AUG-2024.pdf"
   - title: "Lightning Mitigation For Amateur Radio Antennas"
-    url: "/wp-content/uploads/2025/12/Lightning-Mitigation-For-Amateur-Radio-Antennas.pdf"
+    url: "/pdf/august-2024-archive/Lightning-Mitigation-For-Amateur-Radio-Antennas.pdf"
 ---
-
-
