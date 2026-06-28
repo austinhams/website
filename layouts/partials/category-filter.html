@@ -10,7 +10,6 @@
   {{ end }}
   {{ range $name, $taxonomy := site.Taxonomies.categories }}
     {{ $slug := $name | urlize }}
-    {{ if eq $slug "meeting-archive" }}{{ continue }}{{ end }}
     {{ $count := len $taxonomy }}
     {{ if eq $slug $current }}
       <a href="/categories/{{ $slug }}/" class="{{ $allClass }} bg-blue-700 text-white border-blue-700">
