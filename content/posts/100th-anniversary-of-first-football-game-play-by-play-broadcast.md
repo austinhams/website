@@ -9,6 +9,4 @@ categories:
 ---
 Wednesday, November 24, 2021, marks the 100th anniversary of the first play by play broadcast in the United States. It was Texas A&M vs the University of Texas game, played at A&M.
 
-nn
-
 [https://wtaw.com/wednesday-is-the-100th-anniversary-of-the-nations-first-radio-play-by-play-broadcast-heard-on-what-would-become-wtaw/](https://wtaw.com/wednesday-is-the-100th-anniversary-of-the-nations-first-radio-play-by-play-broadcast-heard-on-what-would-become-wtaw/)

@@ -32,7 +32,7 @@
     {{ range sort hugo.Data.silent_keys "name" }}
     <article class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden flex flex-col">
       <div class="aspect-square bg-gray-100 overflow-hidden">
-        <img src="{{ .photo | default "/wp-content/uploads/2019/09/no-photo.png" }}"
+        <img src="{{ .photo | default "/img/site/no-photo.png" }}"
              alt="{{ .name }}, {{ .callsign }}"
              class="w-full h-full object-cover"
              loading="lazy">

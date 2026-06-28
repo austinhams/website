@@ -12,7 +12,7 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC Aug 2025"
-    url: "/wp-content/uploads/2025/12/AARC-Aug-2025.pdf"
+    url: "/pdf/august-2025-archive/AARC-Aug-2025.pdf"
 ---
 
 The archive for this month’s club meeting is now available. You’ll find the meeting recording (when available), presentation slides, and any additional materials shared during the session. If you weren’t able to attend live, this is a great way to catch up on the discussion and announcements. Thanks to everyone who participated and contributed.

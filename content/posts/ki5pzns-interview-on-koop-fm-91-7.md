@@ -14,7 +14,7 @@ The theme this year for World Radio Day is “Radio: A century informing, entert
 
 I hope that I was able to encourage more people to become licensed Hams. Even the host was excited about ham radio!
 
-<figure class="wp-block-embed is-type-wp-embed is-provider-koop-radio-91-7-fm wp-block-embed-koop-radio-91-7-fm"><blockquote class="wp-embedded-content" data-secret="pkkuDkErmQ"><a href="https://koop.org/program/writing-on-the-air/">Writing On The Air</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="“Writing On The Air” — KOOP Radio 91.7 FM" src="https://koop.org/program/writing-on-the-air/embed/#?secret=NfnOpqSwHP#?secret=pkkuDkErmQ" data-secret="pkkuDkErmQ" width="600" height="338" marginwidth="0" marginheight="0" scrolling="no"></iframe></figure>
+[Writing On The Air](https://koop.org/program/writing-on-the-air/)
 
 Also enjoy the pics of me in the studio, below.
 

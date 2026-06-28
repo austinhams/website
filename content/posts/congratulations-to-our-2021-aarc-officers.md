@@ -9,6 +9,4 @@ categories:
 ---
 Running unopposed, our incumbent officers ran for another term and were unanimously elected to continue into 2021!
 
-nn
-
 Congratulations to all!

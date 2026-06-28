@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC June 2025"
-    url: "/wp-content/uploads/2025/12/AARC-June-2025.pdf"
+    url: "/pdf/june-2025-archive/AARC-June-2025.pdf"
   - title: "AARC Field Day 2025 VHF UHF N5MNW pdf"
-    url: "/wp-content/uploads/2025/12/AARC-Field-Day-2025-VHF-UHF-N5MNW_pdf.pdf"
+    url: "/pdf/june-2025-archive/AARC-Field-Day-2025-VHF-UHF-N5MNW_pdf.pdf"
   - title: "SOLAR WEATHER 3 JUN 2025"
-    url: "/wp-content/uploads/2025/12/SOLAR-WEATHER-3-JUN-2025.pdf"
+    url: "/pdf/june-2025-archive/SOLAR-WEATHER-3-JUN-2025.pdf"
 ---
-
-

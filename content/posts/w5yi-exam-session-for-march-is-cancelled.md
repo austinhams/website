@@ -9,6 +9,4 @@ categories:
 ---
 In an abundance of caution due to the COVID-19 (coronavirus) pandemic, and the fact that the St. Edward’s campus is closed until further notice, the **W5YI exam session for March is cancelled**.
 
-nn
-
 Due to the uncertain future of this pandemic, please be aware that future exams may be cancelled or postponed. Check here or with the contact for each exam for current status of their exams.

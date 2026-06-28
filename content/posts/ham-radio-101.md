@@ -10,4 +10,4 @@ categories:
 ---
 An excellent presentation by Jeff Schmitt, M5MNW for new ham operators.
 
-[HamRadio101-MNW_AARC_6Nov_2018](/wp-content/uploads/2026/05/HamRadio101-MNW_AARC_6Nov_2018.pdf)[Download](/wp-content/uploads/2026/05/HamRadio101-MNW_AARC_6Nov_2018.pdf)
+[HamRadio101-MNW_AARC_6Nov_2018](/pdf/ham-radio-101/HamRadio101-MNW_AARC_6Nov_2018.pdf)[Download](/pdf/ham-radio-101/HamRadio101-MNW_AARC_6Nov_2018.pdf)

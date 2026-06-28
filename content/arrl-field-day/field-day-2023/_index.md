@@ -6,11 +6,10 @@ lastmod: "2025-12-29T18:30:01Z"
 draft: false
 type: "page"
 ---
-\[vc\_row css=”.vc\_custom\_1623589180395{background-image: url(https://austinhams.org/wp-content/uploads/2021/06/Field-Day-2017-IMG\_7941-770×215-60pct.png?id=575) !important;}”\]\[vc\_column\]
 
 # Field Day 2023
 
-\[/vc\_column\]\[/vc\_row\]\[vc\_row\]\[vc\_column\]\[vc\_column\_text\]The biggest and most exciting day of the year for Ham Radio is coming soon: Field Day 2023!
+The biggest and most exciting day of the year for Ham Radio is coming soon: Field Day 2023!
 
 Field Day is our biggest event of the year, and a great chance to get out and practice Ham Radio hands-on. It’s a fun outdoor-and-indoor activity for Hams of all skill levels; there’s always plenty to be done and lots to learn! Getting to see friends, old and new, and work the airwaves is truly enjoyable. Many hands are needed, for all activities!
 
@@ -34,11 +33,7 @@ Almost as important as Field Day itself is the food! Be sure to be there at meal
 
 * * *
 
-\[/vc\_column\_text\]\[vc\_empty\_space height=”16px”\]
-
 # Three Captains
-
-\[vc\_empty\_space height=”16px”\]\[vc\_column\_text\]
 
 For organizational purposes on the grounds of the Red Cross there are three Captains, each responsible for both a geographic area as well as for all radios, antennas and ancillary equipment associated with those areas.
 
@@ -46,21 +41,17 @@ We have access to Building A (Radio Room), Building B (Classrooms A & B) and the
 
 This year there are three Captains:
 
-• **Robert “Rex” Schiller, K8REX**, in the EMCOMM trailer for High Frequency (HF).  Contact: K8REX@arrl.net \[\[at\]\] arrl.net
+• **Robert “Rex” Schiller, K8REX**, in the EMCOMM trailer for High Frequency (HF).  Contact: K8REX@arrl.net [at] arrl.net
 
-• **Lew Thompson, W5IFQ,** in Building B, for Continuous Wave (CW), i.e. Morse Code and HF.  Contact: W5IFQ \[\[at\]\] att.net
+• **Lew Thompson, W5IFQ,** in Building B, for Continuous Wave (CW), i.e. Morse Code and HF.  Contact: W5IFQ [at] att.net
 
-• **Jeff Schmidt, N5MNW,** for HF and Digital, Building A.  Contact: N5MNW \[\[at\]\] arrl.net
+• **Jeff Schmidt, N5MNW,** for HF and Digital, Building A.  Contact: N5MNW [at] arrl.net
 
-\[/vc\_column\_text\]
+For more detail about what’s planned for Field Day, please check the Field Day 2023 planning documents created by the various [Captains](/#Captains) of the AARC Field Day team, as presented to the club membership at our June 6, 2023 meeting:
 
-\[vc\_separator\]\[vc\_column\_text\]For more detail about what’s planned for Field Day, please check the Field Day 2023 planning documents created by the various [Captains](/#Captains) of the AARC Field Day team, as presented to the club membership at our June 6, 2023 meeting:
-
--   **[Field Day 2023 — High Frequency (HF) Antennas](/wp-content/uploads/2023/06/FIELD-DAY-HF-INTRO-2023.pdf) by [Lew Thompson, W5IFQ](/staff-member/lew-thompson-w5ifq/)**
--   **[Field Day 2023 — UHF/VHF Antennas](/wp-content/uploads/2023/06/AARC-Field-Day-2023-VHF-UHF-N5MNW_pdf.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
--   **[Field Day 2023 — Travis County Amateur Radio Emergency Service (TCARES) Trailer](/wp-content/uploads/2023/06/TCARES-Trailer-Presentation-20230606.pdf) by [Robert “Rex” Schiller, K8REX](/staff-member/robert-rex-schuller-k8rex/)**
-
-\[/vc\_column\_text\]\[vc\_empty\_space\]\[vc\_separator\]\[/vc\_column\]\[/vc\_row\]\[vc\_row remove\_bottom\_col\_margin=”true”\]\[vc\_column\]\[vc\_row\_inner\]\[vc\_column\_inner\]\[/vc\_column\_inner\]\[/vc\_row\_inner\]\[vc\_column\_text\]
+-   **[Field Day 2023 — High Frequency (HF) Antennas](/pdf/field-day-2023/FIELD-DAY-HF-INTRO-2023.pdf) by [Lew Thompson, W5IFQ](/staff-member/lew-thompson-w5ifq/)**
+-   **[Field Day 2023 — UHF/VHF Antennas](/pdf/field-day-2023/AARC-Field-Day-2023-VHF-UHF-N5MNW_pdf.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
+-   **[Field Day 2023 — Travis County Amateur Radio Emergency Service (TCARES) Trailer](/pdf/field-day-2023/TCARES-Trailer-Presentation-20230606.pdf) by [Robert “Rex” Schiller, K8REX](/staff-member/robert-rex-schuller-k8rex/)**
 
 **Prior Field Day Links**
 
@@ -69,7 +60,3 @@ This year there are three Captains:
 [Field Day 2021](/field-day-2021/)
 
 [Field Day 2021 Results](/field-day-2021-results/)
-
-\[/vc\_column\_text\]
-
-\[/vc\_column\]\[/vc\_row\]

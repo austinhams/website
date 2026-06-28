@@ -12,9 +12,7 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC 2024 Aprils Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-2024-Aprils-Meeting-on-Zoom.pdf"
+    url: "/pdf/april-2024-archive/AARC-2024-Aprils-Meeting-on-Zoom.pdf"
   - title: "Solar 2 APR 2024"
-    url: "/wp-content/uploads/2025/12/Solar-2-APR-2024.pdf"
+    url: "/pdf/april-2024-archive/Solar-2-APR-2024.pdf"
 ---
-
-

@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC August 2023 Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-August-2023-Meeting-on-Zoom.pdf"
+    url: "/pdf/august-2023-archive/AARC-August-2023-Meeting-on-Zoom.pdf"
   - title: "Ham 3D Printing"
-    url: "/wp-content/uploads/2025/12/Ham-3D-Printing.pdf"
+    url: "/pdf/august-2023-archive/Ham-3D-Printing.pdf"
   - title: "Solar 1 AUG 2023"
-    url: "/wp-content/uploads/2025/12/Solar-1-AUG-2023.pdf"
+    url: "/pdf/august-2023-archive/Solar-1-AUG-2023.pdf"
 ---
-
-

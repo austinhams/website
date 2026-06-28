@@ -6,18 +6,15 @@ lastmod: "2025-12-29T18:29:20Z"
 draft: false
 type: "page"
 ---
-\[vc\_row\]\[vc\_column\]\[vc\_column\_text\]Field Day 2022 Results: A good time was had by all and a total of 37 members attended over the 30+ hours of Field Day, including Setup, Operating Hours & Teardown.
+Field Day 2022 Results: A good time was had by all and a total of 37 members attended over the 30+ hours of Field Day, including Setup, Operating Hours & Teardown.
 
 **Operating Results:**
 
 | Call Signs | Total QSOs | Operating Stations | Participants | Total Score | ARRL Section |
 | --- | --- | --- | --- | --- | --- |
 | W5KA (+K5LBJ) | 441 | 2 | 37 | 2,958 | STX |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
 
-\[/vc\_column\_text\]\[vc\_empty\_space\]\[vc\_column\_text\]We’re back for a full in-person Field Day in 2022, after a limited in-person Field Day last year and an all-remote Field Day in 2020. Needless to say we’re very excited to be back, given that Field Day is our biggest event of the year, and a great chance to get out and practice Ham Radio hands-on. It’s a fun outdoor-and-indoor activity for Hams of all skill levels; there’s always plenty to be done and lots to learn! Getting to see friends, old and new, and work the airwaves is truly enjoyable.
+We’re back for a full in-person Field Day in 2022, after a limited in-person Field Day last year and an all-remote Field Day in 2020. Needless to say we’re very excited to be back, given that Field Day is our biggest event of the year, and a great chance to get out and practice Ham Radio hands-on. It’s a fun outdoor-and-indoor activity for Hams of all skill levels; there’s always plenty to be done and lots to learn! Getting to see friends, old and new, and work the airwaves is truly enjoyable.
 
 During Field Day, we setup all the radios, antennas and related equipment to operate “in the field” for a full 24 hours.
 
@@ -34,16 +31,14 @@ Please contact us at [FieldDay@austinhams.org](mailto:FieldDay@austinhams.org) f
 **Note: If you are going to be attending Field Day, and would like to participate in the any of the following meals, please let Kerby know which meal(s) you’d like to eat, at [President@austinhams.org](mailto:President@austinhams.org), so that we can have an accurate count:**
 
 -   **Saturday Lunch: Pizza**
--   ****Saturday Dinner: BBQ****
--   ****Sunday Breakfast: Tacos****
+-   **Saturday Dinner: BBQ**
+-   **Sunday Breakfast: Tacos**
 
 * * *
 
 **Field Day 2022 planning documents created by the various Captains of the AARC Field Day team, as presented to the club membership at our June 7, 2022 meeting:**
 
--   **[Field Day 2022 — High Frequency (HF) Antennas](/wp-content/uploads/2022/06/FIELD-DAY-HF-ANTENNAS-2022.pdf) by [Lew Thompson, W5IFQ](/staff-member/lew-thompson-w5ifq/)**
--   **[Field Day 2022 — UHF/VHF Antennas](/wp-content/uploads/2022/06/AARC-Field-Day-2022-VHF-UHF-N5MNW_pdf.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
--   **[Field Day 2022 — Travis County Amateur Radio Emergency Service (TCARES) Trailer](/wp-content/uploads/2022/06/TCARES-Trailer-Presentation-20220607.pdf) by Robert “Rex” Schuller, K8REX**
--   **[Get-On-The-Air (GOTA) Station](/wp-content/uploads/2022/06/k5lbj_gota_station_2022.pdf) by [Ronny Risinger, KC5EES](https://www.lasahighschool.org/school/faculty-staff/meet-our-faculty/ss-team#h.60dpgo9thl05)**
-
-\[/vc\_column\_text\]\[/vc\_column\]\[/vc\_row\]\[vc\_row\]\[vc\_column\]\[/vc\_column\]\[/vc\_row\]
+-   **[Field Day 2022 — High Frequency (HF) Antennas](/pdf/field-day-2022/FIELD-DAY-HF-ANTENNAS-2022.pdf) by [Lew Thompson, W5IFQ](/staff-member/lew-thompson-w5ifq/)**
+-   **[Field Day 2022 — UHF/VHF Antennas](/pdf/field-day-2022/AARC-Field-Day-2022-VHF-UHF-N5MNW_pdf.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
+-   **[Field Day 2022 — Travis County Amateur Radio Emergency Service (TCARES) Trailer](/pdf/field-day-2022/TCARES-Trailer-Presentation-20220607.pdf) by Robert “Rex” Schuller, K8REX**
+-   **[Get-On-The-Air (GOTA) Station](/pdf/field-day-2022/k5lbj_gota_station_2022.pdf) by [Ronny Risinger, KC5EES](https://www.lasahighschool.org/school/faculty-staff/meet-our-faculty/ss-team#h.60dpgo9thl05)**

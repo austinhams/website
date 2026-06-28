@@ -12,7 +12,8 @@ youtube_id: ""
 # Optional: presenter name(s) for this meeting.
 presenter: ""
 # One or more PDF (or other) downloads. Each entry needs title + url.
-# Use paths under /wp-content/uploads/ (Hugo serves /static/ at the root).
+# Put the PDFs in static/pdf/<this-slug>/ and link them as
+# /pdf/<this-slug>/<file>.pdf (Hugo serves /static/ at the root).
 downloads:
   - title: "Slide Deck"
     url: ""

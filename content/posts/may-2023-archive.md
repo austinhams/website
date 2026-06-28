@@ -12,9 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC May 2023 Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-May-2023-Meeting-on-Zoom.pdf"
+    url: "/pdf/may-2023-archive/AARC-May-2023-Meeting-on-Zoom.pdf"
   - title: "HF Antenna Tuners"
-    url: "/wp-content/uploads/2025/12/HF-Antenna-Tuners.pdf"
+    url: "/pdf/may-2023-archive/HF-Antenna-Tuners.pdf"
 ---
 
 The archive for this month’s club meeting is now available. You’ll find the meeting recording (when available), presentation slides, and any additional materials shared during the session. If you weren’t able to attend live, this is a great way to catch up on the discussion and announcements. Thanks to everyone who participated and contributed.

@@ -12,9 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "2022 Feburary AARC Meeting on Zoom.pdf"
-    url: "/wp-content/uploads/2025/12/2022-Feburary-AARC-Meeting-on-Zoom.pdf-.pdf"
+    url: "/pdf/february-2022-archive/2022-Feburary-AARC-Meeting-on-Zoom.pdf-.pdf"
   - title: "INTRODUCTION TO SOLAR WEATHER ASTRO Feb 2022"
-    url: "/wp-content/uploads/2025/12/INTRODUCTION-TO-SOLAR-WEATHER-ASTRO-Feb-2022.pdf"
+    url: "/pdf/february-2022-archive/INTRODUCTION-TO-SOLAR-WEATHER-ASTRO-Feb-2022.pdf"
 ---
 
 The archive for this month’s club meeting is now available. You’ll find the meeting recording (when available), presentation slides, and any additional materials shared during the session. If you weren’t able to attend live, this is a great way to catch up on the discussion and announcements. Thanks to everyone who participated and contributed.

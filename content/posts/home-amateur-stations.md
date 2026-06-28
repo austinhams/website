@@ -10,4 +10,4 @@ categories:
 ---
 Home Amateur Stations by Lew Thompson (W5IFQ)
 
-[Home_Amateur_Stations](/wp-content/uploads/2026/05/Home_Amateur_Stations.pdf)[Download](/wp-content/uploads/2026/05/Home_Amateur_Stations.pdf)
+[Home_Amateur_Stations](/pdf/home-amateur-stations/Home_Amateur_Stations.pdf)[Download](/pdf/home-amateur-stations/Home_Amateur_Stations.pdf)

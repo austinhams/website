@@ -10,4 +10,4 @@ categories:
 ---
 NCDXF/IARU Beacon Network by Lew Thompson (W5IFQ)
 
-[NCDXF_Beacons_2020-04-07](/wp-content/uploads/2026/05/NCDXF_Beacons_2020-04-07.pdf)[Download](/wp-content/uploads/2026/05/NCDXF_Beacons_2020-04-07.pdf)
+[NCDXF_Beacons_2020-04-07](/pdf/ncdxf-iaru-beacon-network/NCDXF_Beacons_2020-04-07.pdf)[Download](/pdf/ncdxf-iaru-beacon-network/NCDXF_Beacons_2020-04-07.pdf)

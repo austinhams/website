@@ -14,4 +14,4 @@ Contestants will compete to make the highest number of Field Day contacts during
 
 Full contest rules, equipment details, and registration information are included in the attached handout.
 
-[Antenna Contest Handout](/wp-content/uploads/2026/05/Antenna-Contest-Handout.pdf)[Download](/wp-content/uploads/2026/05/Antenna-Contest-Handout.pdf)
+[Antenna Contest Handout](/pdf/2026-field-expedient-hf-antennas-contest/Antenna-Contest-Handout.pdf)[Download](/pdf/2026-field-expedient-hf-antennas-contest/Antenna-Contest-Handout.pdf)

@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC October 2021 AARC Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-October-2021-AARC-Meeting-on-Zoom.pdf"
+    url: "/pdf/october-2021-archive/AARC-October-2021-AARC-Meeting-on-Zoom.pdf"
   - title: "AARC October 2021 Mobile HF MARS AARC"
-    url: "/wp-content/uploads/2025/12/AARC-October-2021-Mobile-HF-MARS-AARC.pdf"
+    url: "/pdf/october-2021-archive/AARC-October-2021-Mobile-HF-MARS-AARC.pdf"
   - title: "AARC Solar Weather 5 OCT 2021"
-    url: "/wp-content/uploads/2025/12/AARC-Solar-Weather-5-OCT-2021.pdf"
+    url: "/pdf/october-2021-archive/AARC-Solar-Weather-5-OCT-2021.pdf"
 ---
-
-

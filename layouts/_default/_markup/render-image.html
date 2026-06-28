@@ -1,0 +1,13 @@
+{{- /* Resolve relative image paths to co-located page-bundle resources;
+       pass absolute/external paths through unchanged. */ -}}
+{{- $dest := .Destination -}}
+{{- $u := urls.Parse $dest -}}
+{{- if or $u.IsAbs (strings.HasPrefix $dest "/") (strings.HasPrefix $dest "#") -}}
+<img src="{{ $dest | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- else -}}
+{{- with .Page.Resources.GetMatch $dest -}}
+<img src="{{ .RelPermalink }}" alt="{{ $.Text }}"{{ with $.Title }} title="{{ . }}"{{ end }}>
+{{- else -}}
+<img src="{{ $dest | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- end -}}
+{{- end -}}

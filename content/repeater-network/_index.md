@@ -6,19 +6,16 @@ lastmod: "2026-05-25T22:41:52Z"
 draft: false
 type: "page"
 ---
-\[vc\_row remove\_bottom\_col\_margin=”true”\]\[vc\_column\]
-
-\[/vc\_column\]\[/vc\_row\]\[vc\_row remove\_bottom\_col\_margin=”true”\]\[vc\_column\]
 
 # AARC Repeater Network
 
-\[vc\_column\_text css=””\]**Mt. Larson**
+**Mt. Larson**
 
 This location has a run of 7/8 inch hardline that is about 200 feet long and a DB-224 antenna. There was also a VHF duplexer at this location. These three items were at this site to support a FM repeater operating on 146.78 MHz. This location has a tower that was built by the City for various UHF and VHF radio systems. The self-supporting 300 ft. tower supports AARC antenna and feedline. The need for a VHF repeater frequency for the AARC D-Star system prompted an arrangement with Ross, N0GSZ to keep this site operational. The AARC moved the 146.78 MHz Texas VHF Society coordination to the D-Star repeater in South Austin. The AARC radio equipment and duplexer was put in storage and Ross provided a VHF duplexer and Motorola Quantar P-25 repeater. This system is now operating under the callsign of N0GSZ and is using the AARC antenna and transmission line vacated by the old 146.78 AARC repeater. The Austin amateur radio community now has open access to a P-25 repeater on 146.86 MHz and the AARC D-Star VHF repeater at the South Austin Medical Center is operating on a coordinated frequency.
 
-Recommendation: Keep our relationship with the City of Austin Wireless Department positive in order for the AARC to maintain a position on this tower and in this building rent free. The position and height of the tower provides excellent downtown coverage using N0GSZ equipment operating in mixed mode (FM/P-25). This is a desirable location for the amateur community. This site could also be used for a secondary receive location that could provide easy linking to Buckman Mountain. There is some degraded performance of the antenna or transmission line due to age or water damage. Further evaluation of the exact nature of what is causing poor VSWR on the line is needed. This site’s building and tower has a large potential for growth due to the City of Austin removing a large number of radio systems housed at this location.\[/vc\_column\_text\]
+Recommendation: Keep our relationship with the City of Austin Wireless Department positive in order for the AARC to maintain a position on this tower and in this building rent free. The position and height of the tower provides excellent downtown coverage using N0GSZ equipment operating in mixed mode (FM/P-25). This is a desirable location for the amateur community. This site could also be used for a secondary receive location that could provide easy linking to Buckman Mountain. There is some degraded performance of the antenna or transmission line due to age or water damage. Further evaluation of the exact nature of what is causing poor VSWR on the line is needed. This site’s building and tower has a large potential for growth due to the City of Austin removing a large number of radio systems housed at this location.
 
-\[vc\_column\_text css=””\]**Pickle Research Center (PRC)**
+**Pickle Research Center (PRC)**
 
 The tower and building we occupy supports the 146.88 System Fusion repeater and 444.10 FM Repeaters. The land is owned by the University of Texas at Austin and leased to the LCRA for site management. The tower is a 300 foot guyed facility built in the mid-1990s. It also supports microwave and digital trunk radio systems operated by the LCRA in the 700 and 800 Mhz. bands. There is a UHF duplexer and NHRC-5 controller supporting the GE MASTR PRO repeater running 35 watts TPO. The VHF repeater is a Yaesu System Fusion DR1(X) running 25 watts TPO. There is a UPS providing backup power and AC line isolation for the VHF repeater at the site. The antennas and transmission line for these two repeaters were new in 1998 and were provided by the LCRA. The antennas are at the 275 foot level of the tower. The building is heated and air conditioned and has been recently renovated to provide a clean and secure housing for AARC equipment at no cost to the AARC.
 
@@ -34,9 +31,9 @@ The repeater is connected to the Texas-Nexus Room by default giving it access to
 
 The Austin users with Fusion digital radios are able to connect the repeater to any Room or Node in the Wires-X network that is open for a connection. After 30 minutes the WA5YZD-ND node will reconnect to the Texas-Nexus Room.
 
-Recommendations: If the AARC wants to continue to use the features of Wires-X and System Fusion, a radio, HRI-200 appliance, PC, antenna and transmission line should be acquired by the AARC. A site with internet broadband in coverage range of the repeater is also needed to host the node. The site needs to be attended due to need for occasional hands-on attention required for the PC based Wires-X application. Off-site hosting of the node is recommended at this time due to the need for quick and easy access to the PC hosting fast developing Wires-X application.\[/vc\_column\_text\]
+Recommendations: If the AARC wants to continue to use the features of Wires-X and System Fusion, a radio, HRI-200 appliance, PC, antenna and transmission line should be acquired by the AARC. A site with internet broadband in coverage range of the repeater is also needed to host the node. The site needs to be attended due to need for occasional hands-on attention required for the PC based Wires-X application. Off-site hosting of the node is recommended at this time due to the need for quick and easy access to the PC hosting fast developing Wires-X application.
 
-\[vc\_column\_text css=””\]**Buckman Mountain – KLRU/KVUE/KEYE Tower**
+**Buckman Mountain – KLRU/KVUE/KEYE Tower**
 
 The Austin Repeater Organization gained access to the original KVUE-TV tower and KLRU-TV building in the early 1982 due to the relationship Sanford Musgrove (W5FIT- SK) had with the two stations at the time. The 146.94 Repeater and the 224.80 repeaters were housed inside the KLRU-TV transmitter building. In 2011 the KVUE analog tower was removed from the site. KVUE and KEYE agreed to allow the AARC to move antennas onto the jointly owned tower that is located on this site plus the addition of a UHF repeater system antenna. 660 feet of 1 ¼ inch hardline and antennas were acquired by the AARC to support the move activity. Rack space was provided by KVUE in their building for AARC hardware.
 
@@ -68,9 +65,9 @@ Recommendations: Service or replace the upper triband coupler.
 
 Operational Status The repeater appears to be cold natured and has the tendency to key and un-key in really cold weather. There are some problems with sub audible tone and the controller at random times. Sensitivity of the receiver good and the power output is a stable 10 watts.
 
-Recommendations: The 1.2 GHz repeater needs to be taken down from the tower to fix the temperature key-up problem. It also should be modified to transmit tone only when the user is keying the repeater and not during ID or hang-time period. Interest to connect this system to the Allstar network is very high due to 900 MHz repeater network growth.\[/vc\_column\_text\]
+Recommendations: The 1.2 GHz repeater needs to be taken down from the tower to fix the temperature key-up problem. It also should be modified to transmit tone only when the user is keying the repeater and not during ID or hang-time period. Interest to connect this system to the Allstar network is very high due to 900 MHz repeater network growth.
 
-\[vc\_column\_text css=””\]**South Austin Medical Center Hospital**
+**South Austin Medical Center Hospital**
 
 This site hosts the AARC D-Star system operating on three bands.
 
@@ -90,4 +87,4 @@ Operational Status: The system is working reliably on all bands and with all fou
 
 Recommendations: Split off the Module A 1.2 GHz DV and DD part of the system from the current feedline arrangement. Install a separate 7/8 inch transmission line to support 1.2 GHz to reduce the losses that exist due to feedline and couplers. Install a separate 1.2 GHz band antenna. Feedline has been donated for this project.
 
-Please contact me with your comments and questions at WA5YZD (at) ARRL.NET or any of the AARC officers using address found on the AARC website.\[/vc\_column\_text\]\[/vc\_column\]\[/vc\_row\]
+Please contact me with your comments and questions at WA5YZD (at) ARRL.NET or any of the AARC officers using address found on the AARC website.

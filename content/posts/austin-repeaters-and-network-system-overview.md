@@ -10,4 +10,4 @@ categories:
 ---
 By Roy Walker (WA5ZYZD)
 
-[AARC_20200204_Repeaters](/wp-content/uploads/2026/05/AARC_20200204_Repeaters.pdf)[Download](/wp-content/uploads/2026/05/AARC_20200204_Repeaters.pdf)
+[AARC_20200204_Repeaters](/pdf/austin-repeaters-and-network-system-overview/AARC_20200204_Repeaters.pdf)[Download](/pdf/austin-repeaters-and-network-system-overview/AARC_20200204_Repeaters.pdf)

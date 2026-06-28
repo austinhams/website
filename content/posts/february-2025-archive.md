@@ -12,7 +12,5 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC 2025 February Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-2025-February-Meeting-on-Zoom.pdf"
+    url: "/pdf/february-2025-archive/AARC-2025-February-Meeting-on-Zoom.pdf"
 ---
-
-

@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "September 2021 AARC Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/September-2021-AARC-Meeting-on-Zoom-1-1.pdf"
+    url: "/pdf/september-2021-archive/September-2021-AARC-Meeting-on-Zoom-1-1.pdf"
   - title: "NVIS Antenna Theory and Practice AARC"
-    url: "/wp-content/uploads/2025/12/NVIS-Antenna-Theory-and-Practice-AARC.pdf"
+    url: "/pdf/september-2021-archive/NVIS-Antenna-Theory-and-Practice-AARC.pdf"
   - title: "Solar Weather 7 SEP 2021"
-    url: "/wp-content/uploads/2025/12/Solar-Weather-7-SEP-2021-1.pdf"
+    url: "/pdf/september-2021-archive/Solar-Weather-7-SEP-2021-1.pdf"
 ---
-
-

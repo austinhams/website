@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC 2024 October Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-2024-October-Meeting-on-Zoom.pdf"
+    url: "/pdf/october-2024-archive/AARC-2024-October-Meeting-on-Zoom.pdf"
   - title: "Solar 1 OCT 2024"
-    url: "/wp-content/uploads/2025/12/Solar-1-OCT-2024.pdf"
+    url: "/pdf/october-2024-archive/Solar-1-OCT-2024.pdf"
   - title: "MARS Mission Brief Warner 2022"
-    url: "/wp-content/uploads/2025/12/MARS-Mission-Brief-Warner-2022.pdf"
+    url: "/pdf/october-2024-archive/MARS-Mission-Brief-Warner-2022.pdf"
 ---
-
-

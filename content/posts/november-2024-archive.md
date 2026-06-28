@@ -12,11 +12,9 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC 2024 November Meeting on Zoom"
-    url: "/wp-content/uploads/2025/12/AARC-2024-November-Meeting-on-Zoom.pdf"
+    url: "/pdf/november-2024-archive/AARC-2024-November-Meeting-on-Zoom.pdf"
   - title: "Solar 5 NOV 2024"
-    url: "/wp-content/uploads/2025/12/Solar-5-NOV-2024.pdf"
+    url: "/pdf/november-2024-archive/Solar-5-NOV-2024.pdf"
   - title: "TCARES Deploying ECT 2024 11 05"
-    url: "/wp-content/uploads/2025/12/TCARES_Deploying_ECT_2024-11-05.pdf"
+    url: "/pdf/november-2024-archive/TCARES_Deploying_ECT_2024-11-05.pdf"
 ---
-
-

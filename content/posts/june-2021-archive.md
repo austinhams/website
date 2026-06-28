@@ -12,11 +12,11 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC June 2021 Club Business"
-    url: "/wp-content/uploads/2025/12/AARC-June-2021-Club-Business.pdf"
+    url: "/pdf/june-2021-archive/AARC-June-2021-Club-Business.pdf"
   - title: "Grounding and bonding K3LR"
-    url: "/wp-content/uploads/2025/12/Grounding-and-bonding-K3LR.pdf"
+    url: "/pdf/june-2021-archive/Grounding-and-bonding-K3LR.pdf"
   - title: "Solar Weather 1 JUN 2021"
-    url: "/wp-content/uploads/2025/12/Solar-Weather-1-JUN-2021.pdf"
+    url: "/pdf/june-2021-archive/Solar-Weather-1-JUN-2021.pdf"
 ---
 
 > The archive for this month’s club meeting is now available. You’ll find the meeting recording (when available), presentation slides, and any additional materials shared during the session. If you weren’t able to attend live, this is a great way to catch up on the discussion and announcements. Thanks to everyone who participated and contributed.

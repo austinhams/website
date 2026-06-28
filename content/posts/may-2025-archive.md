@@ -12,7 +12,5 @@ youtube_id: ""
 presenter: ""
 downloads:
   - title: "AARC May 2025"
-    url: "/wp-content/uploads/2025/12/AARC-May-2025.pdf"
+    url: "/pdf/may-2025-archive/AARC-May-2025.pdf"
 ---
-
-
