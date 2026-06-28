@@ -117,68 +117,53 @@ issues:
 That's it — no per-issue content file is needed. The archive page groups issues
 by year and links each one directly to its PDF.
 
-## Creating a Meeting Archive post
+## Meeting Archives (data-driven)
 
-Meeting archive posts are data-driven: you provide a YouTube video ID and a
-list of PDF (or other) downloads in the front matter, and the layout renders
-an embedded player plus a styled downloads section automatically.
+The meeting archive section is now powered by `data/meeting_archives.yaml`. Add
+each meeting under `meetings:` with one optional `youtube_id` and one or more
+`downloads`. The `/meeting-archives/` page renders the archive list directly
+from this data file.
 
-### 1. Generate the post
-
-```bash
-hugo new posts/2026-05-monthly-meeting.md --kind meeting-archive
-```
-
-(`--kind meeting-archive` uses [archetypes/meeting-archive.md](archetypes/meeting-archive.md).)
-
-### 2. Fill in the front matter
+### Add a meeting entry
 
 ```yaml
----
-title: "May 2026 Monthly Meeting — Antenna Modeling with NEC"
-slug: "2026-05-monthly-meeting"
-date: 2026-05-14T19:00:00-05:00
-draft: false
-type: "meeting-archive"          # REQUIRED — selects the custom layout
-author: "AARC"
-categories:
-  - "Meeting Archive"
-youtube_id: "dQw4w9WgXcQ"        # the v= part of the YouTube URL
-presenter: "Jane Doe, K5XYZ"     # optional
-downloads:
-  - title: "Slide Deck"
-    url: "/pdf/2026-05-monthly-meeting/antenna-modeling.pdf"
-    description: "Full presentation slides (12 MB)"
-  - title: "NEC Example Files"
-    url: "/pdf/2026-05-monthly-meeting/nec-examples.zip"
----
-
-Optional intro / meeting notes in Markdown go below the front matter.
+meetings:
+  - title: "May 2026 Monthly Meeting — Antenna Modeling with NEC"
+    slug: "2026-05-monthly-meeting"
+    date: "2026-05-14T19:00:00-05:00"
+    author: "AARC"
+    presenter: "Jane Doe, K5XYZ"
+    summary: "Monthly meeting record with antenna modeling presentation."
+    youtube_id: "dQw4w9WgXcQ"
+    downloads:
+      - title: "Slide Deck"
+        url: "/pdf/2026-05-monthly-meeting/antenna-modeling.pdf"
+        description: "Full presentation slides (12 MB)"
+      - title: "NEC Example Files"
+        url: "/pdf/2026-05-monthly-meeting/nec-examples.zip"
 ```
 
-### 3. Add the PDFs
+### Add the downloads
 
-Drop the files under `static/pdf/<slug>/` (one folder per post). Anything
+Drop the files under `static/pdf/<slug>/` (one folder per meeting). Anything
 under `static/` is served from the site root, so a file at
 `static/pdf/2026-05-monthly-meeting/antenna-modeling.pdf` is reachable at
 `/pdf/2026-05-monthly-meeting/antenna-modeling.pdf` — exactly what you put in
-the `downloads[].url` field.
+`downloads[].url`.
 
 External URLs (e.g. Dropbox, Google Drive) work too and will open in a new tab.
 
 ### How it renders
 
-The [meeting-archive/single.html](layouts/meeting-archive/single.html) template
-produces, in order:
+The meeting archive list page produces, in order:
 
 1. Title, date, presenter
-2. Responsive 16:9 YouTube embed (privacy-enhanced `youtube-nocookie.com`)
-3. The Markdown body (if any)
-4. A boxed **Downloads & Handouts** section, one row per `downloads` entry
-5. Category links
+2. Optional YouTube video link with thumbnail
+3. Meeting summary
+4. A downloads section with one or more files
 
 Only `youtube_id` and at least one `downloads` entry are needed for the
-template to look complete — both blocks are skipped if their data is missing.
+template to look complete.
 
 ## Known limitations / next steps
 
