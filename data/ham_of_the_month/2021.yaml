@@ -1,0 +1,61 @@
+# Ham of the Month awards for 2021.
+# List months newest-first.
+# Each award entry supports:
+#   month     (required) — e.g. "December"
+#   recipients (required) — array of { name, callsign (optional) }
+#   reason    (optional) — short description of the service
+
+year: 2021
+awards:
+  - month: "December"
+    recipients:
+      - name: "Glen Jenkins"
+        callsign: "WB4FTK"
+  - month: "November"
+    recipients:
+      - name: "Patrick Rogers"
+        callsign: "W5DVG"
+  - month: "October"
+    recipients:
+      - name: "Mark Jenkins"
+        callsign: "W5MPJ"
+    reason: "Various financial and insurance services to the club, as well as being club Webmaster."
+  - month: "September"
+    recipients:
+      - name: "Matt Domsch"
+        callsign: "N5MLD"
+    reason: "Organizing the Boy Scouts Radio Merit Badge outing in Bastrop."
+  - month: "August"
+    recipients:
+      - name: "Mark Allen Cannary (SK)"
+        callsign: "KB5VY"
+    reason: "General Service to the Club over the years."
+  - month: "July"
+    recipients:
+      - name: "Phil Bautista"
+        callsign: "AA5EX"
+    reason: "Updating TCARES Training Materials"
+  - month: "June"
+    recipients:
+      - name: "Mickey McInnis"
+        callsign: "WX5U"
+  - month: "May"
+    recipients:
+      - name: "Joe Ramacciotti"
+        callsign: "KC5DFP"
+  - month: "April"
+    recipients:
+      - name: "Lew Thompson"
+        callsign: "W5IFQ"
+  - month: "March"
+    recipients:
+      - name: "Ron Brown"
+        callsign: "K6EER"
+  - month: "February"
+    recipients:
+      - name: "Joe Canfield"
+        callsign: "N5HPC"
+  - month: "January"
+    recipients:
+      - name: "Raymond Mack"
+        callsign: "W5IFS"

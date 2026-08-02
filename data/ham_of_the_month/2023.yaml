@@ -1,0 +1,59 @@
+# Ham of the Month awards for 2023.
+# List months newest-first.
+# Each award entry supports:
+#   month     (required) — e.g. "December"
+#   recipients (required) — array of { name, callsign (optional) }
+#   reason    (optional) — short description of the service
+
+year: 2023
+awards:
+  - month: "October"
+    recipients:
+      - name: "Colin Wright"
+        callsign: "K5KEX"
+    reason: "Critical Infrastructure Drill Organization"
+  - month: "September"
+    recipients:
+      - name: "Mark Jenkins"
+        callsign: "W5MPJ"
+    reason: "Scholarship Awards Work"
+  - month: "August"
+    recipients:
+      - name: "Jeff Schmidt"
+        callsign: "N5MWN"
+  - month: "July"
+    recipients:
+      - name: "Paul Kinney"
+        callsign: "KD5VRU"
+    reason: "Broadband HamNet at Field Day"
+  - month: "June"
+    recipients:
+      - name: "Glenn Meter"
+        callsign: "W5MTR"
+    reason: "MS 150 Ride Coordinator"
+  - month: "May"
+    recipients:
+      - name: "Paul Fenrich"
+        callsign: "KA5FZU"
+    reason: "Fox Hunting Specialist"
+  - month: "April"
+    recipients:
+      - name: "Ernesto Raices"
+        callsign: "KI5PZN"
+    reason: "Elected New President"
+  - month: "March"
+    recipients:
+      - name: "Kerby Spruiell"
+        callsign: "KG5DLD"
+    reason: "Good service as Past President"
+  - month: "February"
+    recipients:
+      - name: "Jon Penner"
+        callsign: "N5MHI"
+    reason: "Fixing antennae after ice storm"
+  - month: "January"
+    recipients:
+      - name: "Danielle Locke"
+      - name: "Tim Lamb"
+        callsign: "N5TML"
+    reason: "Organizing AARC's first Christmas party in three years"

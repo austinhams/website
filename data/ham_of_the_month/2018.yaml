@@ -1,0 +1,22 @@
+# Ham of the Month awards for 2018.
+# List months newest-first.
+# Source rows listed only a callsign and first name.
+
+year: 2018
+awards:
+  - month: "April"
+    recipients:
+      - name: "Bob"
+        callsign: "WB5AOH"
+  - month: "March"
+    recipients:
+      - name: "Roy"
+        callsign: "WA5YZD"
+  - month: "February"
+    recipients:
+      - name: "Kerby"
+        callsign: "KG5DLD"
+  - month: "January"
+    recipients:
+      - name: "Shawn"
+        callsign: "KG5RHR"

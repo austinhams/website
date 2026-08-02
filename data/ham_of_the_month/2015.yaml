@@ -1,0 +1,41 @@
+# Ham of the Month awards for 2015.
+# List months newest-first.
+
+year: 2015
+awards:
+  - month: "October"
+    recipients:
+      - name: "Scott Steelman"
+      - name: "Jeff Schmidt"
+        callsign: "N5MNW"
+  - month: "September"
+    recipients:
+      - name: "Mitch London"
+  - month: "August"
+    recipients:
+      - name: "Mary Steelman"
+  - month: "July"
+    recipients:
+      - name: "Dave Rivenberg"
+      - name: "Paul Kinney"
+  - month: "June"
+    recipients:
+      - name: "Rodney Warner"
+  - month: "May"
+    recipients:
+      - name: "Marie Vander Weele"
+  - month: "April"
+    recipients:
+      - name: "Mark Esslinger"
+  - month: "March"
+    recipients:
+      - name: "Roger Wines"
+  - month: "February"
+    recipients:
+      - name: "Paul Fenrich"
+  - month: "January"
+    recipients:
+      - name: "Rick Chapman"
+      - name: "Don Dudley"
+      - name: "Bob Morgan"
+        callsign: "WB5AOH"

@@ -1,0 +1,24 @@
+# Ham of the Month awards for 2022.
+# List months newest-first.
+# Each award entry supports:
+#   month     (required) — e.g. "December"
+#   recipients (required) — array of { name, callsign (optional) }
+#   reason    (optional) — short description of the service
+
+year: 2022
+awards:
+  - month: "March"
+    recipients:
+      - name: "Jeff Schmidt"
+        callsign: "N5MNW"
+      - name: "Lori Schmidt"
+        callsign: "KM5MQ"
+  - month: "February"
+    recipients:
+      - name: "Joe Fisher"
+        callsign: "K5EJL"
+  - month: "January"
+    recipients:
+      - name: "Ed Cox"
+        callsign: "KE3D"
+    reason: "Elmering, donations of time and money to the club, esp. the Red Cross radio room"
