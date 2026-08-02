@@ -15,29 +15,17 @@ repeaters:
     mode: "D-Star"
     comments: "Open repeater — D-Star only"
 
-  - frequency: "146.880"
-    offset: "-"
-    tone: "107.2"
-    mode: "C4FM"
-    comments: "Open repeater — C4FM"
-
   - frequency: "146.940"
     offset: "-"
     tone: "107.2"
     mode: "FM"
-    comments: "Open repeater — Echolink / Allstar"
+    comments: "Main Repeater (used for ARES and SKYWARN)"
 
   - frequency: "224.800"
     offset: "-1.6 MHz"
     tone: "107.2"
     mode: "FM"
     comments: "Open repeater"
-
-  - frequency: "440.650"
-    offset: "+"
-    tone: "(none)"
-    mode: "D-Star"
-    comments: "Open repeater — D-Star only"
 
   - frequency: "444.100"
     offset: "+"
@@ -49,16 +37,4 @@ repeaters:
     offset: "+"
     tone: "107.2"
     mode: "FM"
-    comments: "Open repeater — Echolink via WA5YZD-R"
-
-  - frequency: "1248.100"
-    offset: "(simplex)"
-    tone: "(none)"
-    mode: "D-Star"
-    comments: "Open simplex — D-Star Digital (Data only)"
-
-  - frequency: "1293.100"
-    offset: "-"
-    tone: "(none)"
-    mode: "D-Star"
-    comments: "Open repeater — D-Star only"
+    comments: "Open repeater"
