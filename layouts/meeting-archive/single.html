@@ -42,10 +42,12 @@
       </h2>
       <ul class="divide-y divide-gray-200">
         {{ range . }}
+          {{ $href := .url }}
+          {{ with .file }}{{ with $.Resources.GetMatch . }}{{ $href = .RelPermalink }}{{ end }}{{ end }}
           <li class="py-3 flex items-start gap-3">
             <span class="mt-0.5 inline-flex items-center justify-center h-9 w-9 rounded bg-red-100 text-red-700 text-xs font-bold flex-shrink-0">PDF</span>
             <div class="min-w-0 flex-1">
-              <a href="{{ .url }}" class="text-blue-700 font-medium hover:underline break-words" {{ if not (hasPrefix .url "/") }}target="_blank" rel="noopener"{{ end }}>
+              <a href="{{ $href }}" class="text-blue-700 font-medium hover:underline break-words" {{ if not (hasPrefix $href "/") }}target="_blank" rel="noopener"{{ end }}>
                 {{ .title }}
               </a>
               {{ with .description }}
