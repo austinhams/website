@@ -57,42 +57,47 @@
 </section>
 
 <section class="max-w-6xl mx-auto px-4 pb-16">
-  {{ range $years }}
-  <div class="mt-12">
-    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 border-b border-gray-200 pb-3">{{ .year }}</h2>
-    <ol class="mt-6 relative border-l-2 border-blue-100 ml-3 md:ml-4 space-y-6">
-      {{ range .awards }}
-      <li class="relative pl-8">
-        <span class="absolute -left-[9px] top-2 inline-block w-4 h-4 rounded-full bg-blue-600 ring-4 ring-blue-100"></span>
-        <div class="bg-white rounded-xl border border-gray-200 p-5 shadow-sm">
-          <div class="flex flex-wrap items-baseline gap-3">
-            <span class="text-sm font-mono uppercase tracking-wider text-blue-700 font-semibold">{{ .month }}</span>
-            {{ with .reason }}
-              <span class="text-sm text-gray-500 italic">{{ . }}</span>
-            {{ end }}
-          </div>
-          <ul class="mt-2 space-y-1">
-            {{ range .recipients }}
-              <li class="text-gray-900 font-semibold">
-                {{ .name }}{{ with .callsign }} <span class="font-mono text-sm text-blue-700 font-normal">{{ . }}</span>{{ end }}
-              </li>
-            {{ end }}
-          </ul>
-        </div>
-      </li>
-      {{ end }}
-    </ol>
-  </div>
-  {{ end }}
-</section>
+  <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Past Honorees by Year</h2>
+  <p class="mt-2 text-gray-600">The most recent year is expanded. Select any year to view its honorees.</p>
 
-<section class="bg-gray-50 border-t border-gray-200">
-  <div class="max-w-6xl mx-auto px-4 py-10 text-center">
-    <h2 class="text-xl font-bold text-gray-900">Looking for earlier years?</h2>
-    <p class="mt-2 text-gray-700">See previous Ham of the Month recipients in the archive.</p>
-    <a href="/ham-of-the-month-archive/" class="mt-4 inline-flex items-center px-5 py-3 rounded-lg bg-white text-blue-700 border border-blue-700 font-semibold hover:bg-blue-50">
-      Ham of the Month Archive &rarr;
-    </a>
+  <div class="mt-8 space-y-4">
+    {{ range $i, $year := $years }}
+    <details class="group rounded-xl border border-gray-200 bg-white shadow-sm" {{ if eq $i 0 }}open{{ end }}>
+      <summary class="flex cursor-pointer select-none items-center justify-between gap-3 rounded-xl px-5 py-4 hover:bg-gray-50">
+        <span class="text-xl md:text-2xl font-bold text-gray-900">{{ $year.year }}</span>
+        <span class="flex items-center gap-2 text-sm text-gray-500">
+          {{ len $year.awards }} honored
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-5 w-5 transition-transform group-open:rotate-180" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/>
+          </svg>
+        </span>
+      </summary>
+      <div class="border-t border-gray-100 px-5 py-6">
+        <ol class="relative border-l-2 border-blue-100 ml-3 md:ml-4 space-y-6">
+          {{ range $year.awards }}
+          <li class="relative pl-8">
+            <span class="absolute -left-[9px] top-2 inline-block w-4 h-4 rounded-full bg-blue-600 ring-4 ring-blue-100"></span>
+            <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+              <div class="flex flex-wrap items-baseline gap-3">
+                <span class="text-sm font-mono uppercase tracking-wider text-blue-700 font-semibold">{{ .month }}</span>
+                {{ with .reason }}
+                  <span class="text-sm text-gray-500 italic">{{ . }}</span>
+                {{ end }}
+              </div>
+              <ul class="mt-2 space-y-1">
+                {{ range .recipients }}
+                  <li class="text-gray-900 font-semibold">
+                    {{ .name }}{{ with .callsign }} <span class="font-mono text-sm text-blue-700 font-normal">{{ . }}</span>{{ end }}
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+    </details>
+    {{ end }}
   </div>
 </section>
 {{ end }}
