@@ -5,7 +5,7 @@
     {{ with .Content }}<div class="prose mt-4 max-w-none">{{ . }}</div>{{ end }}
   </header>
 
-  {{ $meetings := hugo.Data.meeting_archives.meetings | sort "date" "desc" }}
+  {{ $meetings := sort hugo.Data.meeting_archives.meetings "date" "desc" }}
 
   {{ if $meetings }}
     <p class="mb-8 text-sm text-gray-500">{{ len $meetings }} meeting{{ if ne (len $meetings) 1 }}s{{ end }} in the archive.</p>
