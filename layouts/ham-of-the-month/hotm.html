@@ -9,7 +9,8 @@
   </div>
 </section>
 
-{{ $latestYear := index hugo.Data.ham_of_the_month 0 }}
+{{ $years := sort hugo.Data.ham_of_the_month "year" "desc" }}
+{{ $latestYear := index $years 0 }}
 {{ $latest := index $latestYear.awards 0 }}
 
 <section class="max-w-6xl mx-auto px-4 py-12 md:py-16">
@@ -56,7 +57,7 @@
 </section>
 
 <section class="max-w-6xl mx-auto px-4 pb-16">
-  {{ range hugo.Data.ham_of_the_month }}
+  {{ range $years }}
   <div class="mt-12">
     <h2 class="text-2xl md:text-3xl font-bold text-gray-900 border-b border-gray-200 pb-3">{{ .year }}</h2>
     <ol class="mt-6 relative border-l-2 border-blue-100 ml-3 md:ml-4 space-y-6">

@@ -1,0 +1,60 @@
+# Ham of the Month awards for 2024.
+# List months newest-first.
+# Each award entry supports:
+#   month     (required) — e.g. "December"
+#   recipients (required) — array of { name, callsign (optional) }
+#   reason    (optional) — short description of the service
+
+year: 2024
+awards:
+  - month: "September"
+    recipients:
+      - name: "Rex Schuller"
+        callsign: "K8REX"
+      - name: "Bill Hasbrook"
+        callsign: "W5BWM"
+      - name: "James Gorman"
+        callsign: "KC0YDP"
+      - name: "Dave Serafine"
+        callsign: "K5DAV"
+      - name: "Mike Zimmermann"
+        callsign: "W5ZIM"
+    reason: "MS-150 Team"
+  - month: "August"
+    recipients:
+      - name: "Glen Meter"
+        callsign: "W5MTR"
+  - month: "July"
+    recipients:
+      - name: "Paul Kinney"
+        callsign: "KD5VRU"
+  - month: "June"
+    recipients:
+      - name: "Roy Walker"
+        callsign: "WA5YZD"
+      - name: "Steve Long"
+        callsign: "AG5TR"
+  - month: "May"
+    recipients:
+      - name: "Rex Schuller"
+        callsign: "K8REX"
+  - month: "April"
+    recipients:
+      - name: "Roy Walker"
+        callsign: "WA5YZD"
+  - month: "March"
+    recipients:
+      - name: "Patrick Rogers"
+        callsign: "W5DVG"
+  - month: "February"
+    recipients:
+      - name: "Rolf Lagerquist"
+        callsign: "AA5RL"
+      - name: "Kevin Dumlevy"
+        callsign: "N5KOD"
+  - month: "January"
+    recipients:
+      - name: "Jeff Schmidt"
+        callsign: "N5MWN"
+      - name: "Joe Fisher"
+        callsign: "K5EJL"

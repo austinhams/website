@@ -6,6 +6,8 @@
 #   offset:     "-", "+", "(none)", or a specific value like "-1.6 MHz"
 #   tone:       input PL tone or "(none)"
 #   mode:       FM, C4FM, D-Star, etc.
+#   location:   where the repeater is sited (e.g. "KVUE Tower, Austin")
+#   status:     "Up" or "Down"
 #   comments:   free text
 
 repeaters:
@@ -13,28 +15,54 @@ repeaters:
     offset: "-"
     tone: "(none)"
     mode: "D-Star"
+    location: ""
+    status: "Up"
     comments: "Open repeater — D-Star only"
 
   - frequency: "146.940"
     offset: "-"
     tone: "107.2"
     mode: "FM"
-    comments: "Main Repeater (used for ARES and SKYWARN)"
+    location: "Buckman Mountain, KVUE towers"
+    status: "Up"
+    comments: "W5KA Main Repeater (used for ARES and SKYWARN)"
 
   - frequency: "224.800"
     offset: "-1.6 MHz"
     tone: "107.2"
     mode: "FM"
+    location: ""
+    status: "Up"
     comments: "Open repeater"
 
   - frequency: "444.100"
     offset: "+"
     tone: "103.5"
     mode: "FM"
+    location: ""
+    status: "Up"
     comments: "Open repeater"
 
   - frequency: "444.200"
     offset: "+"
     tone: "107.2"
     mode: "FM"
+    location: ""
+    status: "Up"
     comments: "Open repeater"
+
+  - frequency: "441.5625"
+    offset: "+"
+    tone: "103.5"
+    mode: "FM"
+    location: "South Austin"
+    status: "Up"
+    comments: "K8REX - Open repeater FM + DMR"
+
+  - frequency: "144.650"
+    offset: "+"
+    tone: "107.2"
+    mode: "FM"
+    location: "Baylor Scott and White, Lakeway"
+    status: "Down"
+    comments: "W5KA - Open repeater FM - UNDER CONSTRUCTION"

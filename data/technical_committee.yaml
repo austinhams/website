@@ -12,27 +12,7 @@
   photo: "/img/site/no-photo.png"
   bio: "Roy serves as Chair of the Technical Committee."
 
-- name: "Greg Jurens"
-  callsign: "K5JG"
-  photo: "/img/site/no-photo.png"
-  bio: "Greg serves on the Technical Committee."
-
 - name: "Jeff Schmidt"
   callsign: "N5MNW"
   photo: "/img/people/jeff-2024.jpg"
-  bio: "Bio coming soon."
-
-- name: "Jon Penner"
-  callsign: "N5MHI"
-  photo: "/img/site/no-photo.png"
-  bio: "Jon serves on the Technical Committee."
-
-- name: "Mark Stennett"
-  callsign: "NA6M"
-  photo: "/img/site/no-photo.png"
-  bio: "Mark serves on the Technical Committee."
-
-- name: "Ross Snyder"
-  callsign: "N0GSZ"
-  photo: "/img/site/no-photo.png"
-  bio: "Ross serves on the Technical Committee."
+  bio: "Jeff is our resident Elmer, and runs the Swapnet Newsletter."
