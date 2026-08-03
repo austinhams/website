@@ -84,12 +84,6 @@
       Follow club news, photos from events, and on-air highlights on social media.
     </p>
     <div class="mt-8 flex flex-wrap justify-center gap-4">
-      {{ with site.Params.social.facebook }}
-        <a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-white border border-gray-200 text-gray-800 hover:border-blue-400 hover:text-blue-700 shadow-sm">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.03H7.9v-2.91h2.54V9.84c0-2.51 1.49-3.9 3.78-3.9 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.91h-2.34V22C18.34 21.24 22 17.08 22 12.06z"/></svg>
-          Facebook
-        </a>
-      {{ end }}
       {{ with site.Params.social.linkedin }}
         <a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-white border border-gray-200 text-gray-800 hover:border-blue-400 hover:text-blue-700 shadow-sm">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73A1.73 1.73 0 116.5 3.27a1.73 1.73 0 010 3.46zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.76C14.4 7.59 20 7.42 20 12.85V19z"/></svg>
