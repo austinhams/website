@@ -1,7 +1,7 @@
 ---
 title: May 2026 Meeting Archive
 slug: '2026-05-05'
-date: '2026-05-0512:38:47Z'
+date: '2026-05-05T12:38:47Z'
 type: meeting-archive
 author: Chris, KJ5DJC
 categories:

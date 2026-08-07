@@ -1,7 +1,7 @@
 ---
 title: July 2026 Meeting Archive
 slug: '2026-07-07'
-date: '2026-07-0712:38:47Z'
+date: '2026-07-07T12:38:47Z'
 type: meeting-archive
 author: Chris, KJ5DJC
 categories:
