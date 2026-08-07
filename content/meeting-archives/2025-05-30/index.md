@@ -9,4 +9,6 @@ categories:
 downloads:
 - title: AARC May 2025
   file: AARC-May-2025.pdf
+- title: Antenna Contest Handout
+  file: Antenna-Contest-Handout.pdf
 ---
