@@ -8,10 +8,18 @@
   {{ $meetings := .Pages.ByDate.Reverse }}
 
   {{ if $meetings }}
-    <p class="mb-8 text-sm text-gray-500">{{ len $meetings }} meeting{{ if ne (len $meetings) 1 }}s{{ end }} in the archive.</p>
+    {{ $total := len $meetings }}
+    {{ $paginator := .Paginate $meetings 10 }}
+    {{ $first := add (mul (sub $paginator.PageNumber 1) $paginator.PagerSize) 1 }}
+    {{ $last := add $first (sub (len $paginator.Pages) 1) }}
+
+    <p class="mb-8 text-sm text-gray-500">
+      {{ $total }} meeting{{ if ne $total 1 }}s{{ end }} in the archive.
+      {{ if gt $paginator.TotalPages 1 }}Showing {{ $first }}&ndash;{{ $last }}.{{ end }}
+    </p>
 
     <div class="space-y-10">
-      {{ range $meetings }}
+      {{ range $paginator.Pages }}
         {{ $meeting := . }}
         <article class="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm">
           <div class="grid gap-6 md:grid-cols-[1.6fr_2.4fr]">
@@ -72,6 +80,8 @@
         </article>
       {{ end }}
     </div>
+
+    {{ partial "pagination.html" . }}
   {{ else }}
     <p class="text-gray-600">No meeting archives have been posted yet. Check back after the next monthly meeting.</p>
   {{ end }}
