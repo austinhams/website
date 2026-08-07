@@ -9,10 +9,20 @@
 - name: "Roy Walker"
   callsign: "WA5YZD"
   role: "Chair"
-  photo: "/img/site/no-photo.png"
+  photo: "/img/people/wa5yzd.jpg"
   bio: "Roy serves as Chair of the Technical Committee."
 
 - name: "Jeff Schmidt"
   callsign: "N5MNW"
-  photo: "/img/people/jeff-2024.jpg"
+  photo: "/img/people/n5mwn.jpg"
   bio: "Jeff is our resident Elmer, and runs the Swapnet Newsletter."
+
+- name: "Chris Kacerguis"
+  callsign: "KJ5DJC"
+  photo: /img/people/kj5djc.png"
+  bio: "Resident AUXCOM, Maintains the website, the club IT infrastured, several repeaters, and is the W5KA trustee"
+
+- name: "Rex Schuler"
+  callsign: "K8REX"
+  photo: "/img/people/k8rex.jpeg"
+  bio: "Resident COM/L, Maintains radio room equipment, the South Austin repeater, and is the W5OEM trustee "

@@ -9,19 +9,19 @@ officers:
   - name: "Chris Kacerguis"
     callsign: "KJ5DJC"
     title: "President"
-    photo: "/img/people/Chris-Kacerguis-300x300-1.png"
+    photo: "/img/people/kj5djcpng"
     email: ""
     bio: ""
 
   - name: "Lew Thompson"
     callsign: "W5IFQ"
     title: "Vice President"
-    photo: "/img/people/Lew-Thompson.jpg"
+    photo: "/img/people/w5ifq.jpg"
 
   - name: "Zoe Downing"
     callsign: "KN6DQD"
     title: "Compliance Officer"
-    photo: "/img/people/1701983252009-1.jpeg"
+    photo: "/img/people/kn6dqd.jpeg"
 
   - name: "Rex Schuler"
     callsign: "K8REX"
