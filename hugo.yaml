@@ -18,6 +18,8 @@ pagination:
 params:
   description: "The oldest ham radio club in the United States — Austin, Texas."
   mailingAddress: "5900 Balcones Drive, Suite 100, Austin, TX 78765"
+  # Formspree form ID — from your form's endpoint https://formspree.io/f/<id>
+  formspreeID: "xyegzqye"
   social:
     linkedin: "https://www.linkedin.com/company/austinhams"
     groupsio: "https://austinhams.groups.io/g/main"
