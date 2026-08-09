@@ -13,4 +13,6 @@ downloads:
   file: FIELD-DAY-2026-results.pdf
 - title: 2026 Field Day Recap - N5MNW
   file: AARC-Field-Day-2026-N5MNW.pdf
+- title: July 2026 Solar Weather
+  file: SOLAR-WEATHER-7-JUL.pdf
 ---
