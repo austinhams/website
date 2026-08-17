@@ -83,6 +83,10 @@ menu:
       url: "/silent-keys/"
       parent: "about"
       weight: 5
+    - name: "Bylaws"
+      url: "/bylaws/"
+      parent: "about"
+      weight: 6
 
     # Membership submenu
     - name: "Join / Renew"
