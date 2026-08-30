@@ -27,3 +27,8 @@ officers:
     callsign: "K8REX"
     title: "Treasurer"
     photo: "/img/people/k8rex.jpeg"
+
+  - name: "HELP WANTED!"
+    callsign: "N0CALL"
+    title: "Member-at-Large"
+    photo: "/img/site/no-photo.png"
