@@ -1,15 +1,25 @@
 {{ define "main" }}
 <section class="bg-gradient-to-br from-blue-700 to-blue-900 text-white">
-  <div class="max-w-6xl mx-auto px-4 py-20 text-center">
-    <p class="uppercase tracking-widest text-sm text-blue-200 mb-3">When all else fails, ham radio works</p>
-    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Over 350 Members Strong</h1>
-    <p class="mt-6 max-w-2xl mx-auto text-lg text-blue-50">
-      Welcome to the Austin Amateur Radio Club &mdash; the oldest ham radio club in the United States (over 110 years old)
-      and an active affiliate of the ARRL.
-    </p>
-    <div class="mt-8 flex flex-wrap justify-center gap-3">
-      <a href="/join/" class="inline-flex items-center px-5 py-2.5 rounded-md bg-white text-blue-800 font-semibold hover:bg-blue-50">Join AARC</a>
-      <a href="/monthly-meetings/" class="inline-flex items-center px-5 py-2.5 rounded-md border border-white/40 text-white hover:bg-white/10">Monthly Meetings</a>
+  <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+    <div class="flex flex-col md:flex-row items-center gap-10 md:gap-14">
+      <div class="shrink-0 bg-white rounded-xl shadow-lg p-5 md:p-6">
+        <img src="/img/site/aarc-logo.png"
+             alt="Austin Amateur Radio Club &mdash; established 1916"
+             width="1116" height="1483"
+             class="w-36 md:w-44 h-auto" />
+      </div>
+      <div class="text-center md:text-left">
+        <p class="uppercase tracking-widest text-sm text-blue-200 mb-3">When all else fails, ham radio works</p>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">Over 350 Members Strong</h1>
+        <p class="mt-6 max-w-2xl text-lg text-blue-50">
+          Welcome to the Austin Amateur Radio Club &mdash; the oldest ham radio club in the United States (over 110 years old)
+          and an active affiliate of the ARRL.
+        </p>
+        <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-3">
+          <a href="/join/" class="inline-flex items-center px-5 py-2.5 rounded-md bg-white text-blue-800 font-semibold hover:bg-blue-50">Join AARC</a>
+          <a href="/monthly-meetings/" class="inline-flex items-center px-5 py-2.5 rounded-md border border-white/40 text-white hover:bg-white/10">Monthly Meetings</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
