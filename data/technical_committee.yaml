@@ -20,9 +20,14 @@
 - name: "Chris Kacerguis"
   callsign: "KJ5DJC"
   photo: "/img/people/kj5djc.png"
-  bio: "Resident AUXCOM, Maintains the website, the club IT infrastured, several repeaters, and is the W5KA trustee"
+  bio: "Resident AUXCOM, Maintains the website, the club IT infrastructure, several repeaters, and is the W5KA trustee"
 
 - name: "Rex Schuler"
   callsign: "K8REX"
   photo: "/img/people/k8rex.jpeg"
-  bio: "Resident COM/L, Maintains radio room equipment, the South Austin repeater, and is the W5OEM trustee "
+  bio: "Resident COM/L, Maintains radio room equipment, the South Austin repeater, and is the W5OEM trustee"
+
+- name: "Rolf Lagerquist"
+  callsign: "AA5RL"
+  photo: "/img/site/no-photo.png"
+  bio: "Maintains the BSW Lakeway Repeater"
