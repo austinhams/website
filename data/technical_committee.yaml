@@ -14,12 +14,12 @@
 
 - name: "Jeff Schmidt"
   callsign: "N5MNW"
-  photo: "/img/people/n5mwn.jpg"
+  photo: "/img/people/n5mnw.jpg"
   bio: "Jeff is our resident Elmer, and runs the Swapnet Newsletter."
 
 - name: "Chris Kacerguis"
   callsign: "KJ5DJC"
-  photo: /img/people/kj5djc.png"
+  photo: "/img/people/kj5djc.png"
   bio: "Resident AUXCOM, Maintains the website, the club IT infrastured, several repeaters, and is the W5KA trustee"
 
 - name: "Rex Schuler"
