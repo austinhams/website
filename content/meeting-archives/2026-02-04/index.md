@@ -6,8 +6,7 @@ type: meeting-archive
 author: Chris, KJ5DJC
 categories:
 - Meeting Archive
-# Cloudflare Stream UID or full iframe src (was YouTube VPFWsDBdIhM)
-stream_id: ""
+stream_id: 43af7b6aaf05707d26cdb6e4872e3c99
 downloads:
 - title: 2026 Feb AARC Meeting
   file: 2026-Feb-AARC-Meeting.pdf

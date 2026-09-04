@@ -6,6 +6,7 @@ type: meeting-archive
 author: Chris, KJ5DJC
 categories:
 - Meeting Archive
+stream_id: a06997499aad967d320e05f114adc870
 downloads:
 - title: 2026 April AARC Meeting
   file: 2026-April-AARC-Meeting.pdf
