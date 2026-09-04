@@ -12,17 +12,12 @@
     </p>
   </header>
 
-  {{ with .Params.youtube_id }}
-    <div class="mb-8 aspect-video w-full overflow-hidden rounded-lg shadow-md bg-black">
-      <iframe
-        class="w-full h-full"
-        src="https://www.youtube-nocookie.com/embed/{{ . }}"
-        title="{{ $.Title }} — meeting video"
-        frameborder="0"
-        loading="lazy"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
+  {{ with .Params.stream_id }}
+    <div class="mb-8">
+      {{ partial "cloudflare-stream.html" (dict
+          "id" .
+          "title" (printf "%s — meeting video" $.Title)
+          "ratio" $.Params.stream_aspect) }}
     </div>
   {{ end }}
 

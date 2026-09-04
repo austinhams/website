@@ -1,0 +1,25 @@
+{{/*
+  Responsive Cloudflare Stream player.
+
+  Call with a dict:
+    id    (required) video UID or full iframe src — see cloudflare-stream-video.html
+    title (optional) accessible title for the player
+    ratio (optional) aspect ratio as a padding-top percentage, e.g. "67.8125".
+                     Falls back to site.Params.cloudflareStream.ratio, then 16:9.
+
+  Renders nothing when the id resolves to no video.
+*/}}
+{{ $ratio := .ratio | default site.Params.cloudflareStream.ratio | default "56.25" }}
+{{ $ratio = strings.TrimSuffix "%" (printf "%v" $ratio) }}
+{{ $title := .title | default "Video" }}
+{{ with partial "cloudflare-stream-video.html" .id }}
+  <div class="relative w-full overflow-hidden rounded-lg bg-black shadow-md" style="padding-top: {{ $ratio }}%;">
+    <iframe
+      class="absolute inset-0 h-full w-full border-0"
+      src="{{ .iframe }}"
+      title="{{ $title }}"
+      loading="lazy"
+      allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+      allowfullscreen="true"></iframe>
+  </div>
+{{ end }}

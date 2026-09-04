@@ -120,7 +120,7 @@ by year and links each one directly to its PDF.
 ## Meeting Archives (data-driven)
 
 The meeting archive section is now powered by `data/meeting_archives.yaml`. Add
-each meeting under `meetings:` with one optional `youtube_id` and one or more
+each meeting under `meetings:` with one optional `stream_id` and one or more
 `downloads`. The `/meeting-archives/` page renders the archive list directly
 from this data file.
 
@@ -134,7 +134,9 @@ meetings:
     author: "AARC"
     presenter: "Jane Doe, K5XYZ"
     summary: "Monthly meeting record with antenna modeling presentation."
-    youtube_id: "dQw4w9WgXcQ"
+    # Cloudflare Stream: the bare video UID, or paste the whole iframe src
+    # from Cloudflare's embed code — both work.
+    stream_id: "86f871fd032d85660f32b0b05ab4bcdd"
     downloads:
       - title: "Slide Deck"
         url: "/pdf/2026-05-monthly-meeting/antenna-modeling.pdf"
@@ -158,12 +160,32 @@ External URLs (e.g. Dropbox, Google Drive) work too and will open in a new tab.
 The meeting archive list page produces, in order:
 
 1. Title, date, presenter
-2. Optional YouTube video link with thumbnail
+2. Optional Cloudflare Stream video with poster thumbnail
 3. Meeting summary
 4. A downloads section with one or more files
 
-Only `youtube_id` and at least one `downloads` entry are needed for the
+Only `stream_id` and at least one `downloads` entry are needed for the
 template to look complete.
+
+### Meeting video (Cloudflare Stream)
+
+Meeting recordings are hosted on Cloudflare Stream. In the Stream dashboard,
+copy the embed code for the video and take the `src` URL:
+
+```
+https://customer-fes2p4q8jyngzarn.cloudflarestream.com/86f871fd032d85660f32b0b05ab4bcdd/iframe?poster=...
+```
+
+Put either the whole URL or just the video UID
+(`86f871fd032d85660f32b0b05ab4bcdd`) in `stream_id`. The customer subdomain and
+the default player aspect ratio live in `hugo.yaml` under
+`params.cloudflareStream`; a single meeting can override the ratio with
+`stream_aspect: "56.25"` in its front matter.
+
+Both the player ([layouts/partials/cloudflare-stream.html](layouts/partials/cloudflare-stream.html))
+and the list-page poster image are built by
+[layouts/partials/cloudflare-stream-video.html](layouts/partials/cloudflare-stream-video.html),
+so there is one place to change if the URL shape ever moves.
 
 ## Known limitations / next steps
 

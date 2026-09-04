@@ -24,9 +24,9 @@
         <article class="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm">
           <div class="grid gap-6 md:grid-cols-[1.6fr_2.4fr]">
             <div class="relative bg-gray-900">
-              {{ with $meeting.Params.youtube_id }}
-                <a href="https://youtu.be/{{ . }}" target="_blank" rel="noopener" class="absolute inset-0">
-                  <img src="https://i.ytimg.com/vi/{{ . }}/hqdefault.jpg" alt="YouTube thumbnail for {{ $meeting.Title }}" loading="lazy" class="h-full w-full object-cover" />
+              {{ with partial "cloudflare-stream-video.html" $meeting.Params.stream_id }}
+                <a href="{{ $meeting.RelPermalink }}" class="absolute inset-0">
+                  <img src="{{ .poster }}" alt="Video thumbnail for {{ $meeting.Title }}" loading="lazy" class="h-full w-full object-cover" />
                   <span class="absolute inset-0 bg-black/25"></span>
                   <span class="absolute left-6 bottom-6 inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-900" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>

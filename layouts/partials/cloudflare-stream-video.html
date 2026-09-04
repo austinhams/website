@@ -1,0 +1,40 @@
+{{/*
+  Resolves a Cloudflare Stream reference into the URLs the templates need.
+
+  Input (the partial's context): either the bare video UID
+  ("86f871fd032d85660f32b0b05ab4bcdd") or the full iframe src Cloudflare hands
+  you in its embed snippet — the UID and customer subdomain are pulled out of it.
+
+  The customer subdomain defaults to site.Params.cloudflareStream.customer.
+
+  Returns a dict with: uid, host, iframe (player src), poster (thumbnail JPG),
+  or an empty string when there is no video to show.
+*/}}
+{{ $raw := "" }}
+{{ with . }}{{ $raw = trim (printf "%v" .) " " }}{{ end }}
+
+{{ $host := site.Params.cloudflareStream.customer }}
+{{ $uid := "" }}
+
+{{ if $raw }}
+  {{ if hasPrefix $raw "http" }}
+    {{ $u := urls.Parse $raw }}
+    {{ $host = $u.Host }}
+    {{ $uid = index (split (strings.TrimPrefix "/" $u.Path) "/") 0 }}
+  {{ else }}
+    {{ $uid = $raw }}
+  {{ end }}
+{{ end }}
+
+{{ $out := "" }}
+{{ if and $host $uid }}
+  {{ $base := printf "https://%s/%s" $host $uid }}
+  {{ $poster := printf "%s/thumbnails/thumbnail.jpg?time=&height=600" $base }}
+  {{ $out = dict
+      "uid" $uid
+      "host" $host
+      "iframe" (printf "%s/iframe?%s" $base (querify "poster" $poster))
+      "poster" $poster
+  }}
+{{ end }}
+{{ return $out }}
