@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
+  <meta name="google-adsense-account" content="ca-pub-6931940177218032">
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ "/index.xml" | absURL }}" />
   <script defer src="https://cloud.umami.is/script.js" data-website-id="b8e7fae3-f984-46fa-8886-cfe3cca411e4"></script>
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
