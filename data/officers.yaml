@@ -16,17 +16,17 @@ officers:
   - name: "Lew Thompson"
     callsign: "W5IFQ"
     title: "Vice President"
-    photo: "/img/people/w5ifq.jpg"
+    photo: "/img/people/w5ifq.png"
 
   - name: "Zoe Downing"
     callsign: "KN6DQD"
     title: "Compliance Officer"
-    photo: "/img/people/kn6dqd.jpeg"
+    photo: "/img/people/kn6dqd.png"
 
   - name: "Rex Schuler"
     callsign: "K8REX"
     title: "Treasurer"
-    photo: "/img/people/k8rex.jpeg"
+    photo: "/img/people/k8rex.png"
 
   - name: "HELP WANTED!"
     callsign: "N0CALL"
