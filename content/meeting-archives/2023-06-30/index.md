@@ -13,8 +13,6 @@ downloads:
   file: FIELD-DAY-HF-INTRO-2023.pdf
 - title: AARC Field Day 2023 VHF UHF N5MNW pdf
   file: AARC-Field-Day-2023-VHF-UHF-N5MNW_pdf.pdf
-- title: TCARES Trailer Presentation 20230606
-  file: TCARES-Trailer-Presentation-20230606.pdf
 - title: Solar 6 JUN 2023
   file: Solar-6-JUN-2023.pdf
 ---

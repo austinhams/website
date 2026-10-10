@@ -11,6 +11,4 @@ downloads:
   file: AARC-2024-November-Meeting-on-Zoom.pdf
 - title: Solar 5 NOV 2024
   file: Solar-5-NOV-2024.pdf
-- title: TCARES Deploying ECT 2024 11 05
-  file: TCARES_Deploying_ECT_2024-11-05.pdf
 ---

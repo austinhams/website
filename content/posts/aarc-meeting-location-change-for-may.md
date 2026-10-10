@@ -7,4 +7,4 @@ draft: false
 categories:
   - "Uncategorized"
 ---
-The Austin Amateur Radio Club monthly meeting for May will be held at the American Red Cross facility at 2218 Pershing Drive, Austin Texas 78723. [Click here](https://goo.gl/maps/uQuz3QRBfew) for a Google map of the meeting. The meeting will be held Tuesday, May 1st at the normal time of 7:00pm. Meeting topic is a show-and-tell of the TC-ARES Communications trailer. All are invited to attend.
+The Austin Amateur Radio Club monthly meeting for May will be held at the American Red Cross facility at 2218 Pershing Drive, Austin Texas 78723. [Click here](https://goo.gl/maps/uQuz3QRBfew) for a Google map of the meeting. The meeting will be held Tuesday, May 1st at the normal time of 7:00pm. Meeting topic is a show-and-tell of the Emergency Communications Trailer. All are invited to attend.

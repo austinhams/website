@@ -15,6 +15,4 @@ downloads:
   file: FIELD-DAY-HF-ANTENNAS-2022.pdf
 - title: AARC Field Day 2022 VHF UHF N5MNW pdf
   file: AARC-Field-Day-2022-VHF-UHF-N5MNW_pdf.pdf
-- title: TCARES Trailer Presentation 20220607
-  file: TCARES-Trailer-Presentation-20220607.pdf
 ---

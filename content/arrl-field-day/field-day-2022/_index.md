@@ -40,5 +40,4 @@ Please contact us at [FieldDay@austinhams.org](mailto:FieldDay@austinhams.org) f
 
 -   **[Field Day 2022 — High Frequency (HF) Antennas](/pdf/field-day-2022/FIELD-DAY-HF-ANTENNAS-2022.pdf) by [Lew Thompson, W5IFQ](/ham-of-the-year/lew-thompson-w5ifq/)**
 -   **[Field Day 2022 — UHF/VHF Antennas](/pdf/field-day-2022/AARC-Field-Day-2022-VHF-UHF-N5MNW_pdf.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
--   **[Field Day 2022 — Travis County Amateur Radio Emergency Service (TCARES) Trailer](/pdf/field-day-2022/TCARES-Trailer-Presentation-20220607.pdf) by Robert “Rex” Schuller, K8REX**
 -   **[Get-On-The-Air (GOTA) Station](/pdf/field-day-2022/k5lbj_gota_station_2022.pdf) by [Ronny Risinger, KC5EES](https://www.lasahighschool.org/school/faculty-staff/meet-our-faculty/ss-team#h.60dpgo9thl05)**

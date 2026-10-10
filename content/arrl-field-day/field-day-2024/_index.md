@@ -39,9 +39,7 @@ For organizational purposes on the grounds of the Red Cross there are three Capt
 
 We have access to Building A (Radio Room), Building B (Classrooms A & B) and the parking lot. Our Emergency Communications (EMCOMM) trailer will be in the Red Cross parking lot.
 
-This year there are three Captains:
-
-• **Glenn Meter, W5MTR**, in the EmComm trailer for High Frequency (HF).  Contact: glenn@ [at] glennmeter.net
+This years captians are:
 
 • **Lew Thompson, W5IFQ,** in Building B, for Continuous Wave (CW), i.e. Morse Code and HF.  Contact: W5IFQ [at] att.net
 
@@ -51,7 +49,6 @@ For more detail about what’s planned for Field Day, please check the Field Day
 
 -   **[Field Day 2024 — High Frequency (HF) Antennas](/pdf/field-day-2024/FIELD-DAY-2024.pdf) by [Lew Thompson, W5IFQ](/ham-of-the-year/lew-thompson-w5ifq/)**
 -   **[Field Day 2024 — UHF/VHF Antennas](/pdf/field-day-2024/AARC-Field-Day-2024-VHF-UHF-N5MNW_pptx.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
--   **Field Day 2024 — Travis County Amateur Radio Emergency Service (TCARES) Trailer by Glenn Meter, W5MTR**
 
 **Prior Field Day Links**
 
