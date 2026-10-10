@@ -12,6 +12,5 @@ opens that item's record in the club's [equipment inventory](https://gear.austin
 
 If you scanned a tag and landed here, the QR code may be damaged or the tag
 number may not be registered yet. You can browse the full inventory or
-check out equipment at
-[gear.austinhams.org](https://gear.austinhams.org/), or
+check out equipment at [gear.austinhams.org](https://gear.austinhams.org/), or
 [get in touch](/contact/) and we'll sort it out.
