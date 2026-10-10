@@ -24,10 +24,12 @@ honorees:
 
   - name: "Ernesto Raices"
     callsign: "KI5PZN"
+    photo: "/img/people/KI5PZN.jpg"
     years: [2024]
 
   - name: "Mark Jenkins"
     callsign: "W5MPJ"
+    photo: "/img/people/W5MPJ.jpg"
     years: [2023]
 
   - name: "Joe Fisher (sk)"
@@ -43,6 +45,7 @@ honorees:
 
   - name: "Michael Marks"
     callsign: "KG5RXG"
+    photo: "/img/people/KG5RXG.jpg"
     years: [2020]
 
   - name: "Lori Schmidt"
@@ -87,8 +90,9 @@ honorees:
   #   photo: "/img/people/wa5yzd.jpg"
   #   years: [2021, 2011]
 
-  - name: "John Straton"
+  - name: "John Stratton"
     callsign: "N5AUS"
+    photo: "/img/people/N5AUS.jpg"
     years: [2010]
 
   - name: "Jay Hoffman (sk)"
