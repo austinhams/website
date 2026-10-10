@@ -49,7 +49,7 @@ This year there are three Captains:
 
 For more detail about what’s planned for Field Day, please check the Field Day 2024 planning documents created by the various [Captains](/#Captains) of the AARC Field Day team, as presented to the club membership at our June 4, 2024 meeting:
 
--   **[Field Day 2024 — High Frequency (HF) Antennas](/pdf/field-day-2024/FIELD-DAY-2024.pdf) by [Lew Thompson, W5IFQ](/staff-member/lew-thompson-w5ifq/)**
+-   **[Field Day 2024 — High Frequency (HF) Antennas](/pdf/field-day-2024/FIELD-DAY-2024.pdf) by [Lew Thompson, W5IFQ](/ham-of-the-year/lew-thompson-w5ifq/)**
 -   **[Field Day 2024 — UHF/VHF Antennas](/pdf/field-day-2024/AARC-Field-Day-2024-VHF-UHF-N5MNW_pptx.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
 -   **Field Day 2024 — Travis County Amateur Radio Emergency Service (TCARES) Trailer by Glenn Meter, W5MTR**
 

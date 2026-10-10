@@ -13,3 +13,15 @@
 
 # Ham of the Month was retired in favor of Ham of the Year only.
 /ham-of-the-month/  /ham-of-the-year/  301
+
+# Legacy WordPress staff bios now live under Ham of the Year
+# (data/ham_of_the_year.yaml).
+/staff-member/ernesto-raices-ki5pzn/  /ham-of-the-year/ernesto-raices-ki5pzn/  301
+/staff-member/jay-hoffman-ka5ost/     /ham-of-the-year/jay-hoffman-ka5ost/     301
+/staff-member/jeff-schmidt-n5mnw/     /ham-of-the-year/jeff-schmidt-n5mnw/     301
+/staff-member/joe-canfield-n5hpc/     /ham-of-the-year/joe-canfield-n5hpc/     301
+/staff-member/joe-fisher-k5ejl/       /ham-of-the-year/joe-fisher-k5ejl/       301
+/staff-member/john-straton-n5aus/     /ham-of-the-year/john-straton-n5aus/     301
+/staff-member/lew-thompson-w5ifq/     /ham-of-the-year/lew-thompson-w5ifq/     301
+/staff-member/lori-schmidt-km5mq/     /ham-of-the-year/lori-schmidt-km5mq/     301
+/staff-member/mark-jenkins-w5mpj/     /ham-of-the-year/mark-jenkins-w5mpj/     301

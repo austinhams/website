@@ -1,0 +1,68 @@
+{{ define "main" }}
+<section class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white overflow-hidden">
+  <div class="relative max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
+    <p class="uppercase tracking-[0.2em] text-blue-200 text-xs md:text-sm">Member Recognition</p>
+    <h1 class="mt-3 text-4xl md:text-6xl font-bold leading-tight">{{ .Title }}</h1>
+    <p class="mt-6 text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+      Honoring AARC members whose dedication and service have made a lasting impact on the amateur radio community.
+    </p>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+  <div class="space-y-5 text-gray-700 leading-relaxed text-[1.05rem]">
+    <p>
+      Each year, the Austin Amateur Radio Club presents the <strong>Ham of the Year Award</strong> to an
+      individual whose exceptional dedication, service, and spirit have made a lasting impact on the amateur
+      radio community. The award recognizes contributions that go above and beyond in advancing the hobby,
+      supporting club activities, promoting emergency preparedness, and strengthening our shared mission as
+      amateur radio operators.
+    </p>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 pb-12 md:pb-16">
+  <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Honorees</h2>
+
+  {{ $honorees := sort .Pages "Params.order" }}
+  {{ if $honorees }}
+    <ul class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {{ range $honorees }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="group h-full bg-white border border-gray-200 rounded-lg shadow-sm p-5 flex flex-col items-center text-center hover:border-blue-300 hover:shadow-md transition">
+            {{ partial "honoree-photo.html" (dict "photo" .Params.photo "name" .Params.name "size" "sm") }}
+            {{ with .Params.years }}
+              <p class="mt-4 text-xs uppercase tracking-wide text-blue-700 font-semibold">{{ delimit . ", " }}</p>
+            {{ end }}
+            <h3 class="mt-1 text-lg font-bold text-gray-900 group-hover:text-blue-700">{{ .Params.name }}</h3>
+            {{ with .Params.callsign }}<p class="mt-0.5 text-sm font-mono text-gray-600">{{ . }}</p>{{ end }}
+            {{ with .Params.citation }}<p class="mt-3 text-sm text-gray-700 leading-relaxed">{{ . }}</p>{{ end }}
+            <span class="mt-auto pt-4 text-sm text-blue-700 font-semibold">Read bio &rarr;</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <p class="mt-4 text-gray-600">Honoree information coming soon. Edit <code>data/ham_of_the_year.yaml</code> to add entries.</p>
+  {{ end }}
+</section>
+
+<section class="max-w-6xl mx-auto px-4 pb-16">
+  <div class="bg-white rounded-xl border border-gray-200 p-6 md:p-8 shadow-sm">
+    <h2 class="text-xl md:text-2xl font-bold text-gray-900">Nominate a Ham</h2>
+    <p class="mt-3 text-gray-700 leading-relaxed">
+      Do you know someone whose leadership, commitment, or technical expertise truly stands out? Someone who
+      exemplifies what amateur radio is all about and has made a significant difference to the club or the wider
+      community? Nominate them for the AARC Ham of the Year Award, and include a description of why you believe
+      they deserve this recognition.
+    </p>
+    <div class="mt-5">
+      <a href="mailto:president@austinhams.org?subject=Ham%20of%20the%20Year%20Nomination"
+         class="inline-flex items-center px-5 py-3 rounded-lg bg-blue-700 text-white font-semibold hover:bg-blue-800">
+        Send a nomination &rarr;
+      </a>
+      <p class="mt-2 text-sm text-gray-500">Email: <code class="font-mono">president@austinhams.org</code></p>
+    </div>
+  </div>
+</section>
+{{ end }}

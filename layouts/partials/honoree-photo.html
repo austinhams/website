@@ -1,0 +1,12 @@
+{{/* Round headshot for a Ham of the Year honoree.
+     Context: dict "photo" "name" "size" ("sm" for cards, "lg" for the bio page). */}}
+{{ $box := cond (eq .size "lg") "w-[200px] h-[200px]" "w-[150px] h-[150px]" }}
+<div class="{{ $box }} flex-shrink-0 rounded-full bg-gray-100 overflow-hidden flex items-center justify-center ring-4 ring-white shadow">
+  {{ if .photo }}
+    <img src="{{ .photo }}" alt="{{ .name }}" width="400" height="400" class="w-full h-full object-cover" />
+  {{ else }}
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+    </svg>
+  {{ end }}
+</div>

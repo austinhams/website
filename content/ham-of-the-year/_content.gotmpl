@@ -1,0 +1,21 @@
+{{/* Generates one bio page per honoree in data/ham_of_the_year.yaml. */}}
+{{ range $i, $h := hugo.Data.ham_of_the_year.honorees }}
+  {{ $slug := $h.slug | default (printf "%s %s" $h.name ($h.callsign | default "") | urlize) }}
+  {{ $title := $h.name }}
+  {{ with $h.callsign }}{{ $title = printf "%s, %s" $title . }}{{ end }}
+  {{ $.AddPage (dict
+    "path" $slug
+    "title" $title
+    "kind" "page"
+    "params" (dict
+      "order" $i
+      "name" $h.name
+      "callsign" $h.callsign
+      "photo" $h.photo
+      "years" $h.years
+      "citation" $h.citation
+      "description" (printf "%s, AARC Ham of the Year honoree." $title)
+    )
+    "content" (dict "mediaType" "text/markdown" "value" ($h.bio | default ""))
+  ) }}
+{{ end }}

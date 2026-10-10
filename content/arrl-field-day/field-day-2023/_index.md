@@ -49,7 +49,7 @@ This year there are three Captains:
 
 For more detail about what’s planned for Field Day, please check the Field Day 2023 planning documents created by the various [Captains](/#Captains) of the AARC Field Day team, as presented to the club membership at our June 6, 2023 meeting:
 
--   **[Field Day 2023 — High Frequency (HF) Antennas](/pdf/field-day-2023/FIELD-DAY-HF-INTRO-2023.pdf) by [Lew Thompson, W5IFQ](/staff-member/lew-thompson-w5ifq/)**
+-   **[Field Day 2023 — High Frequency (HF) Antennas](/pdf/field-day-2023/FIELD-DAY-HF-INTRO-2023.pdf) by [Lew Thompson, W5IFQ](/ham-of-the-year/lew-thompson-w5ifq/)**
 -   **[Field Day 2023 — UHF/VHF Antennas](/pdf/field-day-2023/AARC-Field-Day-2023-VHF-UHF-N5MNW_pdf.pdf) by [Jeff Schmidt, N5MNW](https://www.linkedin.com/in/jeff-schmidt-a376424/)**
 -   **[Field Day 2023 — Travis County Amateur Radio Emergency Service (TCARES) Trailer](/pdf/field-day-2023/TCARES-Trailer-Presentation-20230606.pdf) by [Robert “Rex” Schiller, K8REX](/staff-member/robert-rex-schuller-k8rex/)**
 

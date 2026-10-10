@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="max-w-4xl mx-auto px-4 py-10 md:py-14">
+  <a href="{{ .Parent.RelPermalink }}" class="text-sm text-blue-700 font-semibold hover:text-blue-900">&larr; All Ham of the Year honorees</a>
+
+  <header class="mt-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 md:gap-8 text-center sm:text-left">
+    {{ partial "honoree-photo.html" (dict "photo" .Params.photo "name" .Params.name "size" "lg") }}
+    <div class="sm:pt-4">
+      <p class="text-xs uppercase tracking-wider text-blue-700 font-semibold">
+        AARC Ham of the Year{{ with .Params.years }} &middot; {{ delimit . ", " }}{{ end }}
+      </p>
+      <h1 class="mt-2 text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{{ .Params.name }}</h1>
+      {{ with .Params.callsign }}<p class="mt-1 text-lg font-mono text-gray-600">{{ . }}</p>{{ end }}
+      {{ with .Params.citation }}<p class="mt-4 text-lg text-gray-700 italic">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+
+  <div class="mt-10 prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-blue-700">
+    {{ with .Content }}
+      {{ . }}
+    {{ else }}
+      <p class="text-gray-500">A full bio is coming soon.</p>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

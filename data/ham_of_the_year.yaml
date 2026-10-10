@@ -1,0 +1,114 @@
+# Edit this file to update the Ham of the Year page.
+# Each entry shows up as a card on /ham-of-the-year/ and gets its own bio
+# page at /ham-of-the-year/<slug>/. Order here = order on the page.
+#
+# Required: name
+# Optional:
+#   callsign  e.g. "K5EJL"
+#   slug      URL for the bio page. Defaults to name + callsign,
+#             e.g. "Joe Fisher" + "K5EJL" -> joe-fisher-k5ejl
+#   photo     absolute URL or site-relative path like /img/people/k5ejl.jpg
+#   years     list of years the award was presented, e.g. [2019, 2023]
+#   citation  one-line reason for the award, shown on the card and bio page
+#   bio       Markdown, as long as you like. Use "|" for multiple paragraphs:
+#               bio: |
+#                 First paragraph.
+#
+#                 Second paragraph.
+
+honorees:
+
+  - name: "Neal Obert"
+    callsign: "N3BYW"
+    years: [2025]
+
+  - name: "Ernesto Raices"
+    callsign: "KI5PZN"
+    years: [2024]
+
+  - name: "Mark Jenkins"
+    callsign: "W5MPJ"
+    years: [2023]
+
+  - name: "Joe Fisher (sk)"
+    callsign: "K5EJL"
+    slug: "joe-fisher-k5ejl"
+    photo: "/img/people/k5ejl.jpg"
+    years: [2022, 2014]
+
+  - name: "Roy Walker"
+    callsign: "WA5YZD"
+    photo: "/img/people/wa5yzd.jpg"
+    years: [2021, 2011]
+
+  - name: "Michael Marks"
+    callsign: "KG5RXG"
+    years: [2020]
+
+  - name: "Lori Schmidt"
+    callsign: "KM5MQ"
+    years: [2019]
+
+  # - name: "Unknown"
+  #   callsign: "N0CALL"
+  #   years: [2018]
+
+  # - name: "Unknown"
+  #   callsign: "N0CALL"
+  #   years: [2017]
+
+  # - name: "Unknown"
+  #   callsign: "N0CALL"
+  #   years: [2016]
+
+  # - name: "Unknown"
+  #   callsign: "N0CALL"
+  #   years: [2015]
+
+  # - name: "Joe Fisher (sk)"
+  #   callsign: "K5EJL"
+  #   photo: "/img/people/k5ejl.jpg"
+  #   years: [2022, 2014]
+
+  - name: "Rick Kirchhof"
+    callsign: "NG5V"
+    years: [2013]
+
+  # I'm leaving this person so folks know he is omitted.
+  # Dallas is a convicted sex offender, and should have 
+  # NEVER been allowed in the club.  Do not re-add this
+  # chomo!
+  # - name: "Dallas Mellichamp"
+  #   callsign: "KD4HNX"
+  #   years: [2012]
+
+  # - name: "Roy Walker"
+  #   callsign: "WA5YZD"
+  #   photo: "/img/people/wa5yzd.jpg"
+  #   years: [2021, 2011]
+
+  - name: "John Straton"
+    callsign: "N5AUS"
+    years: [2010]
+
+  - name: "Jay Hoffman (sk)"
+    callsign: "KA5OST"
+    slug: "jay-hoffman-ka5ost"
+    photo: "/img/people/ka5ost.jpg"
+    years: [2009]
+
+  - name: "Joe Canfield"
+    callsign: "N5HPC"
+    years: [2008]
+
+  - name: "Lewis Thompson"
+    callsign: "W5IFQ"
+    slug: "lew-thompson-w5ifq"
+    photo: "/img/people/w5ifq.png"
+    years: [2007]
+
+  - name: "Jeff Schmidt"
+    callsign: "N5MNW"
+    photo: "/img/people/n5mnw.jpg"
+    years: [2006]
+
