@@ -104,18 +104,22 @@ menu:
       url: "/monthly-meetings/"
       parent: "membership"
       weight: 2
+    - name: "Meeting Archive"
+      url: "/meeting-archives/"
+      parent: "membership"
+      weight: 3
     - name: "Member Benefits"
       url: "/benefits/"
       parent: "membership"
-      weight: 3
+      weight: 4
     - name: "Ham of the Month"
       url: "/ham-of-the-month/"
       parent: "membership"
-      weight: 4
+      weight: 5
     - name: "Scholarships"
       url: "/scholarships/"
       parent: "membership"
-      weight: 5
+      weight: 6
 
     # Operating submenu
     - name: "Repeaters"
