@@ -10,3 +10,6 @@
 # data-driven page (/aarcover-archive/).
 /categories/aarcover-archive/  /aarcover-archive/  301
 /aarcover-newsletter-*         /aarcover-archive/  301
+
+# Ham of the Month was retired in favor of Ham of the Year only.
+/ham-of-the-month/  /ham-of-the-year/  301

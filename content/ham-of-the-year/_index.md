@@ -7,7 +7,7 @@ draft: false
 type: "page"
 ---
 
-# Ham of the Month
+# Ham of the Year
 
 Each year, the Austin Amateur Radio Club (AARC) presents the **Ham of the Year Award** to an individual whose exceptional dedication, service, and spirit have made a lasting impact on the amateur radio community. This honor recognizes outstanding contributions that go above and beyond in advancing the hobby, supporting club activities, promoting emergency preparedness, and strengthening our shared mission as amateur radio operators.
 

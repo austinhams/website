@@ -112,8 +112,8 @@ menu:
       url: "/benefits/"
       parent: "membership"
       weight: 4
-    - name: "Ham of the Month"
-      url: "/ham-of-the-month/"
+    - name: "Ham of the Year"
+      url: "/ham-of-the-year/"
       parent: "membership"
       weight: 5
     - name: "Scholarships"
