@@ -16,7 +16,7 @@ pagination:
   pagerSize: 20
 
 params:
-  description: "The oldest ham radio club in the United States — Austin, Texas."
+  description: "The oldest ham radio club in the United States (100+ Years) — Austin, Texas."
   mailingAddress: "12407 N MoPac Expressway, Suite 250-383 Austin, TX 78758"
   # Cloudflare Stream: the customer subdomain from the embed code
   # (https://<customer>.cloudflarestream.com/<video-uid>/iframe).
