@@ -1,0 +1,129 @@
+{{ define "main" }}
+<section class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white overflow-hidden">
+  <div class="relative max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
+    <p class="uppercase tracking-[0.2em] text-blue-200 text-xs md:text-sm">Media Kit</p>
+    <h1 class="mt-3 text-4xl md:text-6xl font-bold leading-tight">Media &amp; Logos</h1>
+    <p class="mt-6 text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+      Official Austin Amateur Radio Club logos for press, partners, event organizers, and members.
+      Please review the usage guidelines below before using them.
+    </p>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+  <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center">Logo files</h2>
+  <p class="mt-4 text-gray-700 text-center max-w-2xl mx-auto">
+    High-resolution PNGs with transparent backgrounds. Pick the version that contrasts best with
+    where it will appear.
+  </p>
+
+  <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {{ range hugo.Data.logos.variants }}
+    <div class="flex flex-col bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+      <div class="flex items-center justify-center h-56 p-6 {{ if .dark }}bg-[#313164]{{ else }}bg-gray-50{{ end }}">
+        <img src="{{ .file }}" alt="AARC logo, {{ lower .name }} version" class="max-h-full w-auto" loading="lazy">
+      </div>
+      <div class="flex flex-col flex-1 p-5">
+        <h3 class="font-bold text-gray-900">{{ .name }}</h3>
+        <p class="mt-2 flex-1 text-sm text-gray-700 leading-relaxed">{{ .use }}</p>
+        <a href="{{ .file }}" download="{{ .download }}" class="mt-4 inline-flex items-center justify-center px-4 py-2 rounded-lg bg-blue-700 text-white text-sm font-semibold hover:bg-blue-800">
+          Download PNG
+        </a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="mt-12 bg-white rounded-xl border border-gray-200 p-6 md:p-8 shadow-sm">
+    <h3 class="text-xl font-bold text-gray-900">Vector files</h3>
+    <p class="mt-2 text-gray-700">
+      The full-color logo in scalable formats. Send these to print shops, sign makers, and embroidery
+      vendors &mdash; they scale to any size without losing quality.
+    </p>
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {{ range hugo.Data.logos.vector }}
+      <a href="{{ .file }}" download="{{ .download }}" class="block rounded-lg border border-gray-200 p-4 hover:border-blue-400 hover:bg-blue-50 transition">
+        <span class="block text-lg font-bold text-blue-800">{{ .format }}</span>
+        <span class="block mt-1 text-sm text-gray-700">{{ .use }}</span>
+        <span class="block mt-2 text-xs text-gray-500">{{ .size }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bg-gray-50 border-y border-gray-200">
+  <div class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center">Brand colors</h2>
+    <div class="mt-8 grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+      {{ range hugo.Data.logos.colors }}
+      <div class="flex items-center gap-4 bg-white rounded-xl border border-gray-200 p-4 shadow-sm">
+        <span class="flex-shrink-0 w-16 h-16 rounded-lg" style="background-color: {{ .hex | safeCSS }}"></span>
+        <div>
+          <p class="font-bold text-gray-900">{{ .name }}</p>
+          <p class="mt-1 text-sm text-gray-700">HEX <span class="font-mono">{{ .hex }}</span></p>
+          <p class="text-sm text-gray-700">RGB <span class="font-mono">{{ .rgb }}</span></p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+  <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center">Usage guidelines</h2>
+  <p class="mt-4 text-gray-700 text-center max-w-2xl mx-auto">
+    You're welcome to use our logo to refer to the Austin Amateur Radio Club &mdash; in news
+    coverage, on event materials, or to link to us. Following these guidelines keeps it looking
+    right everywhere it appears.
+  </p>
+
+  <div class="mt-10 grid md:grid-cols-2 gap-6">
+    <div class="bg-white rounded-xl border border-gray-200 border-t-4 border-t-green-600 p-6 shadow-sm">
+      <h3 class="text-lg font-bold text-gray-900">Do</h3>
+      <ul class="mt-4 space-y-3 text-gray-700 leading-relaxed list-disc pl-5">
+        <li>Use the original files from this page.</li>
+        <li>Use the full-color logo on light backgrounds and the reversed or white logo on dark backgrounds.</li>
+        <li>Use the black or white logo when printing in a single color.</li>
+        <li>Scale the logo proportionally so it keeps its original shape.</li>
+        <li>Leave clear space around the logo at least equal to the height of the &ldquo;Est. 1916&rdquo; text.</li>
+        <li>Keep the logo at least 1 inch (or 100 pixels) wide so &ldquo;Austin Amateur Radio Club&rdquo; stays legible.</li>
+      </ul>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 border-t-4 border-t-red-600 p-6 shadow-sm">
+      <h3 class="text-lg font-bold text-gray-900">Don't</h3>
+      <ul class="mt-4 space-y-3 text-gray-700 leading-relaxed list-disc pl-5">
+        <li>Stretch, squash, rotate, or crop the logo.</li>
+        <li>Change its colors or substitute other colors.</li>
+        <li>Add effects such as drop shadows, outlines, glows, or gradients.</li>
+        <li>Rearrange, remove, or redraw any part of the logo.</li>
+        <li>Place it on busy backgrounds or photos where it's hard to read.</li>
+        <li>Combine it with other logos or text to create a new mark.</li>
+        <li>Use it in a way that implies AARC sponsors or endorses a product, service, event, or organization without our written permission.</li>
+        <li>Use it on merchandise or anything offered for sale without our written permission.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-10 bg-amber-50 border-l-4 border-amber-500 rounded-r-lg p-5 text-sm text-amber-900 leading-relaxed">
+    <strong>Copyright notice:</strong> The Austin Amateur Radio Club name and logo are
+    &copy; {{ now.Format "2006" }} Austin Amateur Radio Club. All rights reserved. Making them
+    available here does not transfer ownership or grant any license beyond the uses described
+    above. AARC may ask that use of its logo be changed or stopped at any time.
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 pb-12 md:pb-16">
+  <div class="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-2xl p-8 md:p-10 shadow-md text-center">
+    <h2 class="text-2xl md:text-3xl font-bold">Need something else?</h2>
+    <p class="mt-3 text-blue-100 text-lg max-w-2xl mx-auto">
+      For permission requests, a different file format, or press inquiries, get in touch.
+    </p>
+    <div class="mt-6">
+      <a href="/contact/" class="inline-flex items-center px-6 py-3 rounded-lg bg-white text-blue-800 font-semibold hover:bg-blue-50">
+        Contact us &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+{{ end }}

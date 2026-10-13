@@ -1,0 +1,53 @@
+# Logo variants shown on /media/. Files live in static/img/logos/.
+# `dark: true` previews the logo on a dark background (for white/reversed artwork).
+variants:
+  - name: "Full Color"
+    file: "/img/logos/png/AARC-2-1.png"
+    download: "AARC-logo-full-color.png"
+    dark: false
+    use: "The primary logo. Use it on white or light backgrounds whenever possible."
+  - name: "Reversed Color"
+    file: "/img/logos/png/AARC-2-2.png"
+    download: "AARC-logo-reversed-color.png"
+    dark: true
+    use: "For dark backgrounds, including our navy. White artwork with the orange accents."
+  - name: "Black"
+    file: "/img/logos/png/AARC-2-3.png"
+    download: "AARC-logo-black.png"
+    dark: false
+    use: "For one-color printing, faxes, engraving, or anywhere color isn't available."
+  - name: "White"
+    file: "/img/logos/png/AARC-2-4.png"
+    download: "AARC-logo-white.png"
+    dark: true
+    use: "For one-color use on dark backgrounds or photographs with enough contrast."
+
+vector:
+  - format: "SVG"
+    file: "/img/logos/vector/AARC-2.svg"
+    download: "AARC-logo.svg"
+    size: "72 KB"
+    use: "Websites and apps"
+  - format: "PDF"
+    file: "/img/logos/vector/AARC-2.pdf"
+    download: "AARC-logo.pdf"
+    size: "331 KB"
+    use: "Print shops and documents"
+  - format: "EPS"
+    file: "/img/logos/vector/AARC-2.eps"
+    download: "AARC-logo.eps"
+    size: "6.1 MB"
+    use: "Sign, banner, and embroidery vendors"
+  - format: "AI"
+    file: "/img/logos/vector/AARC-2.ai"
+    download: "AARC-logo.ai"
+    size: "334 KB"
+    use: "Adobe Illustrator source"
+
+colors:
+  - name: "AARC Navy"
+    hex: "#313164"
+    rgb: "49, 49, 100"
+  - name: "AARC Orange"
+    hex: "#C16435"
+    rgb: "193, 100, 53"
