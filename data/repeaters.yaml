@@ -12,7 +12,7 @@
 
 repeaters:
 
-  - frequency: "146.360"
+  - frequency: "147.360"
     offset: "+"
     tone: "131.8"
     mode: "FM"
