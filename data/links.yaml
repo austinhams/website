@@ -28,8 +28,8 @@
   description: "Decoders, modeling tools, and ham radio suites."
   items:
     - title: "CW Skimmer"
-      url: "http://www.dxatlas.com/cwskimmer/"
-      description: "Multi-channel CW decoder and analyzer (mentioned on Elmer Net)."
+      url: "https://winlink.org"
+      description: "Winlink for sending email via radio"
     - title: "EZNEC Antenna Modeling"
       url: "https://www.eznec.com/"
     - title: "DXLab Suite"
@@ -87,24 +87,3 @@
     - title: "RadioQTH Exams"
       url: "http://www.radioqth.net/exams"
       description: "Free. Registration required for exams; study mode is open. All levels."
-
-- category: "Submitted by Our Readers and Friends of AARC"
-  description: |
-    Submitted by readers and friends of AARC. Not all are technical in nature, but
-    all are germane to the field or spirit of Amateur Radio.
-  items:
-    - title: "All About Circuits"
-      url: "https://www.allaboutcircuits.com/"
-      description: "An active open electrical-engineering community with useful resources for hams &mdash; especially the Education and Tools sections."
-    - title: "All About Electronic Circuits For Kids"
-      url: "https://www.speedwaymotors.com/Info/All-About-Electronic-Circuits-for-Kids"
-      description: "A car-enthusiast site with good links for kids of all ages to learn about basic electronics."
-    - title: "A Guide to Soldering Precious Metals, Gold and Circuits"
-      url: "https://www.madisontrust.com/client-resources/articles/guide-to-soldering-metal-gold-and-circuits/"
-      description: "Good info for beginners and those soldering plated items. [Warning: primary site is commercial, not amateur radio related.]"
-    - title: "Amateur Radio and Emergency Communications"
-      url: "https://alertfind.com/amateur-radio-and-emergency-communications/"
-      description: "Basic info with links for further reading. [Warning: primary site is commercial, not amateur radio related.]"
-    - title: "Ultimate Guide to Disaster Preparedness on a Budget"
-      url: "https://couponfollow.com/research/disaster-preparedness-on-a-budget"
-      description: "Helpful ideas for a disaster preparedness plan. [Warning: primary site is commercial and not endorsed by AARC; this specific page has good info.]"
