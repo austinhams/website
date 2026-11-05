@@ -12,29 +12,13 @@
 
 repeaters:
 
-  - frequency: "147.360"
-    offset: "+"
-    tone: "131.8"
-    mode: "FM"
-    location: "North Austin, Pickle Research Center"
-    status: "Up"
-    comments: ""
-
   - frequency: "146.880"
     offset: "-"
-    tone: "(none)"
-    mode: "C4FM"
-    location: "North Austin, Pickle Research Center"
-    status: "Up"
-    comments: "Node 30461, moving to P25 110w P25 in late 2026"
-
-  - frequency: "444.100"
-    offset: "+"
-    tone: "103.5"
+    tone: "107.2"
     mode: "FM"
-    location: "North Austin, Pickle Research Center"
-    status: "Up"
-    comments: "Open repeater"
+    location: "Lakeway, Baylor Scott and White"
+    status: "Under Construction"
+    comments: "W5KA - Open repeater (Yaesu DR-2X)"
 
   - frequency: "146.940"
     offset: "-"
@@ -42,15 +26,31 @@ repeaters:
     mode: "FM"
     location: "Central Austin, Buckman Mountain, KVUE Towers"
     status: "Up"
-    comments: "Open repeater"
+    comments: "W5KA - Open repeater (Yaesu DR-2X)"
 
-  - frequency: "224.800"
+  # - frequency: "147.360" # 
+  #   offset: "+"
+  #   tone: "131.8"
+  #   mode: "FM"
+  #   location: "North Austin, Pickle Research Center"
+  #   status: "Up"
+  #   comments: ""
+
+  - frequency: "224.800" # Not registeded with 
     offset: "-1.6 MHz"
     tone: "107.2"
     mode: "FM"
     location: "Central Austin, Buckman Mountain, KVUE Towers"
     status: "Up"
-    comments: "Open repeater"
+    comments: "W5KA - Open repeater"
+
+  - frequency: "444.100"
+    offset: "+"
+    tone: "103.5"
+    mode: "FM"
+    location: "North Austin, Pickle Research Center"
+    status: "Up"
+    comments: "W5KA - Open repeater (Yaesu DR-2X)"
 
   - frequency: "444.200"
     offset: "+"
@@ -58,9 +58,9 @@ repeaters:
     mode: "FM"
     location: "Central Austin, Buckman Mountain, KVUE Towers"
     status: "Up"
-    comments: "Open repeater"
+    comments: "W5KA - Open repeater (Yaesu DR-2X)"
 
-  # - frequency: "441.5625"
+  # - frequency: "441.5625" #move Rex's repeater to 440.650 South Austin, South Austin Medical Center
   #   offset: "+"
   #   tone: "103.5"
   #   mode: "FM / DMR"
